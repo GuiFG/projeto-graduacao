@@ -2,7 +2,7 @@ import pygame
 pygame.init()
 
 white = (255, 255, 255)
-sound = pygame.mixer.Sound("hover.wav")
+#sound = pygame.mixer.Sound("hover.wav")
 
 font = pygame.font.SysFont("comicsansms",30)
 
@@ -25,7 +25,7 @@ class Button:
         if self.rect_area.collidepoint(mouse):
             pygame.draw.rect(screen, self.color_active, (self.x, self.y, self.width, self.height))
             if click[0] == 1 and self.function != None:
-                sound.play()
+                # sound.play()
                 self.function()
         else:
             pygame.draw.rect(screen, self.color_inactive, (self.x, self.y, self.width, self.height))

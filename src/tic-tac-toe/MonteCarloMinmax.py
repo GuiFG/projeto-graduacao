@@ -4,6 +4,32 @@ import copy
 from utils import wins, opponent, empty_cells
 import time 
 
+class State:
+    def __init__(self, grid, player):
+        self.grid = grid
+        self.player = player
+    
+    def is_terminal(self):
+        return wins(self.grid, self.player) or wins(self.grid, opponent(self.player)) or len(empty_cells(self.grid)) == 0
+
+    def actions(self):
+        return empty_cells(self.grid)
+    
+    def result(self, action):
+        row = action[0]
+        col = action[1]
+
+        grid = copy.deepcopy(self.grid)
+        grid[row][col] = opponent(self.player)
+
+        return State(grid, opponent(self.player))
+    
+    def utility(self):
+        if wins(self.grid, self.player):
+            return 1 
+        
+        return -1 if wins(self.grid, opponent(self.player)) else 0
+
 class Node:
     def __init__(self, state, parent=None, action=None):
         self.state = state
@@ -48,8 +74,6 @@ class Node:
 
 class MCTS:
     def __init__(self, state):
-        state.player = opponent(state.player)
-        state.opponent_action = True 
         self.root = Node(state)
         self.player = state.player
         self.root.expand()

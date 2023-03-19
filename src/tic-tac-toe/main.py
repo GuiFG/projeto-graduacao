@@ -58,7 +58,7 @@ class Board:
             pygame.draw.line(self.board, yellow, [centerX+.05*game_w, centerY-.05*game_h], [centerX-.05*game_w, centerY+.05*game_h], 3)
         else:
             pygame.draw.circle(self.board, blue, [centerX, centerY], int(.05*game_w), 3)
-        sound.play()
+        #sound.play()
         self.grid[row][col] = self.player
         self.remaining -= 1
 
