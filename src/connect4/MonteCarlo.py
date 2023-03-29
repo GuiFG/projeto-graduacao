@@ -3,47 +3,23 @@ import random
 import copy 
 import time 
 
-from utils import *
+from utils import opponent_player
 
-class State:
-    def __init__(self, board, player):
-        self.board = board
-        self.player = player
-    
-    def is_terminal(self):
-        return is_terminal_node(self.board)
-        
-    def actions(self):
-        return get_valid_locations(self.board)
-    
-    def result(self, action):
-        board = copy.deepcopy(self.board)
-
-        row = get_next_open_row(board, action)
-        drop_piece(board, row, action, opponent_player(self.player))
-
-        return State(board, opponent_player(self.player))
-    
-    def utility(self):
-        if winning_move(self.board, self.player):
-            return 1
-        
-        return -1 if winning_move(self.board, opponent_player(self.player)) else 0
 
 class Node:
-    def __init__(self, state, parent=None, action=None):
+    def __init__(self, state, player, parent=None, action=None):
         self.state = state
+        self.player = player
         self.parent = parent
         self.action = action 
         self.children = []
         self.visits = 0
         self.utility = 0
-        self.player = state.player
 
     def expand(self):
         for action in self.state.actions():
-            next_state = self.state.result(action)
-            child = Node(next_state, self, action)
+            next_state = self.state.result(action, opponent_player(self.player))
+            child = Node(next_state, opponent_player(self.player), self, action)
             self.children.append(child)
 
     def ucb_score(self, utility, visits, exploration_constant):
@@ -72,10 +48,9 @@ class Node:
 
 
 class MCTS:
-    def __init__(self, state):
-        self.root = Node(state)
-        self.player = state.player
-        self.root.expand()
+    def __init__(self, state, player):
+        self.root = Node(state, opponent_player(player))
+        self.player = player 
 
     def run(self, simulations):
         for i in range(simulations):
@@ -86,29 +61,19 @@ class MCTS:
             if node.visits == 0:
                 node.expand()
 
-            reward, player = self.simulate(node.state)
+            reward, player = self.simulate(node.state, node.player)
             node.backpropagate(reward, player)
 
-    def simulate(self, state):
+    def simulate(self, state, player):
         copy_state = copy.deepcopy(state)
+        copy_player = copy.deepcopy(player)
 
         while not copy_state.is_terminal():
             action = random.choice(copy_state.actions())
-            copy_state = copy_state.result(action)
+            copy_player = opponent_player(copy_player)
+            copy_state = copy_state.result(action, copy_player)
             
-        return copy_state.utility(), copy_state.player
+        return copy_state.utility(copy_player), copy_player
 
     def next_move(self):
         return max(self.root.children, key=lambda c: c.visits).action
-    
-    def print_state(self, state):
-        board = state.board 
-        for line in board:
-            for value in line:
-                if value is not None:
-                    print(int(value), end=' ')
-                else:
-                    print('-', end=' ')
-            print()
-        print()
-

@@ -6,7 +6,8 @@ import math
 
 from constants import *
 from utils import *
-from MonteCarlo import *
+from MonteCarlo import MCTS
+from State import State
 
 def create_board():
 	board = np.zeros((ROW_COUNT,COLUMN_COUNT))
@@ -212,9 +213,9 @@ while not game_over:
 
 
 	if turn == PLAYER and not game_over:
-		state = State(board, opponent_player(turn + 1))
-		mcts = MCTS(state)
-		mcts.run(10000)
+		state = State(board)
+		mcts = MCTS(state, turn + 1)
+		mcts.run(1000)
 		action = mcts.next_move()
 		print('action', action)
 		col = action
