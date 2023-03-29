@@ -4,31 +4,8 @@ import copy
 from utils import wins, opponent, empty_cells
 import time 
 
-class State:
-    def __init__(self, grid, player):
-        self.grid = grid
-        self.player = player
-    
-    def is_terminal(self):
-        return wins(self.grid, self.player) or wins(self.grid, opponent(self.player)) or len(empty_cells(self.grid)) == 0
-
-    def actions(self):
-        return empty_cells(self.grid)
-    
-    def result(self, action):
-        row = action[0]
-        col = action[1]
-
-        grid = copy.deepcopy(self.grid)
-        grid[row][col] = opponent(self.player)
-
-        return State(grid, opponent(self.player))
-    
-    def utility(self):
-        if wins(self.grid, self.player):
-            return 1 
-        
-        return -1 if wins(self.grid, opponent(self.player)) else 0
+from HMinimax import HMinimax
+from Minimax import Minimax
 
 class Node:
     def __init__(self, state, parent=None, action=None):
@@ -72,7 +49,7 @@ class Node:
             self.parent.backpropagate(reward, player)
 
 
-class MCTS:
+class MCTSMinimax:
     def __init__(self, state):
         self.root = Node(state)
         self.player = state.player
@@ -94,22 +71,33 @@ class MCTS:
         copy_state = copy.deepcopy(state)
 
         while not copy_state.is_terminal():
-            action = random.choice(copy_state.actions())
+            action = self.move_hminimax(copy_state)
+            if action == None: 
+                action = random.choice(copy_state.actions())
+            else:
+                print('action diferente de None')
+            #print(action)
+            #copy_state.print()
+            #time.sleep(5)
             copy_state = copy_state.result(action)
+        
+        #print(action)
+        #copy_state.print()
+        #print('fim simulacao')
+        #print(copy_state.utility(), copy_state.player)
+        #time.sleep(5)
 
         return copy_state.utility(), copy_state.player
 
+    def move_hminimax(self, state):
+        copy_state = copy.deepcopy(state)
+        copy_state.opponent_action = False 
+        
+        hminimax = Minimax(copy_state)     
+        move = hminimax.search()
+        
+        return move 
+
     def next_move(self):
         return max(self.root.children, key=lambda c: c.visits).action
-    
-    def print_state(self, state, new_line = True):
-        for line in state.grid:
-            for value in line:
-                if value is not None:
-                    print(value, end=' ')
-                else:
-                    print('-', end=' ')
-            print()
-        if new_line:
-            print('-----')
 

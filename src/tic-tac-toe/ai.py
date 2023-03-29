@@ -2,6 +2,7 @@ from utils import wins, MODE_VS, MODE_AI, MODE_AI_N, empty_cells
 import random 
 from State import State
 from MonteCarlo import MCTS
+from MonteCarloMinmax import MCTSMinimax
 from HMinimax import HMinimax
 from utils import *
 
@@ -55,10 +56,11 @@ def move(board, mode):
     if mode == MODE_AI_N:
         #move = random.choice(empty_cells(board.grid))
         player = '0' if COMP == 1 else 'X'
-        state = State(board.grid, player)
-        
-        #move = mcts_move(state)
-        move = hminimax_move(state)
+        state = State(board.grid)
+
+        move = mcts_move(state, player)
+        #move = hminimax_move(state)
+        #move = mcts_minmax_move(state)
     else:
         move = best_move(board.grid, DEFAULT_MAX, DEFAULT_MIN)
 
@@ -69,12 +71,19 @@ def best_move(grid, alpha, beta):
     return (best[1], best[2])
 
 
-def mcts_move(state):
-    mcts = MCTS(state)
+def mcts_move(state, player):
+    mcts = MCTS(state, player)
     
     mcts.run(1000)
 
     return mcts.next_move()
+
+def mcts_minmax_move(state):
+    mcts_minimax = MCTSMinimax(state)
+
+    mcts_minimax.run(1000)
+
+    return mcts_minimax.next_move()
 
 def hminimax_move(state):
     hminimax = HMinimax(state, 2)

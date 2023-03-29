@@ -12,6 +12,9 @@ class HMinimax():
     def search(self):
         value, move = self.max_value(self.state, 0)
 
+        if value == None:
+            return None 
+
         return move 
         
     def max_value(self, state, depth):
@@ -19,7 +22,7 @@ class HMinimax():
             return state.utility(self.player), None
         
         if depth == self.depth:
-            return self.evaluation_state(state), None 
+            return None, None 
         
         max = -math.inf
         max_move = 0
@@ -30,9 +33,14 @@ class HMinimax():
             state_result = new_state.result(action)
             
             value, move = self.min_value(state_result, depth)
+
+            if value == None:
+                return None, None 
+
             if value > max:
                 max = value
                 max_move = action 
+
 
         return max, max_move 
         
@@ -48,6 +56,10 @@ class HMinimax():
             new_state = copy.deepcopy(state)
             state_result = new_state.result(action)
             value, move = self.max_value(state_result, depth + 1)
+
+            if value == None:
+                return None, None 
+
             if value < min:
                 min = value 
                 min_move = action 
