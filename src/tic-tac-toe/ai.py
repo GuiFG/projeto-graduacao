@@ -2,7 +2,7 @@ from utils import wins, MODE_VS, MODE_AI, MODE_AI_N, empty_cells
 import random 
 from State import State
 from MonteCarlo import MCTS
-from MonteCarloMinmax import MCTSMinimax
+from MonteCarloMinimax import MCTSMinimax
 from utils import *
 
 COMP = 1
