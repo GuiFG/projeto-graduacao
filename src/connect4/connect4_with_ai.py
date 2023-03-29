@@ -6,8 +6,7 @@ import math
 
 from constants import *
 from utils import *
-from MonteCarlo import MCTS
-from State import State
+from PlayerAI import *
 
 def create_board():
 	board = np.zeros((ROW_COUNT,COLUMN_COUNT))
@@ -213,11 +212,7 @@ while not game_over:
 
 
 	if turn == PLAYER and not game_over:
-		state = State(board)
-		mcts = MCTS(state, turn + 1)
-		mcts.run(1000)
-		action = mcts.next_move()
-		print('action', action)
+		action = move_mcts_minimax(board, turn + 1)
 		col = action
 
 		if is_valid_location(board, col):
@@ -242,9 +237,7 @@ while not game_over:
 		#col = random.randint(0, COLUMN_COUNT-1)
 		#col = pick_best_move(board, AI_PIECE)
 		actions = get_valid_locations(board)
-		print('action', actions)
 		col, minimax_score = minimax(board, 5, -math.inf, math.inf, True)
-		print('col', col)
 
 		if is_valid_location(board, col):
 			#pygame.time.wait(500)
