@@ -8,12 +8,12 @@ import State
 class Node:
     def __init__(self, state, player, parent=None, action=None):
         self.state = state
+        self.player = player
         self.parent = parent
         self.action = action 
         self.children = []
         self.visits = 0
-        self.utility = 0
-        self.player = player 
+        self.utility = 0 
 
     def expand(self):
         for action in self.state.actions():
@@ -45,15 +45,6 @@ class Node:
 
         if self.parent:
             self.parent.backpropagate(reward, player)
-
-
-    def print(self):
-        print(self.player, self.utility, self.visits)
-        self.state.print()
-
-        if self.parent:
-            print()
-            self.parent.print()
 
 
 class MCTS:

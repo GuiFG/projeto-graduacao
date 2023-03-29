@@ -3,10 +3,10 @@ import copy
 
 from utils import wins, opponent
 
-class HMinimax():
-    def __init__(self, state, depth) -> None:
+class MinimaxFixed():
+    def __init__(self, state, player, depth) -> None:
         self.state = state
-        self.player = state.player
+        self.player = player
         self.depth = depth 
 
     def search(self):
@@ -27,10 +27,9 @@ class HMinimax():
         max = -math.inf
         max_move = 0
 
-        actions = state.actions()
-        for action in actions:
+        for action in state.actions():
             new_state = copy.deepcopy(state)
-            state_result = new_state.result(action)
+            state_result = new_state.result(action, self.player)
             
             value, move = self.min_value(state_result, depth)
 
@@ -51,10 +50,9 @@ class HMinimax():
         min = math.inf 
         min_move = 0 
 
-        actions = state.actions()
-        for action in actions:
+        for action in state.actions():
             new_state = copy.deepcopy(state)
-            state_result = new_state.result(action)
+            state_result = new_state.result(action, opponent(self.player))
             value, move = self.max_value(state_result, depth + 1)
 
             if value == None:
@@ -65,13 +63,4 @@ class HMinimax():
                 min_move = action 
 
         return min, min_move 
-
-    def evaluation_state(self, state):
-        if wins(state.grid, self.player):
-            return 1 
-        
-        if wins(state.grid, opponent(self.player)):
-            return -1 
-        
-        return 1
     
