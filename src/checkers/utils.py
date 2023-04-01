@@ -1,9 +1,7 @@
 from checkers import Checkers
 
-import time 
-
-
-def is_terminal_node(board, player):
+def is_terminal_node(board):
+    player = "B"
     moves = get_valid_moves(board, player)
 
     if len(moves) == 0:
@@ -33,6 +31,22 @@ def make_move(board, move, player="B"):
 def get_queen_row(player):
     return 7 if player == "C" else 0
 
+
+def print_board(board):
+    i = 0
+    print()
+    for row in board:
+        print(i, end="  |")
+        i += 1
+        for elem in row:
+            print(elem, end=" ")
+        print()
+    print()
+    for j in range(8):
+        if j == 0:
+            j = "     0"
+        print(j, end="   ")
+    print("\n")
 
 def print_board(board):
     i = 0

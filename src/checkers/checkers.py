@@ -2,7 +2,7 @@ from copy import deepcopy
 import time
 import math
 
-from montecarlo import *
+from IA import *
 
 ansi_black = "\u001b[30m"
 ansi_red = "\u001b[31m"
@@ -118,15 +118,11 @@ class Checkers:
         self.player_pieces = 0
         self.computer_pieces = 0
         while True:
-            
-            state = State(self.matrix, "C")
-            mcts = MonteCarloTreeSearch(state)
-            mcts.run(1000)
-            mcts_move = mcts.next_move()
+            move = move_mcts(self.matrix, "B")
 
-            print('mcts_move', mcts_move)
-            old = [str(mcts_move[0]), str(mcts_move[1])]
-            new = [str(mcts_move[2]), str(mcts_move[3])]
+            print('mcts_move', move)
+            old = [str(move[0]), str(move[1])]
+            new = [str(move[2]), str(move[3])]
 
             # coord1 = input("Which piece[i,j]: ")
             
