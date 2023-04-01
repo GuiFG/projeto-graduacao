@@ -1,8 +1,6 @@
 import copy 
 from utils import *
 
-from time import sleep
-
 class State:
     def __init__(self, board):
         self.board = board

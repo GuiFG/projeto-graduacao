@@ -118,7 +118,8 @@ class Checkers:
         self.player_pieces = 0
         self.computer_pieces = 0
         while True:
-            move = move_mcts(self.matrix, "B")
+            #move = move_mcts(self.matrix, "B")
+            move = move_mcts_minimax(self.matrix, "B")
 
             print('mcts_move', move)
             old = [str(move[0]), str(move[1])]
