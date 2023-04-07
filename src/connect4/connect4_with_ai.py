@@ -6,7 +6,7 @@ import math
 
 from constants import *
 from utils import *
-from PlayerAI import *
+from PlayerAI import Player
 
 def create_board():
 	board = np.zeros((ROW_COUNT,COLUMN_COUNT))
@@ -212,7 +212,10 @@ while not game_over:
 
 
 	if turn == PLAYER and not game_over:
-		action = move_mcts_minimax(board, turn + 1)
+		#action = Player.minimax(board, turn + 1)
+		#action = Player.alfa_beta(board, turn + 1)
+		action = Player.mcts(board, turn + 1)
+		#action = Player.mcts_minimax(board, turn + 1)
 		col = action
 
 		if is_valid_location(board, col):
