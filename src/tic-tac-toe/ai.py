@@ -54,9 +54,10 @@ def move(board, mode):
         #move = random.choice(empty_cells(board.grid))
         player = '0' if COMP == 1 else 'X'
 
-        #move = move_mcts(board.grid, player)
-        #move = move_mcts_minimax(board.grid, player)
-        move = Player.minimax(board.grid, player)
+        #move = Player.mcts(board.grid, player)
+        #move = Player.mcts_minimax(board.grid, player)
+        #move = Player.minimax(board.grid, player)
+        move = Player.alfa_beta(board.grid, player)
     else:
         move = best_move(board.grid, DEFAULT_MAX, DEFAULT_MIN)
 

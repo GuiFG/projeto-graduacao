@@ -1,7 +1,9 @@
 from State import State
+from Algorithms.Minimax import Minimax
+from Algorithms.PodaAlfaBeta import PodaAlfaBeta
 from Algorithms.MonteCarlo import MCTS
 from Algorithms.MonteCarloMinimax import MCTSMinimax
-from Algorithms.Minimax import Minimax
+
 
 class Player():
     def minimax(board, player):
@@ -10,7 +12,15 @@ class Player():
 
         action = minimax.search()
 
-        return action 
+        return action
+    
+    def alfa_beta(board, player):
+        state = State(board)
+        alfa_beta = PodaAlfaBeta(state, player)
+
+        action = alfa_beta.search()
+
+        return action
 
     def mcts(board, player):
         state = State(board)
