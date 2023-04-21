@@ -53,3 +53,30 @@ def opponent_player(piece):
     if piece == 1:
         return 2
     return 1
+
+def count_player(line, player):
+    count = 0
+    op_count = 0
+    count_empty = 0
+
+    op = opponent_player(player)
+    for cell in line:
+        if cell == player:
+            count += 1
+        elif cell == 0:
+            count_empty += 1
+        elif cell == op:
+             op_count += 1
+        
+    return count, op_count, count_empty
+
+def get_sub_board(board, row, col):
+    subboard = []
+    for i in range(row + 4):
+        line = []
+        for j in range(col + 4):
+            line.append(board[i][j])
+        
+        subboard.append(line)
+    
+    return subboard

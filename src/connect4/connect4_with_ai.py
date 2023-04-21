@@ -180,41 +180,12 @@ while not game_over:
 
 		pygame.display.update()
 
-		# if event.type == pygame.MOUSEBUTTONDOWN:
-		# 	pygame.draw.rect(screen, BLACK, (0,0, width, SQUARESIZE))
-		# 	#print(event.pos)
-		# 	# Ask for Player 1 Input
-		# 	if turn == PLAYER:
-		# 		posx = event.pos[0]
-		# 		col = int(math.floor(posx/SQUARESIZE))
-
-		# 		state = State(board, opponent_player(turn + 1))
-		# 		mcts = MCTS(state)
-		# 		mcts.run(1000 * 5)
-		# 		action = mcts.next_move()
-		# 		print('action', action)
-		# 		col = action
-
-		# 		if is_valid_location(board, col):
-		# 			row = get_next_open_row(board, col)
-		# 			drop_piece(board, row, col, PLAYER_PIECE)
-
-		# 			if winning_move(board, PLAYER_PIECE):
-		# 				label = myfont.render("Player 1 wins!!", 1, RED)
-		# 				screen.blit(label, (40,10))
-		# 				game_over = True
-
-		# 			turn += 1
-		# 			turn = turn % 2
-
-		# 			#print_board(board)
-		# 			draw_board(board)
-
-
 	if turn == PLAYER and not game_over:
 		#action = Player.minimax(board, turn + 1)
+		#action = Player.hminimax(board, turn + 1)
+		action = Player.h_alfa_abeta(board, turn + 1)
 		#action = Player.alfa_beta(board, turn + 1)
-		action = Player.mcts(board, turn + 1)
+		#action = Player.mcts(board, turn + 1)
 		#action = Player.mcts_minimax(board, turn + 1)
 		col = action
 
@@ -237,10 +208,10 @@ while not game_over:
 	## Ask for Player 2 Input
 	if turn == AI and not game_over:
 
-		#col = random.randint(0, COLUMN_COUNT-1)
+		col = random.randint(0, COLUMN_COUNT-1)
 		#col = pick_best_move(board, AI_PIECE)
-		actions = get_valid_locations(board)
-		col, minimax_score = minimax(board, 5, -math.inf, math.inf, True)
+		#actions = get_valid_locations(board)
+		#col, minimax_score = minimax(board, 5, -math.inf, math.inf, True)
 
 		if is_valid_location(board, col):
 			#pygame.time.wait(500)
