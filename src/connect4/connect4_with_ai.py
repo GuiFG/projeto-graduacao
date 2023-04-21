@@ -164,70 +164,76 @@ pygame.display.update()
 
 myfont = pygame.font.SysFont("monospace", 75)
 
-turn = random.randint(PLAYER, AI)
+turn = PLAYER #random.randint(PLAYER, OPPONENT)
 
-while not game_over:
+def game(player1, player2):
+	global game_over, turn
 
-	for event in pygame.event.get():
-		if event.type == pygame.QUIT:
-			sys.exit()
+	while not game_over:
 
-		if event.type == pygame.MOUSEMOTION:
-			pygame.draw.rect(screen, BLACK, (0,0, width, SQUARESIZE))
-			posx = event.pos[0]
-			if turn == PLAYER:
-				pygame.draw.circle(screen, RED, (posx, int(SQUARESIZE/2)), RADIUS)
+		for event in pygame.event.get():
+			if event.type == pygame.QUIT:
+				sys.exit()
 
-		pygame.display.update()
+			if event.type == pygame.MOUSEMOTION:
+				pygame.draw.rect(screen, BLACK, (0,0, width, SQUARESIZE))
+				posx = event.pos[0]
+				if turn == PLAYER:
+					pygame.draw.circle(screen, RED, (posx, int(SQUARESIZE/2)), RADIUS)
 
-	if turn == PLAYER and not game_over:
-		#action = Player.minimax(board, turn + 1)
-		#action = Player.hminimax(board, turn + 1)
-		action = Player.h_alfa_abeta(board, turn + 1)
-		#action = Player.alfa_beta(board, turn + 1)
-		#action = Player.mcts(board, turn + 1)
-		#action = Player.mcts_minimax(board, turn + 1)
-		col = action
+			pygame.display.update()
 
-		if is_valid_location(board, col):
-			row = get_next_open_row(board, col)
-			drop_piece(board, row, col, PLAYER_PIECE)
+		if turn == PLAYER and not game_over:
+			player = Player(board, PLAYER, player1)
+			col = player.get_action()
 
-			if winning_move(board, PLAYER_PIECE):
-				label = myfont.render("Player 1 wins!!", 1, RED)
-				screen.blit(label, (40,10))
-				game_over = True
+			if is_valid_location(board, col):
+				row = get_next_open_row(board, col)
+				drop_piece(board, row, col, PLAYER_PIECE)
 
-			turn += 1
-			turn = turn % 2
+				if winning_move(board, PLAYER_PIECE):
+					label = myfont.render("Player 1 wins!!", 1, RED)
+					screen.blit(label, (40,10))
+					game_over = True
 
-			#print_board(board)
-			draw_board(board)
-	
+				turn += 1
+				turn = turn % 2
 
-	## Ask for Player 2 Input
-	if turn == AI and not game_over:
+				#print_board(board)
+				draw_board(board)
+		
+		## Ask for Player 2 Input
+		if turn == OPPONENT and not game_over:
+			player = Player(board, OPPONENT, player2)
+			col = player.get_action()
+			#col = random.randint(0, COLUMN_COUNT-1)
+			#col = pick_best_move(board, AI_PIECE)
+			#actions = get_valid_locations(board)
+			#col, minimax_score = minimax(board, 5, -math.inf, math.inf, True)
 
-		col = random.randint(0, COLUMN_COUNT-1)
-		#col = pick_best_move(board, AI_PIECE)
-		#actions = get_valid_locations(board)
-		#col, minimax_score = minimax(board, 5, -math.inf, math.inf, True)
+			if is_valid_location(board, col):
+				#pygame.time.wait(500)
+				row = get_next_open_row(board, col)
+				drop_piece(board, row, col, AI_PIECE)
 
-		if is_valid_location(board, col):
-			#pygame.time.wait(500)
-			row = get_next_open_row(board, col)
-			drop_piece(board, row, col, AI_PIECE)
+				if winning_move(board, AI_PIECE):
+					label = myfont.render("Player 2 wins!!", 1, YELLOW)
+					screen.blit(label, (40,10))
+					game_over = True
 
-			if winning_move(board, AI_PIECE):
-				label = myfont.render("Player 2 wins!!", 1, YELLOW)
-				screen.blit(label, (40,10))
-				game_over = True
+				#print_board(board)
+				draw_board(board)
 
-			#print_board(board)
-			draw_board(board)
+				turn += 1
+				turn = turn % 2
 
-			turn += 1
-			turn = turn % 2
+		if game_over:
+			pygame.time.wait(3000)
 
-	if game_over:
-		pygame.time.wait(3000)
+
+def main():
+
+	game(HALFA_BETA, MCTS)
+
+
+main()
