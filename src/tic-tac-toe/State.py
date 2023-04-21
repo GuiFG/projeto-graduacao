@@ -1,5 +1,5 @@
 import copy 
-from utils import wins, opponent, empty_cells
+from utils import wins, opponent, empty_cells, count_player
 
 class State:
     def __init__(self, grid):
@@ -29,13 +29,54 @@ class State:
         
         return -1 if wins(self.grid, opponent(player)) else 0
 
-    def print(self):
-        for i in range(3):
-            for j in range(3):
-                if self.grid[j][i] == None:
-                    print("-", end='')
-                else:
-                    print(self.grid[j][i], end='')
-            print()
-        print()
+       
+    def evaluation(self, player):
+        score = 0
+        op = opponent(player)
+
+        # verifica a contagem nas linhas
+        for row in self.grid:
+            count = count_player(row, player)
+            op_count = count_player(row, op)
+
+            score += State.get_score_by_count(count, op_count)
+
+            
+        # verifica a contagem nas colunas
+        for col in range(3):
+            column = [self.grid[row][col] for row in range(3)]
+
+            count = count_player(column, player)
+            op_count = count_player(column, op)
+
+            score += State.get_score_by_count(count, op_count)
+
+        # verifica a contagem nas diagonais
+        diagonal1 = [self.grid[i][i] for i in range(3)]
+        diagonal2 = [self.grid[i][2-i] for i in range(3)]
+
+        count = count_player(diagonal1, player)
+        op_count = count_player(diagonal1, op)
+        score += State.get_score_by_count(count, op_count)
+
+        count = count_player(diagonal2, player)
+        op_count = count_player(diagonal2, op)
+        score += State.get_score_by_count(count, op_count)
+
+        return score
+    
+    @staticmethod
+    def get_score_by_count(count, op_count):
+        score = 0
+        if count == 2 and op_count == 0:
+            score += 10
+        elif count == 1 and op_count == 0:
+            score += 1
+        elif count == 0 and op_count == 2:
+            score -= 10
+        elif count == 0 and op_count == 1:
+            score -= 1
+
+        return score
+    
 

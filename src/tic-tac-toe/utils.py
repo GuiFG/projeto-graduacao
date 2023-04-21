@@ -51,3 +51,11 @@ def empty_cells(grid):
 
 def opponent(player):
     return '0' if player == 'X' else 'X'
+
+def count_player(line, player):
+    count = 0
+    for cell in line:
+        if cell == player:
+            count += 1
+    
+    return count

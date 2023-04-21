@@ -3,6 +3,7 @@ from Algorithms.Minimax import Minimax
 from Algorithms.PodaAlfaBeta import PodaAlfaBeta
 from Algorithms.MonteCarlo import MCTS
 from Algorithms.MonteCarloMinimax import MCTSMinimax
+from Algorithms.HMinimax import HMinimax
 
 
 class Player():
@@ -19,6 +20,14 @@ class Player():
         alfa_beta = PodaAlfaBeta(state, player)
 
         action = alfa_beta.search()
+
+        return action
+    
+    def hminimax(board, player):
+        state = State(board)
+        hminimax = HMinimax(state, player, 3)
+        
+        action = hminimax.search()
 
         return action
 
