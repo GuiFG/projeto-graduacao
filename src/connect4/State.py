@@ -1,9 +1,10 @@
 import copy 
 from utils import *
+import time 
 
 class State:
     def __init__(self, board):
-        self.board = board
+        self.board = copy.deepcopy(board)
     
     def is_terminal(self):
         return is_terminal_node(self.board)
@@ -28,6 +29,12 @@ class State:
     def evaluation(self, player):
         score = 0
 
+        # Pontua as posicoes centrais
+        for x in range(2, 5):
+            center_column = [self.board[row][x] for row in range(6)]
+            center_count = count_player(center_column, player)
+            score += center_count[0] * 3
+    
         # verifica as posicoes promissoras na horizontal
         for row in self.board:
             for i in range(len(row) - 3):
@@ -36,6 +43,7 @@ class State:
 
                 score += State.get_score_by_count(count, op_count, empty_count)
         
+       
         # verifica as posicoes promissoras na vertical
         for col in range(7):
             column = [self.board[row][col] for row in range(6)]
@@ -76,7 +84,6 @@ class State:
             score -= 10
         elif op_count == 2 and empty_count == 2:
             score -= 1
-
 
         return score
 

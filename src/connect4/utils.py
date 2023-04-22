@@ -1,5 +1,6 @@
 from constants import *
 import numpy as np
+import itertools
 
 def winning_move(board, piece):
     # Check horizontal locations for win
@@ -40,7 +41,7 @@ def drop_piece(board, row, col, piece):
 	board[row][col] = piece
 
 def is_terminal_node(board):
-	return winning_move(board, PLAYER_PIECE) or winning_move(board, AI_PIECE) or len(get_valid_locations(board)) == 0
+	return winning_move(board, PLAYER_PIECE) or winning_move(board, OPPONENT_PIECE) or len(get_valid_locations(board)) == 0
 
 def get_valid_locations(board):
 	valid_locations = []
@@ -72,11 +73,89 @@ def count_player(line, player):
 
 def get_sub_board(board, row, col):
     subboard = []
-    for i in range(row + 4):
+    for i in range(row, row + 4):
         line = []
-        for j in range(col + 4):
+        for j in range(col, col + 4):
             line.append(board[i][j])
         
         subboard.append(line)
     
     return subboard
+
+def evaluate_window(window, piece):
+	score = 0
+	opp_piece = PLAYER_PIECE
+	if piece == PLAYER_PIECE:
+		opp_piece = OPPONENT_PIECE
+
+	if window.count(piece) == 4:
+		score += 100
+	elif window.count(piece) == 3 and window.count(EMPTY) == 1:
+		score += 5
+	elif window.count(piece) == 2 and window.count(EMPTY) == 2:
+		score += 2
+
+	if window.count(opp_piece) == 3 and window.count(EMPTY) == 1:
+		score -= 4
+
+	return score
+
+def score_position(board, piece):
+	score = 0
+
+	## Score center column
+	center_array = [int(i) for i in list(board[:, COLUMN_COUNT//2])]
+	center_count = center_array.count(piece)
+	score += center_count * 3
+
+	## Score Horizontal
+	for r in range(ROW_COUNT):
+		row_array = [int(i) for i in list(board[r,:])]
+		for c in range(COLUMN_COUNT-3):
+			window = row_array[c:c+WINDOW_LENGTH]
+			score += evaluate_window(window, piece)
+
+	## Score Vertical
+	for c in range(COLUMN_COUNT):
+		col_array = [int(i) for i in list(board[:,c])]
+		for r in range(ROW_COUNT-3):
+			window = col_array[r:r+WINDOW_LENGTH]
+			score += evaluate_window(window, piece)
+
+	## Score posiive sloped diagonal
+	for r in range(ROW_COUNT-3):
+		for c in range(COLUMN_COUNT-3):
+			window = [board[r+i][c+i] for i in range(WINDOW_LENGTH)]
+			score += evaluate_window(window, piece)
+
+	for r in range(ROW_COUNT-3):
+		for c in range(COLUMN_COUNT-3):
+			window = [board[r+3-i][c+i] for i in range(WINDOW_LENGTH)]
+			score += evaluate_window(window, piece)
+
+	return score
+
+def get_matchups(players):
+    combinations = list(itertools.combinations(players, 2))
+
+    matchups = []
+    for comb in combinations:
+        player1 = comb[0]
+        player2 = comb[1]
+
+        if player1['type'] == player2['type']:
+            continue 
+
+        matchups.append(comb)
+        revert = (comb[1], comb[0])
+        matchups.append(revert)
+    
+    return matchups
+
+def has_empty_cells(board):
+    for i in range(6):
+        for j in range(7):
+            if board[i][j] == 0:
+                return True 
+    
+    return False 

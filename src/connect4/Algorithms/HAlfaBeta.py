@@ -25,10 +25,7 @@ class HAlfaBeta():
         return move 
     
     def alfa_beta_min(self, state, alfa, beta, depth):
-        if state.is_terminal():
-            return state.utility(self.player)
-        
-        if depth == 0:
+        if state.is_terminal() or depth == 0:
             return state.evaluation(self.player)
 
         min_value = math.inf 
@@ -51,10 +48,7 @@ class HAlfaBeta():
 
 
     def alfa_beta_max(self, state, alfa, beta, depth):
-        if state.is_terminal():
-            return state.utility(self.player)
-        
-        if depth == 0:
+        if state.is_terminal() or depth == 0:
             return state.evaluation(self.player)
      
         max_value = -math.inf

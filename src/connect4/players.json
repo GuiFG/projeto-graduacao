@@ -1,0 +1,32 @@
+[
+    {
+        "id" : 4,
+        "type": "ALFA_BETA",
+        "name": "H_ALFA_BETA_3"
+    },
+    {
+        "id" : 5,
+        "type": "ALFA_BETA",
+        "name": "H_ALFA_BETA_4"
+    },
+    {
+        "id" : 6,
+        "type": "ALFA_BETA",
+        "name": "H_ALFA_BETA_5"
+    },
+    {
+        "id" : 7,
+        "type": "MCTS",
+        "name": "MCTS_1000"
+    },
+    {
+        "id" : 8,
+        "type": "MCTS",
+        "name": "MCTS_1500"
+    },
+    {
+        "id" : 9,
+        "type": "MCTS",
+        "name": "MCTS_2000"
+    }
+]
