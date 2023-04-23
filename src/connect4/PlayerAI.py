@@ -27,12 +27,14 @@ class Player():
             action = self.h_alfa_beta(4)
         elif self.type == HALFA_BETA_5:
             action = self.h_alfa_beta(5)
+        elif self.type == HALFA_BETA_6:
+            action = self.h_alfa_beta(6)
         elif self.type == MCTS_1000:
             action = self.mcts(1000)
-        elif self.type == MCTS_1500:
-            action = self.mcts(1500)
         elif self.type == MCTS_2000:
             action = self.mcts(2000)
+        elif self.type == MCTS_5000:
+            action = self.mcts(5000)
        
         return action
     

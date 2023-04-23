@@ -159,3 +159,12 @@ def has_empty_cells(board):
                 return True 
     
     return False 
+
+def count_empty_cells(board):
+    count = 0
+    for i in range(6):
+        for j in range(7):
+            if board[i][j] == 0:
+                count += 1
+    
+    return count 

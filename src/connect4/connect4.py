@@ -1,78 +1,99 @@
 import numpy as np
+import random
 import pygame
 import sys
 import math
 
-BLUE = (0,0,255)
-BLACK = (0,0,0)
-RED = (255,0,0)
-YELLOW = (255,255,0)
+from constants import *
+from utils import *
+from PlayerAI import Player
 
-ROW_COUNT = 6
-COLUMN_COUNT = 7
+from datetime import datetime
+from Metrics import *
 
 def create_board():
 	board = np.zeros((ROW_COUNT,COLUMN_COUNT))
 	return board
 
-def drop_piece(board, row, col, piece):
-	board[row][col] = piece
-
-def is_valid_location(board, col):
-	return board[ROW_COUNT-1][col] == 0
-
-def get_next_open_row(board, col):
-	for r in range(ROW_COUNT):
-		if board[r][col] == 0:
-			return r
-
 def print_board(board):
 	print(np.flip(board, 0))
 
-def winning_move(board, piece):
-	# Check horizontal locations for win
-	for c in range(COLUMN_COUNT-3):
-		for r in range(ROW_COUNT):
-			if board[r][c] == piece and board[r][c+1] == piece and board[r][c+2] == piece and board[r][c+3] == piece:
-				return True
 
-	# Check vertical locations for win
-	for c in range(COLUMN_COUNT):
-		for r in range(ROW_COUNT-3):
-			if board[r][c] == piece and board[r+1][c] == piece and board[r+2][c] == piece and board[r+3][c] == piece:
-				return True
+def minimax(board, depth, alpha, beta, maximizingPlayer):
+	valid_locations = get_valid_locations(board)
+	is_terminal = is_terminal_node(board)
+	if depth == 0 or is_terminal:
+		if is_terminal:
+			if winning_move(board, OPPONENT_PIECE):
+				return (None, 100000000000000)
+			elif winning_move(board, PLAYER_PIECE):
+				return (None, -10000000000000)
+			else: # Game is over, no more valid moves
+				return (None, 0)
+		else: # Depth is zero
+			return (None, score_position(board, OPPONENT_PIECE))
+	if maximizingPlayer:
+		value = -math.inf
+		column = random.choice(valid_locations)
+		for col in valid_locations:
+			row = get_next_open_row(board, col)
+			b_copy = board.copy()
+			drop_piece(b_copy, row, col, OPPONENT_PIECE)
+			new_score = minimax(b_copy, depth-1, alpha, beta, False)[1]
+			if new_score > value:
+				value = new_score
+				column = col
+			alpha = max(alpha, value)
+			if alpha >= beta:
+				break
+		return column, value
 
-	# Check positively sloped diaganols
-	for c in range(COLUMN_COUNT-3):
-		for r in range(ROW_COUNT-3):
-			if board[r][c] == piece and board[r+1][c+1] == piece and board[r+2][c+2] == piece and board[r+3][c+3] == piece:
-				return True
+	else: # Minimizing player
+		value = math.inf
+		column = random.choice(valid_locations)
+		for col in valid_locations:
+			row = get_next_open_row(board, col)
+			b_copy = board.copy()
+			drop_piece(b_copy, row, col, PLAYER_PIECE)
+			new_score = minimax(b_copy, depth-1, alpha, beta, True)[1]
+			if new_score < value:
+				value = new_score
+				column = col
+			beta = min(beta, value)
+			if alpha >= beta:
+				break
+		return column, value
 
-	# Check negatively sloped diaganols
-	for c in range(COLUMN_COUNT-3):
-		for r in range(3, ROW_COUNT):
-			if board[r][c] == piece and board[r-1][c+1] == piece and board[r-2][c+2] == piece and board[r-3][c+3] == piece:
-				return True
+def pick_best_move(board, piece):
+
+	valid_locations = get_valid_locations(board)
+	best_score = -10000
+	best_col = random.choice(valid_locations)
+	for col in valid_locations:
+		row = get_next_open_row(board, col)
+		temp_board = board.copy()
+		drop_piece(temp_board, row, col, piece)
+		score = score_position(temp_board, piece)
+		if score > best_score:
+			best_score = score
+			best_col = col
+
+	return best_col
 
 def draw_board(board):
 	for c in range(COLUMN_COUNT):
 		for r in range(ROW_COUNT):
 			pygame.draw.rect(screen, BLUE, (c*SQUARESIZE, r*SQUARESIZE+SQUARESIZE, SQUARESIZE, SQUARESIZE))
 			pygame.draw.circle(screen, BLACK, (int(c*SQUARESIZE+SQUARESIZE/2), int(r*SQUARESIZE+SQUARESIZE+SQUARESIZE/2)), RADIUS)
-	
+
 	for c in range(COLUMN_COUNT):
-		for r in range(ROW_COUNT):		
-			if board[r][c] == 1:
+		for r in range(ROW_COUNT):
+			if board[r][c] == PLAYER_PIECE:
 				pygame.draw.circle(screen, RED, (int(c*SQUARESIZE+SQUARESIZE/2), height-int(r*SQUARESIZE+SQUARESIZE/2)), RADIUS)
-			elif board[r][c] == 2: 
+			elif board[r][c] == OPPONENT_PIECE:
 				pygame.draw.circle(screen, YELLOW, (int(c*SQUARESIZE+SQUARESIZE/2), height-int(r*SQUARESIZE+SQUARESIZE/2)), RADIUS)
 	pygame.display.update()
 
-
-board = create_board()
-print_board(board)
-game_over = False
-turn = 0
 
 pygame.init()
 
@@ -86,68 +107,145 @@ size = (width, height)
 RADIUS = int(SQUARESIZE/2 - 5)
 
 screen = pygame.display.set_mode(size)
-draw_board(board)
-pygame.display.update()
 
 myfont = pygame.font.SysFont("monospace", 75)
 
-def check_game_over(event, turn):
-	## Ask for Player 1 Input
-	if turn == 0:
-		posx = event.pos[0]
-		col = int(math.floor(posx/SQUARESIZE))
 
-		if is_valid_location(board, col):
-			row = get_next_open_row(board, col)
-			drop_piece(board, row, col, 1)
+def game(id, player1, player2):
+	game_over = False
+	turn = PLAYER #random.randint(PLAYER, OPPONENT)
+	board = create_board()
+	#draw_board(board)
+	#pygame.display.update()
+	metric_game = []
+	player_win = 0
+	round = 1
+	while not game_over:
+		if turn == PLAYER and not game_over:
+			metric = get_metrics_game(id)
+			metric['player'] = player1['name']
+			metric['round'] = round
+			total_empty_cells = count_empty_cells(board)
+			metric['empty_cells'] = total_empty_cells
 
-			if winning_move(board, 1):
-				label = myfont.render("Player 1 wins!!", 1, RED)
-				screen.blit(label, (40,10))
-				return True
-	## Ask for Player 2 Input
-	else:				
-		posx = event.pos[0]
-		col = int(math.floor(posx/SQUARESIZE))
+			player = Player(board, PLAYER_PIECE, player1['id'])
 
-		if is_valid_location(board, col):
-			row = get_next_open_row(board, col)
-			drop_piece(board, row, col, 2)
+			start = datetime.now()
+			col = player.get_action()
+			end = datetime.now() - start
+			metric['time'] = end.total_seconds()
 
-			if winning_move(board, 2):
-				label = myfont.render("Player 2 wins!!", 1, YELLOW)
-				screen.blit(label, (40,10))
-				return True
-	
-	return False 
+			metric_game.append(metric)
 
+			if is_valid_location(board, col):
+				row = get_next_open_row(board, col)
+				drop_piece(board, row, col, PLAYER_PIECE)
 
-while not game_over:
+				if winning_move(board, PLAYER_PIECE):
+					#label = myfont.render("Player 1 wins!!", 1, RED)
+					#screen.blit(label, (40,10))
+					game_over = True
+					player_win = PLAYER_PIECE
 
-	for event in pygame.event.get():
-		if event.type == pygame.QUIT:
-			sys.exit()
+				turn += 1
+				turn = turn % 2
 
-		if event.type == pygame.MOUSEMOTION:
-			pygame.draw.rect(screen, BLACK, (0,0, width, SQUARESIZE))
-			posx = event.pos[0]
-			if turn == 0:
-				pygame.draw.circle(screen, RED, (posx, int(SQUARESIZE/2)), RADIUS)
-			else: 
-				pygame.draw.circle(screen, YELLOW, (posx, int(SQUARESIZE/2)), RADIUS)
-		pygame.display.update()
+				#print_board(board)
+				draw_board(board)
+		
+		## Ask for Player 2 Input
+		if turn == OPPONENT and not game_over:
+			metric = get_metrics_game(id)
+			metric['player'] = player2['name']
+			metric['round'] = round
+			total_empty_cells = count_empty_cells(board)
+			metric['empty_cells'] = total_empty_cells
 
-		if event.type == pygame.MOUSEBUTTONDOWN:
-			pygame.draw.rect(screen, BLACK, (0,0, width, SQUARESIZE))
-			#print(event.pos)
+			player = Player(board, OPPONENT_PIECE, player2['id'])
+
+			start = datetime.now()
+			col = player.get_action()
+			end = datetime.now() - start
+			metric['time'] = end.total_seconds()
+
+			metric_game.append(metric)
 			
-			game_over = check_game_over(event, turn)
+			#col = random.randint(0, COLUMN_COUNT-1)
+			#col = pick_best_move(board, OPPONENT_PIECE)
+			#actions = get_valid_locations(board)
+			#col, minimax_score = minimax(board, 5, -math.inf, math.inf, True)
 
-			print_board(board)
-			draw_board(board)
+			if is_valid_location(board, col):
+				#pygame.time.wait(500)
+				row = get_next_open_row(board, col)
+				drop_piece(board, row, col, OPPONENT_PIECE)
 
-			turn += 1
-			turn = turn % 2
+				if winning_move(board, OPPONENT_PIECE):
+					#label = myfont.render("Player 2 wins!!", 1, YELLOW)
+					#screen.blit(label, (40,10))
+					game_over = True
 
-			if game_over:
-				pygame.time.wait(3000)
+					player_win = OPPONENT_PIECE
+
+				#print_board(board)
+				draw_board(board)
+
+				turn += 1
+				turn = turn % 2
+
+		if not game_over:
+			game_over = not has_empty_cells(board)
+		
+		round += 1
+
+	return player_win, board, metric_game
+
+def main(total):
+	players = get_players()
+	matchups = get_matchups(players)
+	
+	metrics_matchup = []
+	metrics_game = []
+	counter = 0
+	start_tournement = datetime.now()
+	for match in matchups:
+		player1 = match[0]
+		player2 = match[1]
+
+		match_players = player1['name'] + ' X ' + player2['name']
+		print(match_players)
+
+		for i in range(total):
+			count = f'{i+1}/{total}'
+			metrics = { 'id' : counter + 1, 'time' : 0, 'winner': '', 'player1': player1['name'], 'player2': player2['name'], 'count': count, 'empty_cells' : 0 }
+			print(count)
+
+			game_start = datetime.now()
+			player_win, board, metric_game = game(counter + 1, player1, player2)
+			game_end = datetime.now() - game_start
+			metrics['time'] = game_end.total_seconds()
+
+			if player_win == PLAYER_PIECE:
+				print(player1['name'], 'wins')
+				metrics['winner'] = player1['name']
+			elif player_win == OPPONENT_PIECE:
+				print(player2['name'], 'wins')
+				metrics['winner'] = player2['name']
+			else:
+				print('draw')
+
+			total_empty_cells = count_empty_cells(board)
+			metrics['empty_cells'] = total_empty_cells
+
+			print(game_end)
+			metrics_matchup.append(metrics)
+			metrics_game.extend(metric_game)
+			counter += 1
+
+	time_elapsed = datetime.now() - start_tournement
+	print(time_elapsed)
+	
+	save_metrics_game(metrics_game)
+	save_metrics_matchup(metrics_matchup)
+		
+main(5)
