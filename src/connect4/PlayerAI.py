@@ -21,13 +21,13 @@ class Player():
 
         if self.type == RANDOM:
             return self.random()
-        elif self.type == HALFA_BETA_3:
+        elif self.type == PAB_3:
             action = self.h_alfa_beta(3)
-        elif self.type == HALFA_BETA_4:
+        elif self.type == PAB_4:
             action = self.h_alfa_beta(4)
-        elif self.type == HALFA_BETA_5:
+        elif self.type == PAB_5:
             action = self.h_alfa_beta(5)
-        elif self.type == HALFA_BETA_6:
+        elif self.type == PAB_6:
             action = self.h_alfa_beta(6)
         elif self.type == MCTS_1000:
             action = self.mcts(1000)
@@ -35,6 +35,8 @@ class Player():
             action = self.mcts(2000)
         elif self.type == MCTS_5000:
             action = self.mcts(5000)
+        elif self.type == MCTS_10000:
+            action = self.mcts(10000)
        
         return action
     

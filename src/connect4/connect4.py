@@ -209,16 +209,15 @@ def main(total):
 	counter = 0
 	start_tournement = datetime.now()
 	for match in matchups:
+		random.seed(42)
 		player1 = match[0]
 		player2 = match[1]
 
 		match_players = player1['name'] + ' X ' + player2['name']
-		print(match_players)
-
+		print(match_players)		
 		for i in range(total):
 			count = f'{i+1}/{total}'
 			metrics = { 'id' : counter + 1, 'time' : 0, 'winner': '', 'player1': player1['name'], 'player2': player2['name'], 'count': count, 'empty_cells' : 0 }
-			print(count)
 
 			game_start = datetime.now()
 			player_win, board, metric_game = game(counter + 1, player1, player2)
@@ -242,10 +241,12 @@ def main(total):
 			metrics_game.extend(metric_game)
 			counter += 1
 
+
+
 	time_elapsed = datetime.now() - start_tournement
 	print(time_elapsed)
 	
 	save_metrics_game(metrics_game)
 	save_metrics_matchup(metrics_matchup)
 		
-main(5)
+main(1)
