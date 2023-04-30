@@ -1,6 +1,6 @@
 from State import State
-from MonteCarlo import MCTS
-from MonteCarloMinimax import MCTSMinimax
+from Algorithms.MonteCarlo import MCTS
+from Algorithms.HAlfaBeta import HAlfaBeta
 
 from utils import *
 
@@ -26,7 +26,7 @@ class Human():
 		
 		try:
 			#move = self.getMoveMcts(state)
-			move = self.getMoveMctsMinimax(state)
+			move = self.h_alfa_beta(state, 4)
 			return move
 		except:
 			return self.getMove(board)
@@ -41,14 +41,11 @@ class Human():
 		move = mcts.next_move() 
 		
 		return move 
+	
+	def h_alfa_beta(self, state, depth):
+		h_alfa_beta = HAlfaBeta(state, self.symbol, depth)
 
-	def getMoveMctsMinimax(self, state):
-		mcts_minimax = MCTSMinimax(state, self.symbol, 2)
+		action = h_alfa_beta.search()
 
-		print('simulating')
-		mcts_minimax.run(1000)
-
-		print('next_move')
-		move = mcts_minimax.next_move() 
-
-		return move 
+		return action
+		
