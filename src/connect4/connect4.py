@@ -113,10 +113,9 @@ myfont = pygame.font.SysFont("monospace", 75)
 
 def game(id, player1, player2):
 	game_over = False
-	turn = PLAYER #random.randint(PLAYER, OPPONENT)
+	turn = PLAYER
 	board = create_board()
-	#draw_board(board)
-	#pygame.display.update()
+	
 	metric_game = []
 	player_win = 0
 	round = 1
@@ -142,15 +141,12 @@ def game(id, player1, player2):
 				drop_piece(board, row, col, PLAYER_PIECE)
 
 				if winning_move(board, PLAYER_PIECE):
-					#label = myfont.render("Player 1 wins!!", 1, RED)
-					#screen.blit(label, (40,10))
 					game_over = True
 					player_win = PLAYER_PIECE
 
 				turn += 1
 				turn = turn % 2
 
-				#print_board(board)
 				draw_board(board)
 		
 		## Ask for Player 2 Input
@@ -170,24 +166,15 @@ def game(id, player1, player2):
 
 			metric_game.append(metric)
 			
-			#col = random.randint(0, COLUMN_COUNT-1)
-			#col = pick_best_move(board, OPPONENT_PIECE)
-			#actions = get_valid_locations(board)
-			#col, minimax_score = minimax(board, 5, -math.inf, math.inf, True)
-
+			
 			if is_valid_location(board, col):
-				#pygame.time.wait(500)
 				row = get_next_open_row(board, col)
 				drop_piece(board, row, col, OPPONENT_PIECE)
 
 				if winning_move(board, OPPONENT_PIECE):
-					#label = myfont.render("Player 2 wins!!", 1, YELLOW)
-					#screen.blit(label, (40,10))
 					game_over = True
-
 					player_win = OPPONENT_PIECE
 
-				#print_board(board)
 				draw_board(board)
 
 				turn += 1
@@ -240,8 +227,6 @@ def main(total):
 			metrics_matchup.append(metrics)
 			metrics_game.extend(metric_game)
 			counter += 1
-
-
 
 	time_elapsed = datetime.now() - start_tournement
 	print(time_elapsed)

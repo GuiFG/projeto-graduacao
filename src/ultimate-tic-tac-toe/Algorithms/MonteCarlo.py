@@ -46,7 +46,7 @@ class Node:
             self.parent.backpropagate(reward, player)
 
 
-class MCTS:
+class MonteCarlo:
     def __init__(self, state, player):
         self.root = Node(state, opponent_player(player))
 
