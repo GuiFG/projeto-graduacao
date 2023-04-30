@@ -11,80 +11,65 @@ from bigBoard import BigBoard
 from mcts import MCTS
 from human import Human
 from copy import *
-from randomBot import RandomBot
+
+
+def evaluate_state(board):
+	board.print()
+	curState = board.getState()
+	if curState[0] == 'W':
+		return curState[1]
+	elif curState[0] == 'D':
+		return 'D'
+
+
+def game(p1, p2):
+	board = BigBoard()
+
+	p1_symbol = 'X'
+	p2_symbol = 'O'
+
+	result = None 
+	prevMove = None
+	while True:
+		# P1 turn
+		print("It is P1's turn now.")
+		move = p1.getMove(deepcopy(board), prevMove)
+		board.playMove(move, p1_symbol)
+		print("Move played by p1:", move)
+
+		prevMove = move
+		result = evaluate_state(board)
+		if result:
+			break
+		
+		# P2 turn
+		print("It is P2's turn now.")
+		move = p2.getMove(deepcopy(board), prevMove)
+		board.playMove(move, p2_symbol)
+		print("Move played by p2:", move)
+
+		prevMove = move
+		result = evaluate_state(board)
+		if result:
+			break
+	
+	if result == p1_symbol:
+		print('P1 won!')
+	elif result == p2_symbol:
+		print('P2 won!')
+	else:
+		print('Draw!')
+		
 
 
 def main():
-	print(Fore.RED + "Ultimate TicTacToe using Monte Carlo Tree Search")
+	print(Fore.RED + "Ultimate TicTacToe")
 	print(Style.RESET_ALL)
 
-	# Initializing game board
-	board = BigBoard()
+	p1 = MCTS('X', compTime=0.1) 
+	p2 = Human('O')	
 
-	# Choose first player
-	print("Please decide player1")
-	print("1. MCTS\n2. Human\n3. Random")
-	choice = '1'#input()
-	if choice == '1':
-		p1 = MCTS('X', compTime=0.1)
-	elif choice == '2':
-		p1 = Human('X')
-	else:
-		p1 = RandomBot('X')
-
-	# Choose second player
-	print("Please decide player2")
-	print("1. MCTS\n2. Human\n3. Random")
-	choice = '2'#input()
-	if choice == '1':
-		p2 = MCTS('O', compTime=0.2)
-	elif choice == '2':
-		p2 = Human('O')
-	else:
-		p2 = RandomBot('O')
-
-	# Game loop
-	board.print()
-	prevMove = None
-	while True:
-
-		# P1 turn
-		move = None
-		validMoves = board.getValidMoves(prevMove)[0]
-		while move not in validMoves:
-			print("It is P1's turn now.")
-			move = p1.getMove(deepcopy(board), prevMove)
-		
-		board.playMove(move, 'X')
-		print("Move played by p1:", move)
-		prevMove = move
-		board.print()
-		curState = board.getState()
-		if curState[0] == 'W':
-			print("P1 won!")
-			break
-		elif curState[0] == 'D':
-			print("Draw!")
-			break
-
-		# P2 turn
-		move = None
-		validMoves = board.getValidMoves(prevMove)[0]
-		while move not in validMoves:
-			print("It is P2's turn now.")
-			move = p2.getMove(deepcopy(board), prevMove) 
-		
-		print(move)
-		board.playMove(move, 'O')
-		print("Move played by p2:", move)
-		prevMove = move
-		board.print()
-		curState = board.getState()
-		if curState[0] == 'W':
-			print("P2 won!")
-			break
-		elif curState[0] == 'D':
-			print("Draw!")
-			break
+	game(p1, p2)
+	
 	
 main()
