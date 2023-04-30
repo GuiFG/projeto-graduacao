@@ -77,6 +77,7 @@ def main(total):
 	matchup_metrics = []
 	game_metrics = []
 
+	start_time = datetime.now()
 	game_counter = 1
 	for matchup in matchups:
 		random.seed(42)
@@ -102,11 +103,14 @@ def main(total):
 			matchup_metrics.append(match_metrics)
 			game_counter += 1
 
-		time.sleep(2)
+		time.sleep(1)
 		os.system('cls' if os.name == 'nt' else 'clear')
 	
-	save_matchup_metrics(game_metrics)
-	save_game_metrics(matchup_metrics)
+	end = datetime.now() - start_time
+	print(end.total_seconds())
 
-	
-main(1)
+	save_game_metrics(game_metrics)
+	save_matchup_metrics(matchup_metrics)
+
+
+main(5)

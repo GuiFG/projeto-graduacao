@@ -29,7 +29,7 @@ def generate_random_graphic():
 
 
 def generate_graphic(data, player):
-    fig = plt.figure(figsize=(8, 5))
+    fig = plt.figure(figsize=(10, 7))
 
     ax = fig.add_axes([0, 0, 1, 1])
     ax.boxplot(data)
