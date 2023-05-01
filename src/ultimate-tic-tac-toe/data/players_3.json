@@ -1,0 +1,17 @@
+[
+    {
+        "id" : 3,
+        "type": "ALFA_BETA",
+        "name": "PAB_5"
+    },
+    {
+        "id" : 5,
+        "type": "MCTS",
+        "name": "MCTS_500"
+    },
+    {
+        "id" : 6,
+        "type": "MCTS",
+        "name": "MCTS_1000"
+    }
+]

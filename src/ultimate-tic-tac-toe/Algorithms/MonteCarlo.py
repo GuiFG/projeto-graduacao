@@ -61,7 +61,6 @@ class MonteCarlo:
 
             reward, player = self.simulate(node.state, node.player)
             node.backpropagate(reward, player)
-            print(i, end='\r')
 
     def simulate(self, state, player):
         copy_state = copy.deepcopy(state)

@@ -7,7 +7,14 @@ from Algorithms.MonteCarloMinimax import MCTSMinimax
 from Algorithms.HMinimax import HMinimax
 from Algorithms.HAlfaBeta import HAlfaBeta
 
-from constants import *
+PAB_3 = 1
+PAB_4 = 2
+PAB_5 = 3
+PAB_6 = 4
+MCTS_500 = 5
+MCTS_1000 = 6
+MCTS_5000 = 7
+MCTS_10000 = 8 
 
 
 class Player():
@@ -19,9 +26,7 @@ class Player():
     def get_action(self):
         action = None 
 
-        if self.type == RANDOM:
-            return self.random()
-        elif self.type == PAB_3:
+        if self.type == PAB_3:
             action = self.h_alfa_beta(3)
         elif self.type == PAB_4:
             action = self.h_alfa_beta(4)
@@ -29,10 +34,10 @@ class Player():
             action = self.h_alfa_beta(5)
         elif self.type == PAB_6:
             action = self.h_alfa_beta(6)
+        elif self.type == MCTS_500:
+            action = self.mcts(500)
         elif self.type == MCTS_1000:
             action = self.mcts(1000)
-        elif self.type == MCTS_2000:
-            action = self.mcts(2000)
         elif self.type == MCTS_5000:
             action = self.mcts(5000)
         elif self.type == MCTS_10000:

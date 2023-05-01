@@ -135,23 +135,6 @@ def score_position(board, piece):
 
 	return score
 
-def get_matchups(players):
-    combinations = list(itertools.combinations(players, 2))
-
-    matchups = []
-    for comb in combinations:
-        player1 = comb[0]
-        player2 = comb[1]
-
-        if player1['type'] == player2['type']:
-            continue 
-
-        matchups.append(comb)
-        revert = (comb[1], comb[0])
-        matchups.append(revert)
-    
-    return matchups
-
 def has_empty_cells(board):
     for i in range(6):
         for j in range(7):

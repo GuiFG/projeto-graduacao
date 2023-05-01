@@ -1,4 +1,5 @@
 import json
+import itertools
 
 DIRNAME = 'metrics/'
 
@@ -38,23 +39,43 @@ def save_csv(file_name, csv):
     with open(file_name, 'w') as f:
         f.write(csv)
 
-def get_players():
-	f = open('players.json')
-	data = json.load(f)
-	f.close()
+def get_players(idx=0):
+    file_name = f'data/players_{idx}.json' if idx != 0 else 'data/players.json'
 
-	return data 
+    f = open(file_name)
+    data = json.load(f)
+    f.close()
+
+    return data 
+
+def get_matchups(players, double=True):
+    combinations = list(itertools.combinations(players, 2))
+
+    matchups = []
+    for comb in combinations:
+        player1 = comb[0]
+        player2 = comb[1]
+
+        if player1['type'] == player2['type']:
+            continue 
+
+        matchups.append(comb)
+        if double:
+            revert = (comb[1], comb[0])
+            matchups.append(revert)
+    
+    return matchups
 
 def get_metrics_game(id):
 	return { 'id' : id, 'player': '', 'time': 0, 'empty_cells': 0, 'round': 0 }
 
-def save_metrics_matchup(metrics_matchup):
+def save_metrics_matchup(metrics_matchup, idx):
     content = json.dumps(metrics_matchup)
-    save_content('matchup.json', content)
+    save_content(f'matchup_{idx}.json', content)
 
-def save_metrics_game(metric_game):
+def save_metrics_game(metric_game, idx):
     content = json.dumps(metric_game)
-    save_content('game.json', content)
+    save_content(f'game_{idx}.json', content)
 
 def save_metrics_matchup_csv(metrics_matchup):
     csv = generate_csv(metrics_matchup)

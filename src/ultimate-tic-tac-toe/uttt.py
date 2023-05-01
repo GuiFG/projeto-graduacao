@@ -2,12 +2,13 @@ from colorama import Fore, Style
 from bigBoard import BigBoard
 from copy import *
 
+
 from PlayerAI import *
 from Metrics import *
 import os
 from datetime import datetime
 import time 
-
+import sys
 
 def evaluate_state(board):
 	board.print()
@@ -67,11 +68,13 @@ def game(id, players):
 	return winner, game_metrics
 		
 
-def main(total):
+def main(args):
+	total = int(args[0])
+	set_players_idx = int(args[1])
 	print(Fore.RED + "Ultimate TicTacToe")
 	print(Style.RESET_ALL)
 
-	players = get_players()
+	players = get_players(set_players_idx)
 	matchups = get_matchups(players)
 
 	matchup_metrics = []
@@ -89,6 +92,7 @@ def main(total):
 
 		for i in range(total):
 			match_number = f'{i+1}/{total}'
+			print(match_number)
 			match_metrics = get_match_metrics(game_counter, player1['name'], player2['name'], match_number)
 
 			game_start = datetime.now()
@@ -109,8 +113,8 @@ def main(total):
 	end = datetime.now() - start_time
 	print(end.total_seconds())
 
-	save_game_metrics(game_metrics)
-	save_matchup_metrics(matchup_metrics)
+	save_game_metrics(game_metrics, set_players_idx)
+	save_matchup_metrics(matchup_metrics, set_players_idx)
 
-
-main(5)
+if __name__ == "__main__":
+	main(sys.argv[1:])

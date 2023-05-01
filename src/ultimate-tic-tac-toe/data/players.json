@@ -1,41 +1,41 @@
 [
     {
-        "id" : 4,
+        "id" : 1,
         "type": "ALFA_BETA",
         "name": "PAB_3"
     },
     {
-        "id" : 5,
+        "id" : 2,
         "type": "ALFA_BETA",
         "name": "PAB_4"
     },
     {
-        "id" : 6,
+        "id" : 3,
         "type": "ALFA_BETA",
         "name": "PAB_5"
     },
     {
-        "id" : 7,
+        "id" : 4,
         "type": "ALFA_BETA",
         "name": "PAB_6"
     },
     {
-        "id" : 8,
+        "id" : 5,
+        "type": "MCTS",
+        "name": "MCTS_500"
+    },
+    {
+        "id" : 6,
         "type": "MCTS",
         "name": "MCTS_1000"
     },
     {
-        "id" : 9,
-        "type": "MCTS",
-        "name": "MCTS_2000"
-    },
-    {
-        "id" : 10,
+        "id" : 7,
         "type": "MCTS",
         "name": "MCTS_5000"
     },
     {
-        "id" : 11,
+        "id" : 8,
         "type": "MCTS",
         "name": "MCTS_10000"
     }

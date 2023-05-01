@@ -1,0 +1,12 @@
+[
+    {
+        "id" : 2,
+        "type": "ALFA_BETA",
+        "name": "PAB_4"
+    },
+    {
+        "id" : 8,
+        "type": "MCTS",
+        "name": "MCTS_10000"
+    }
+]

@@ -18,7 +18,6 @@ def create_board():
 def print_board(board):
 	print(np.flip(board, 0))
 
-
 def minimax(board, depth, alpha, beta, maximizingPlayer):
 	valid_locations = get_valid_locations(board)
 	is_terminal = is_terminal_node(board)
@@ -187,8 +186,11 @@ def game(id, player1, player2):
 
 	return player_win, board, metric_game
 
-def main(total):
-	players = get_players()
+def main(args):
+	total = int(args[0])
+	set_player_idx = int(args[1])
+
+	players = get_players(set_player_idx)
 	matchups = get_matchups(players)
 	
 	metrics_matchup = []
@@ -231,7 +233,9 @@ def main(total):
 	time_elapsed = datetime.now() - start_tournement
 	print(time_elapsed)
 	
-	save_metrics_game(metrics_game)
-	save_metrics_matchup(metrics_matchup)
+	save_metrics_game(metrics_game, set_player_idx)
+	save_metrics_matchup(metrics_matchup, set_player_idx)
 		
-main(1)
+
+if __name__ == "__main__":
+	main(sys.argv[1:])

@@ -1,3 +1,0 @@
-id;time;winner;player1;player2;count;empty_cells
-1;6,544957;MCTS_1000;H_ALFA_BETA_3;MCTS_1000;1/1;22
-2;7,611864;MCTS_1000;MCTS_1000;H_ALFA_BETA_3;1/1;17
