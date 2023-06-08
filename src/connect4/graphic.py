@@ -69,7 +69,7 @@ def generate_boxplot_graphic(data, player):
     ax = fig.add_axes([0, 0, 1, 1])
     ax.boxplot(data)
 
-    plt.title("Tempo execução por partidas (s)" + player)
+    plt.title("Tempo execução por partidas (s) " + player)
     plt.xlabel("Partidas")
     plt.ylabel("Tempo de execução")
     return fig 
@@ -102,7 +102,7 @@ def generate_mean_time_round_graphic(metrics, player):
 
     fig = generate_graphic(rounds, mean_time)
 
-    plt.title("Tempo médio por rodada (s)" + player)
+    plt.title("Tempo médio por rodada (s) " + player)
     plt.xlabel("Rodadas")
     plt.ylabel("Tempo médio de execução")
 
@@ -171,6 +171,26 @@ def generate_table_result(metrics, players):
 
     # TODO: montar figura da tabela de resultado
 
+def generate_mean_time_player(metrics, players):
+    results = {}
+    for player in players:
+        player_time = [metric['time'] for metric in metrics if metric['player'] == player]
+        if len(player_time) == 0:
+            continue
+        mean_time = np.mean(player_time)
+        results[player] = mean_time
+
+    names = list(results.keys())
+    counts = list(results.values())
+
+    plt.bar(names, counts)
+    plt.xticks(rotation=90)
+    plt.xlabel('Técnicas')
+    plt.ylabel('Tempo médio de execução (s)')
+    plt.title('Tempo médio de execução por técnica')
+
+    plt.savefig(DIRNAME + "mean_time.pdf", bbox_inches='tight')
+
 def main(): 
     players = get_players()
     players_names = [player['name'] for player in players]
@@ -179,6 +199,7 @@ def main():
     matchup_metrics = merge_matchup_metrics(4)
 
     generate_table_result(matchup_metrics, players)
+    generate_mean_time_player(game_metrics, players_names)
     for player in players_names:
         generate_execute_time_graphic(game_metrics, player)
         generate_mean_time_round_graphic(game_metrics, player)
