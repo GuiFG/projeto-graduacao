@@ -53,6 +53,8 @@ def game(id, players):
 			metric['time'] = play_player(board, player['id'], player_piece)
 			metric_game.append(metric)
 
+			# print_board(board)
+
 			if winning_move(board, player_piece):
 				player_win = player_piece
 				game_over = True
@@ -72,7 +74,8 @@ def run_match(match, total):
 	player1 = match[0]
 	player2 = match[1]
 
-	print(player1['name'] + ' X ' + player2['name'])	
+	global counter
+	print(player1['name'] + ' X ' + player2['name'])
 	for i in range(total):
 		metrics = get_metrics_match(counter + 1, player1, player2, f'{i+1}/{total}')
 
@@ -107,7 +110,7 @@ def main(config):
 
 	start_tournement = datetime.now()
 	for match in matchups:
-		random.seed(seed)	
+		random.seed(seed)
 		run_match(match, total)
 		
 	time_elapsed = datetime.now() - start_tournement

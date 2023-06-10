@@ -13,12 +13,6 @@ def get_matchups(players, double=True):
 
     matchups = []
     for comb in combinations:
-        player1 = comb[0]
-        player2 = comb[1]
-
-        if player1['type'] == player2['type']:
-            continue 
-
         matchups.append(comb)
         if double:
             revert = (comb[1], comb[0])
