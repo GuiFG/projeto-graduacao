@@ -1,8 +1,9 @@
-from copy import deepcopy
 import time
 import math
+from copy import deepcopy
 
-from IA import *
+from PlayerAI import Player
+
 
 ansi_black = "\u001b[30m"
 ansi_red = "\u001b[31m"
@@ -13,7 +14,6 @@ ansi_magenta = "\u001b[35m"
 ansi_cyan = "\u001b[36m"
 ansi_white = "\u001b[37m"
 ansi_reset = "\u001b[0m"
-
 
 class Node:
     def __init__(self, board, move=None, parent=None, value=None):
@@ -63,7 +63,6 @@ class Node:
 
 
 class Checkers:
-
     def __init__(self):
         self.matrix = [[], [], [], [], [], [], [], []]
         self.player_turn = True
@@ -118,33 +117,13 @@ class Checkers:
         self.player_pieces = 0
         self.computer_pieces = 0
         while True:
-            #move = move_mcts(self.matrix, "B")
-            move = move_mcts_minimax(self.matrix, "B")
+
+            player = Player(self.matrix, "B", 5)
+            move = player.get_action()
 
             print('mcts_move', move)
             old = [str(move[0]), str(move[1])]
             new = [str(move[2]), str(move[3])]
-
-            # coord1 = input("Which piece[i,j]: ")
-            
-            # if coord1 == "":
-            #     print(ansi_cyan + "Game ended!" + ansi_reset)
-            #     exit()
-            # elif coord1 == "s":
-            #     print(ansi_cyan + "You surrendered.\nCoward." + ansi_reset)
-            #     exit()
-            
-            # coord2 = input("Where to[i,j]:")
-            
-            # if coord2 == "":
-            #     print(ansi_cyan + "Game ended!" + ansi_reset)
-            #     exit()
-            # elif coord2 == "s":
-            #     print(ansi_cyan + "You surrendered.\nCoward." + ansi_reset)
-            #     exit()
-            
-            # old = coord1.split(",")
-            # new = coord2.split(",")
 
             if len(old) != 2 or len(new) != 2:
                 print(ansi_red + "Illegal input" + ansi_reset)
@@ -447,6 +426,7 @@ class Checkers:
         print("2.You can quit the game at any time by pressing enter.")
         print("3.You can surrender at any time by pressing 's'.")
         print("Now that you've familiarized yourself with the rules, enjoy!")
+        
         while True:
             answer = "y" #input("\nFirst, we need to know, is jumping mandatory?[Y/n]: ")
             if answer == "Y" or answer == "y":
@@ -463,6 +443,7 @@ class Checkers:
                 exit()
             else:
                 print(ansi_red + "Illegal input!" + ansi_reset)
+
         while True:
             self.print_matrix()
             if self.player_turn is True:
@@ -480,14 +461,4 @@ class Checkers:
                 self.print_matrix()
                 print(ansi_green + "Computer has no pieces left.\nYOU WIN!" + ansi_reset)
                 exit()
-            # elif self.computer_pieces - self.player_pieces == 7:
-            #     wish = input("You have 7 pieces fewer than your opponent.Do you want to surrender?")
-            #     if wish == "" or wish == "yes":
-            #         print(ansi_cyan + "Coward." + ansi_reset)
-            #         exit()
             self.player_turn = not self.player_turn
-
-
-if __name__ == '__main__':
-    checkers = Checkers()
-    checkers.play()
