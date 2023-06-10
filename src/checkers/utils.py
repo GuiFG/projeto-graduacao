@@ -115,8 +115,6 @@ def check_jumps(board, old_i, old_j, via_i, via_j, new_i, new_j):
         return False
     return True
 
-
-
 def find_available_moves(board, mandatory_jumping):
     available_moves = []
     available_jumps = []

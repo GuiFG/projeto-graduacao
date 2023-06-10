@@ -2,6 +2,7 @@ import time
 import math
 from copy import deepcopy
 
+import utils
 from PlayerAI import Player
 
 
@@ -29,11 +30,11 @@ class Node:
         big_letter = ""
         queen_row = 0
         if minimizing_player is True:
-            available_moves = Checkers.find_available_moves(current_state, mandatory_jumping)
+            available_moves = utils.find_available_moves(current_state, mandatory_jumping)
             big_letter = "C"
             queen_row = 7
         else:
-            available_moves = Checkers.find_player_available_moves(current_state, mandatory_jumping)
+            available_moves = utils.find_player_available_moves(current_state, mandatory_jumping)
             big_letter = "B"
             queen_row = 0
         for i in range(len(available_moves)):
@@ -42,7 +43,7 @@ class Node:
             new_i = available_moves[i][2]
             new_j = available_moves[i][3]
             state = deepcopy(current_state)
-            Checkers.make_a_move(state, old_i, old_j, new_i, new_j, big_letter, queen_row)
+            utils.make_a_move(state, old_i, old_j, new_i, new_j, big_letter, queen_row)
             children_states.append(Node(state, [old_i, old_j, new_i, new_j]))
         return children_states
 
@@ -106,7 +107,7 @@ class Checkers:
         print("\n")
 
     def get_player_input(self):
-        available_moves = Checkers.find_player_available_moves(self.matrix, self.mandatory_jumping)
+        available_moves = utils.find_player_available_moves(self.matrix, self.mandatory_jumping)
         if len(available_moves) == 0:
             if self.computer_pieces > self.player_pieces:
                 print(ansi_red + "You have no moves left, and you have fewer pieces than the computer.YOU LOSE!" + ansi_reset)
@@ -116,112 +117,28 @@ class Checkers:
                 exit()
         self.player_pieces = 0
         self.computer_pieces = 0
-        while True:
 
-            player = Player(self.matrix, "B", 5)
-            move = player.get_action()
+        player = Player(self.matrix, "B", 5)
+        move = player.get_action()
 
-            print('mcts_move', move)
-            old = [str(move[0]), str(move[1])]
-            new = [str(move[2]), str(move[3])]
+        print('mcts_move', move)
+        old = [str(move[0]), str(move[1])]
+        new = [str(move[2]), str(move[3])]
 
-            if len(old) != 2 or len(new) != 2:
-                print(ansi_red + "Illegal input" + ansi_reset)
-            else:
-                old_i = old[0]
-                old_j = old[1]
-                new_i = new[0]
-                new_j = new[1]
-                if not old_i.isdigit() or not old_j.isdigit() or not new_i.isdigit() or not new_j.isdigit():
-                    print(ansi_red + "Illegal input" + ansi_reset)
-                else:
-                    move = [int(old_i), int(old_j), int(new_i), int(new_j)]
-                    if move not in available_moves:
-                        print(ansi_red + "Illegal move!" + ansi_reset)
-                    else:
-                        Checkers.make_a_move(self.matrix, int(old_i), int(old_j), int(new_i), int(new_j), "B", 0)
-                        for m in range(8):
-                            for n in range(8):
-                                if self.matrix[m][n][0] == "c" or self.matrix[m][n][0] == "C":
-                                    self.computer_pieces += 1
-                                elif self.matrix[m][n][0] == "b" or self.matrix[m][n][0] == "B":
-                                    self.player_pieces += 1
-                        break
+        old_i = old[0]
+        old_j = old[1]
+        new_i = new[0]
+        new_j = new[1]
 
-    @staticmethod
-    def find_available_moves(board, mandatory_jumping):
-        available_moves = []
-        available_jumps = []
+        move = [int(old_i), int(old_j), int(new_i), int(new_j)]
+
+        utils.make_a_move(self.matrix, int(old_i), int(old_j), int(new_i), int(new_j), "B", 0)
         for m in range(8):
             for n in range(8):
-                if board[m][n][0] == "c":
-                    if Checkers.check_moves(board, m, n, m + 1, n + 1):
-                        available_moves.append([m, n, m + 1, n + 1])
-                    if Checkers.check_moves(board, m, n, m + 1, n - 1):
-                        available_moves.append([m, n, m + 1, n - 1])
-                    if Checkers.check_jumps(board, m, n, m + 1, n - 1, m + 2, n - 2):
-                        available_jumps.append([m, n, m + 2, n - 2])
-                    if Checkers.check_jumps(board, m, n, m + 1, n + 1, m + 2, n + 2):
-                        available_jumps.append([m, n, m + 2, n + 2])
-                elif board[m][n][0] == "C":
-                    if Checkers.check_moves(board, m, n, m + 1, n + 1):
-                        available_moves.append([m, n, m + 1, n + 1])
-                    if Checkers.check_moves(board, m, n, m + 1, n - 1):
-                        available_moves.append([m, n, m + 1, n - 1])
-                    if Checkers.check_moves(board, m, n, m - 1, n - 1):
-                        available_moves.append([m, n, m - 1, n - 1])
-                    if Checkers.check_moves(board, m, n, m - 1, n + 1):
-                        available_moves.append([m, n, m - 1, n + 1])
-                    if Checkers.check_jumps(board, m, n, m + 1, n - 1, m + 2, n - 2):
-                        available_jumps.append([m, n, m + 2, n - 2])
-                    if Checkers.check_jumps(board, m, n, m - 1, n - 1, m - 2, n - 2):
-                        available_jumps.append([m, n, m - 2, n - 2])
-                    if Checkers.check_jumps(board, m, n, m - 1, n + 1, m - 2, n + 2):
-                        available_jumps.append([m, n, m - 2, n + 2])
-                    if Checkers.check_jumps(board, m, n, m + 1, n + 1, m + 2, n + 2):
-                        available_jumps.append([m, n, m + 2, n + 2])
-        if mandatory_jumping is False:
-            available_jumps.extend(available_moves)
-            return available_jumps
-        elif mandatory_jumping is True:
-            if len(available_jumps) == 0:
-                return available_moves
-            else:
-                return available_jumps
-
-    @staticmethod
-    def check_jumps(board, old_i, old_j, via_i, via_j, new_i, new_j):
-        if new_i > 7 or new_i < 0:
-            return False
-        if new_j > 7 or new_j < 0:
-            return False
-        if board[via_i][via_j] == "---":
-            return False
-        if board[via_i][via_j][0] == "C" or board[via_i][via_j][0] == "c":
-            return False
-        if board[new_i][new_j] != "---":
-            return False
-        if board[old_i][old_j] == "---":
-            return False
-        if board[old_i][old_j][0] == "b" or board[old_i][old_j][0] == "B":
-            return False
-        return True
-
-    @staticmethod
-    def check_moves(board, old_i, old_j, new_i, new_j):
-
-        if new_i > 7 or new_i < 0:
-            return False
-        if new_j > 7 or new_j < 0:
-            return False
-        if board[old_i][old_j] == "---":
-            return False
-        if board[new_i][new_j] != "---":
-            return False
-        if board[old_i][old_j][0] == "b" or board[old_i][old_j][0] == "B":
-            return False
-        if board[new_i][new_j] == "---":
-            return True
+                if self.matrix[m][n][0] == "c" or self.matrix[m][n][0] == "C":
+                    self.computer_pieces += 1
+                elif self.matrix[m][n][0] == "b" or self.matrix[m][n][0] == "B":
+                    self.player_pieces += 1
 
     @staticmethod
     def calculate_heuristics(board):
@@ -267,79 +184,6 @@ class Checkers:
 
         return result + (mine - opp) * 1000
 
-    @staticmethod
-    def find_player_available_moves(board, mandatory_jumping):
-        available_moves = []
-        available_jumps = []
-        for m in range(8):
-            for n in range(8):
-                if board[m][n][0] == "b":
-                    if Checkers.check_player_moves(board, m, n, m - 1, n - 1):
-                        available_moves.append([m, n, m - 1, n - 1])
-                    if Checkers.check_player_moves(board, m, n, m - 1, n + 1):
-                        available_moves.append([m, n, m - 1, n + 1])
-                    if Checkers.check_player_jumps(board, m, n, m - 1, n - 1, m - 2, n - 2):
-                        available_jumps.append([m, n, m - 2, n - 2])
-                    if Checkers.check_player_jumps(board, m, n, m - 1, n + 1, m - 2, n + 2):
-                        available_jumps.append([m, n, m - 2, n + 2])
-                elif board[m][n][0] == "B":
-                    if Checkers.check_player_moves(board, m, n, m - 1, n - 1):
-                        available_moves.append([m, n, m - 1, n - 1])
-                    if Checkers.check_player_moves(board, m, n, m - 1, n + 1):
-                        available_moves.append([m, n, m - 1, n + 1])
-                    if Checkers.check_player_jumps(board, m, n, m - 1, n - 1, m - 2, n - 2):
-                        available_jumps.append([m, n, m - 2, n - 2])
-                    if Checkers.check_player_jumps(board, m, n, m - 1, n + 1, m - 2, n + 2):
-                        available_jumps.append([m, n, m - 2, n + 2])
-                    if Checkers.check_player_moves(board, m, n, m + 1, n - 1):
-                        available_moves.append([m, n, m + 1, n - 1])
-                    if Checkers.check_player_jumps(board, m, n, m + 1, n - 1, m + 2, n - 2):
-                        available_jumps.append([m, n, m + 2, n - 2])
-                    if Checkers.check_player_moves(board, m, n, m + 1, n + 1):
-                        available_moves.append([m, n, m + 1, n + 1])
-                    if Checkers.check_player_jumps(board, m, n, m + 1, n + 1, m + 2, n + 2):
-                        available_jumps.append([m, n, m + 2, n + 2])
-        if mandatory_jumping is False:
-            available_jumps.extend(available_moves)
-            return available_jumps
-        elif mandatory_jumping is True:
-            if len(available_jumps) == 0:
-                return available_moves
-            else:
-                return available_jumps
-
-    @staticmethod
-    def check_player_moves(board, old_i, old_j, new_i, new_j):
-        if new_i > 7 or new_i < 0:
-            return False
-        if new_j > 7 or new_j < 0:
-            return False
-        if board[old_i][old_j] == "---":
-            return False
-        if board[new_i][new_j] != "---":
-            return False
-        if board[old_i][old_j][0] == "c" or board[old_i][old_j][0] == "C":
-            return False
-        if board[new_i][new_j] == "---":
-            return True
-
-    @staticmethod
-    def check_player_jumps(board, old_i, old_j, via_i, via_j, new_i, new_j):
-        if new_i > 7 or new_i < 0:
-            return False
-        if new_j > 7 or new_j < 0:
-            return False
-        if board[via_i][via_j] == "---":
-            return False
-        if board[via_i][via_j][0] == "B" or board[via_i][via_j][0] == "b":
-            return False
-        if board[new_i][new_j] != "---":
-            return False
-        if board[old_i][old_j] == "---":
-            return False
-        if board[old_i][old_j][0] == "c" or board[old_i][old_j][0] == "C":
-            return False
-        return True
 
     def evaluate_states(self):
         t1 = time.time()
@@ -397,28 +241,6 @@ class Checkers:
             current_state.set_value(min_eval)
             return min_eval
 
-    @staticmethod
-    def make_a_move(board, old_i, old_j, new_i, new_j, big_letter, queen_row):
-        letter = board[old_i][old_j][0]
-        i_difference = old_i - new_i
-        j_difference = old_j - new_j
-        if i_difference == -2 and j_difference == 2:
-            board[old_i + 1][old_j - 1] = "---"
-
-        elif i_difference == 2 and j_difference == 2:
-            board[old_i - 1][old_j - 1] = "---"
-
-        elif i_difference == 2 and j_difference == -2:
-            board[old_i - 1][old_j + 1] = "---"
-
-        elif i_difference == -2 and j_difference == -2:
-            board[old_i + 1][old_j + 1] = "---"
-
-        if new_i == queen_row:
-            letter = big_letter
-        board[old_i][old_j] = "---"
-        board[new_i][new_j] = letter + str(new_i) + str(new_j)
-
     def play(self):
         print(ansi_cyan + "##### WELCOME TO CHECKERS ####" + ansi_reset)
         print("\nSome basic rules:")
@@ -427,22 +249,7 @@ class Checkers:
         print("3.You can surrender at any time by pressing 's'.")
         print("Now that you've familiarized yourself with the rules, enjoy!")
         
-        while True:
-            answer = "y" #input("\nFirst, we need to know, is jumping mandatory?[Y/n]: ")
-            if answer == "Y" or answer == "y":
-                self.mandatory_jumping = True
-                break
-            elif answer == "N" or answer == "n":
-                self.mandatory_jumping = False
-                break
-            elif answer == "":
-                print(ansi_cyan + "Game ended!" + ansi_reset)
-                exit()
-            elif answer == "s":
-                print(ansi_cyan + "You've surrendered before the game even started.\nPathetic." + ansi_reset)
-                exit()
-            else:
-                print(ansi_red + "Illegal input!" + ansi_reset)
+        self.mandatory_jumping = True
 
         while True:
             self.print_matrix()
@@ -461,4 +268,5 @@ class Checkers:
                 self.print_matrix()
                 print(ansi_green + "Computer has no pieces left.\nYOU WIN!" + ansi_reset)
                 exit()
+
             self.player_turn = not self.player_turn

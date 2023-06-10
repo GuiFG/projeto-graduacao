@@ -1,6 +1,6 @@
 from constants import *
 import numpy as np
-import itertools
+
 
 def winning_move(board, piece):
     # Check horizontal locations for win
