@@ -9,7 +9,7 @@ class State:
         return is_terminal_node(self.board)
         
     def actions(self, player):
-        return get_valid_moves(self.board, player)
+        return find_available_moves(self.board, player)
     
     def result(self, action, player):
         board = copy.deepcopy(self.board)

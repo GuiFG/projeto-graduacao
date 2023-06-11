@@ -6,7 +6,7 @@ import time
 
 from datetime import datetime 
 
-from MinimaxFixed import MinimaxFixed
+from checkers.Algorithms.MinimaxFixed import MinimaxFixed
 
 class Node:
     def __init__(self, state, player, parent=None, action=None):

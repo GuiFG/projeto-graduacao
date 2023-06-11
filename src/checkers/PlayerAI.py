@@ -1,8 +1,9 @@
 from State import State
-from MonteCarlo import MCTS 
+from Algorithms.MonteCarlo import MCTS 
+from Algorithms.Random import Random
 
+RANDOM = 0
 MCTS_500 = 5
-
 
 class Player():
     def __init__(self, board, player, type):
@@ -11,13 +12,19 @@ class Player():
         self.type = type
 
     def get_action(self):
-        action = None 
+        action = None
 
-        if self.type == MCTS_500:
+        if self.type == 0:
+            action = self.random()
+        elif self.type == MCTS_500:
             action = self.mcts(500)
         
         return action
     
+    def random(self):
+        move = Random.get_move(self.board, self.player)
+
+        return move
 
     def mcts(self, simulations):
         state = State(self.board)

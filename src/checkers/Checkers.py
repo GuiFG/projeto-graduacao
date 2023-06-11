@@ -3,7 +3,7 @@ import math
 from copy import deepcopy
 
 import utils
-from PlayerAI import Player
+from utils import BLACK_PIECE, WHITE_PIECE, EMPTY_SQUARE
 
 
 ansi_black = "\u001b[30m"
@@ -30,13 +30,14 @@ class Node:
         big_letter = ""
         queen_row = 0
         if minimizing_player is True:
-            available_moves = utils.find_available_moves(current_state, mandatory_jumping)
-            big_letter = "C"
+            big_letter = WHITE_PIECE
+            available_moves = utils.find_available_moves(current_state, big_letter, mandatory_jumping)
             queen_row = 7
         else:
-            available_moves = utils.find_player_available_moves(current_state, mandatory_jumping)
-            big_letter = "B"
+            big_letter = BLACK_PIECE
+            available_moves = utils.find_available_moves(current_state, big_letter, mandatory_jumping)
             queen_row = 0
+
         for i in range(len(available_moves)):
             old_i = available_moves[i][0]
             old_j = available_moves[i][1]
@@ -45,6 +46,7 @@ class Node:
             state = deepcopy(current_state)
             utils.make_a_move(state, old_i, old_j, new_i, new_j, big_letter, queen_row)
             children_states.append(Node(state, [old_i, old_j, new_i, new_j]))
+
         return children_states
 
     def set_value(self, value):
@@ -66,15 +68,15 @@ class Node:
 class Checkers:
     def __init__(self):
         self.matrix = [[], [], [], [], [], [], [], []]
-        self.player_turn = True
-        self.computer_pieces = 12
-        self.player_pieces = 12
+        self.turn = True
+        self.black_pieces = 12 # B
+        self.white_pieces = 12 # C
         self.available_moves = []
-        self.mandatory_jumping = False
+        self.mandatory_jumping = True
 
         for row in self.matrix:
             for i in range(8):
-                row.append("---")
+                row.append(EMPTY_SQUARE)
         self.position_computer()
         self.position_player()
 
@@ -106,39 +108,49 @@ class Checkers:
             print(j, end="   ")
         print("\n")
 
-    def get_player_input(self):
-        available_moves = utils.find_player_available_moves(self.matrix, self.mandatory_jumping)
+    def count_pieces(self):
+        self.black_pieces = 0
+        self.white_pieces = 0
+
+        for m in range(8):
+            for n in range(8):
+                if self.matrix[m][n][0] == BLACK_PIECE or self.matrix[m][n][0] == BLACK_PIECE.lower():
+                    self.black_pieces += 1
+                elif self.matrix[m][n][0] == WHITE_PIECE or self.matrix[m][n][0] == WHITE_PIECE.lower():
+                    self.white_pieces += 1
+
+    def check_available_moves(self, player_piece):
+        available_moves = utils.find_available_moves(self.matrix, player_piece, self.mandatory_jumping)
         if len(available_moves) == 0:
-            if self.computer_pieces > self.player_pieces:
-                print(ansi_red + "You have no moves left, and you have fewer pieces than the computer.YOU LOSE!" + ansi_reset)
+            check_lose = self.white_pieces > self.black_pieces if player_piece == WHITE_PIECE else self.black_pieces > self.white_pieces
+
+            if check_lose:
+                print(ansi_red + f"You have no moves left, and you have fewer pieces. {player_piece} LOSE!" + ansi_reset)
                 exit()
             else:
                 print(ansi_yellow + "You have no available moves.\nGAME ENDED!" + ansi_reset)
                 exit()
-        self.player_pieces = 0
-        self.computer_pieces = 0
 
-        player = Player(self.matrix, "B", 5)
+    def check_winner(self, player_piece):
+        if self.black_pieces == 0 or self.white_pieces == 0:
+            return BLACK_PIECE if self.black_pieces > 0 else WHITE_PIECE
+        
+        available_moves = utils.find_available_moves(self.matrix, player_piece, self.mandatory_jumping)
+        if len(available_moves) == 0:
+            if BLACK_PIECE == player_piece:
+                return BLACK_PIECE if self.black_pieces > self.white_pieces else WHITE_PIECE
+
+            return WHITE_PIECE if self.white_pieces > self.black_pieces else BLACK_PIECE
+
+        return None
+
+    def player_play(self, player):
         move = player.get_action()
 
-        print('mcts_move', move)
-        old = [str(move[0]), str(move[1])]
-        new = [str(move[2]), str(move[3])]
+        print(f'move of {player.player}: ', move)
 
-        old_i = old[0]
-        old_j = old[1]
-        new_i = new[0]
-        new_j = new[1]
-
-        move = [int(old_i), int(old_j), int(new_i), int(new_j)]
-
-        utils.make_a_move(self.matrix, int(old_i), int(old_j), int(new_i), int(new_j), "B", 0)
-        for m in range(8):
-            for n in range(8):
-                if self.matrix[m][n][0] == "c" or self.matrix[m][n][0] == "C":
-                    self.computer_pieces += 1
-                elif self.matrix[m][n][0] == "b" or self.matrix[m][n][0] == "B":
-                    self.player_pieces += 1
+        utils.make_move(self.matrix, move, player.player)
+        
 
     @staticmethod
     def calculate_heuristics(board):
@@ -183,7 +195,6 @@ class Checkers:
                     opp += 1
 
         return result + (mine - opp) * 1000
-
 
     def evaluate_states(self):
         t1 = time.time()
@@ -241,7 +252,7 @@ class Checkers:
             current_state.set_value(min_eval)
             return min_eval
 
-    def play(self):
+    def play(self, players):
         print(ansi_cyan + "##### WELCOME TO CHECKERS ####" + ansi_reset)
         print("\nSome basic rules:")
         print("1.You enter the coordinates in the form i,j.")
@@ -253,20 +264,13 @@ class Checkers:
 
         while True:
             self.print_matrix()
-            if self.player_turn is True:
-                print(ansi_cyan + "\nPlayer's turn." + ansi_reset)
-                self.get_player_input()
-            else:
-                print(ansi_cyan + "Computer's turn." + ansi_reset)
-                print("Thinking...")
-                self.evaluate_states()
-            if self.player_pieces == 0:
-                self.print_matrix()
-                print(ansi_red + "You have no pieces left.\nYOU LOSE!" + ansi_reset)
-                exit()
-            elif self.computer_pieces == 0:
-                self.print_matrix()
-                print(ansi_green + "Computer has no pieces left.\nYOU WIN!" + ansi_reset)
-                exit()
 
-            self.player_turn = not self.player_turn
+            for player in players:
+                self.player_play(player)
+
+                self.count_pieces()
+                
+                winner = self.check_winner(player.player)
+                if winner is not None:
+                    self.print_matrix()
+                    return winner
