@@ -84,17 +84,17 @@ def find_black_available_moves(board, mandatory_jumping):
                         available_moves.append([m, n, m - 1, n - 1])
                     if check_moves(board, previous_move, [m - 1, n + 1], BLACK_PIECE):
                         available_moves.append([m, n, m - 1, n + 1])
+                    if check_moves(board, previous_move, [m + 1, n - 1], BLACK_PIECE):
+                        available_moves.append([m, n, m + 1, n - 1])
+                    if check_moves(board, previous_move, [m + 1, n + 1], BLACK_PIECE):
+                        available_moves.append([m, n, m + 1, n + 1])
 
                     if check_jumps(board, previous_move, [m - 1, n - 1], [m - 2, n - 2], BLACK_PIECE):
                         available_jumps.append([m, n, m - 2, n - 2])
                     if check_jumps(board, previous_move, [m - 1, n + 1], [m - 2, n + 2], BLACK_PIECE):
                         available_jumps.append([m, n, m - 2, n + 2])
-                    if check_moves(board, previous_move, [m + 1, n - 1], BLACK_PIECE):
-                        available_moves.append([m, n, m + 1, n - 1])
                     if check_jumps(board, previous_move, [m + 1, n - 1], [m + 2, n - 2], BLACK_PIECE):
                         available_jumps.append([m, n, m + 2, n - 2])
-                    if check_moves(board, previous_move, [m + 1, n + 1], BLACK_PIECE):
-                        available_moves.append([m, n, m + 1, n + 1])
                     if check_jumps(board, previous_move, [m + 1, n + 1], [m + 2, n + 2], BLACK_PIECE):
                         available_jumps.append([m, n, m + 2, n + 2])
 
@@ -125,7 +125,7 @@ def find_white_available_moves(board, mandatory_jumping = True):
                 if check_jumps(board, previous_move, [m + 1, n + 1], [m + 2, n + 2], WHITE_PIECE):
                     available_jumps.append([m, n, m + 2, n + 2])
 
-            elif board[m][n][0] == WHITE_PIECE:
+            elif board[m][n][0] == WHITE_PIECE.upper():
                 if check_moves(board, previous_move, [m + 1, n + 1], WHITE_PIECE):
                     available_moves.append([m, n, m + 1, n + 1])
                 if check_moves(board, previous_move, [m + 1, n - 1], WHITE_PIECE):
@@ -186,7 +186,7 @@ def make_move(board, move, player=BLACK_PIECE):
 
 
 def get_queen_row(player):
-    return 7 if player == WHITE_PIECE else 0
+    return 7 if player.lower() == WHITE_PIECE.lower() else 0
 
 
 def print_board(board):
@@ -204,3 +204,142 @@ def print_board(board):
             j = "     0"
         print(j, end="   ")
     print("\n")
+
+
+
+''' EVALUATION STATE '''
+
+def get_type_score(board, player):
+    score = 0
+    op_player = opponent_player(player)
+    for i in range(8):
+        for j in range(8):
+            piece = board[i][j][0]
+            if piece == player.lower():
+                score += 5
+            elif piece == player.upper():
+                score += 17.5
+            elif piece == op_player.lower():
+                score -= 5
+            elif piece == op_player.upper():
+                score -= 17.5
+    
+    return score
+
+def get_localization_score(board, player):
+    localization_score = 0
+
+    op_player = opponent_player(player)
+    min_idx, max_idx = get_index_region_by_player(op_player)
+
+    # pieces in the opponent area
+    for i in range(min_idx, max_idx + 1):
+        for j in range(8):
+            piece = board[i][j][0]
+            if piece.lower() == player.lower():
+                localization_score += 2
+    
+    # pieces on the side 
+    cols = [0, 7]
+    for col in cols:
+        for i in range(8):
+            piece = board[i][col][0]
+            if piece.lower() == player.lower():
+                localization_score += 2
+
+    # pieces on bottom
+    bottom_line_idx = get_bottom_idx_by_player(player)
+    for j in range(8):
+        piece = board[bottom_line_idx][j][0]
+        if piece.lower() == player.lower():
+            localization_score += 0.5
+    
+    return localization_score
+
+def get_layout_jump_score(board, player):
+    layout_score = 0
+    jump_score = 0
+    for i in range(8):
+        for j in range(8):
+            piece = board[i][j][0]
+            if piece.lower() == player.lower():
+                count = count_pieces_surround(board, i, j, player)
+                layout_score += (count * 0.3)
+                available_jumps = get_available_jumps(board, i, j, player)
+                if len(available_jumps) > 0:
+                    for jump in available_jumps:
+                        if jump[-1]:
+                            jump_score += 8.75
+                        else:
+                            jump_score += 2.5
+
+    return layout_score, jump_score 
+
+
+def count_pieces_surround(board, line, col, player):
+    count = 0
+    offsets = [(-1, -1), (-1, 1), (1, 1), (1, -1)]
+
+    for offset in offsets:
+        exist = exist_piece(board, line + offset[0], col + offset[1], player)
+        if exist:
+            count += 1
+    
+    return count       
+
+def exist_piece(board, line, col, player):
+    if line > 7 or line < 0 or col < 0 or col > 7:
+        return False
+
+    return board[line][col].lower() == player.lower()
+
+def get_index_region_by_player(player):
+    return (0, 3) if player.lower() == WHITE_PIECE.lower() else (4, 7)
+
+def get_bottom_idx_by_player(player):
+    return 7 if player.lower() == BLACK_PIECE.lower() else 0
+
+def get_available_jumps(board, m, n, player):
+    available_jumps = []
+    
+    previous_move = [m, n]
+    if player.lower() == WHITE_PIECE.lower():
+        if player.islower():
+            if check_jumps(board, previous_move, [m + 1, n - 1], [m + 2, n - 2], WHITE_PIECE):
+                available_jumps.append([m + 2, n - 2, is_queen(board, m+1, n-1)])
+            if check_jumps(board, previous_move, [m + 1, n + 1], [m + 2, n + 2], WHITE_PIECE):
+                available_jumps.append([m + 2, n + 2, is_queen(board, m+1, n+1)])
+        else:
+            if check_jumps(board, previous_move, [m + 1, n - 1], [m + 2, n - 2], WHITE_PIECE):
+                available_jumps.append([m + 2, n - 2, is_queen(board, m+1, n-1)])
+            if check_jumps(board, previous_move, [m - 1, n - 1], [m - 2, n - 2], WHITE_PIECE):
+                available_jumps.append([m - 2, n - 2, is_queen(board, m-1, n-1)])
+            if check_jumps(board, previous_move, [m - 1, n + 1], [m - 2, n + 2], WHITE_PIECE):
+                available_jumps.append([m - 2, n + 2, is_queen(board, m-1, n+1)])
+            if check_jumps(board, previous_move, [m + 1, n + 1], [m + 2, n + 2], WHITE_PIECE):
+                available_jumps.append([m + 2, n + 2, is_queen(board, m+1, n+1)])
+    else:
+        if player.islower():
+            if check_jumps(board, previous_move, [m - 1, n - 1], [m - 2, n - 2], BLACK_PIECE):
+                available_jumps.append([m - 2, n - 2, is_queen(board, m-1, n-1)])
+            if check_jumps(board, previous_move, [m - 1, n + 1], [m - 2, n + 2], BLACK_PIECE):
+                available_jumps.append([m - 2, n + 2, is_queen(board, m-1, n+1)])
+        else:
+            if check_jumps(board, previous_move, [m - 1, n - 1], [m - 2, n - 2], BLACK_PIECE):
+                available_jumps.append([m - 2, n - 2, is_queen(board, m-1, n-1)])
+            if check_jumps(board, previous_move, [m - 1, n + 1], [m - 2, n + 2], BLACK_PIECE):
+                available_jumps.append([m - 2, n + 2, is_queen(board, m-1, n+1)])
+            if check_jumps(board, previous_move, [m + 1, n - 1], [m + 2, n - 2], BLACK_PIECE):
+                available_jumps.append([m + 2, n - 2, is_queen(board, m+1, n-1)])
+            if check_jumps(board, previous_move, [m + 1, n + 1], [m + 2, n + 2], BLACK_PIECE):
+                available_jumps.append([m + 2, n + 2, is_queen(board, m+1, n+1)])
+
+    return available_jumps
+
+def is_queen(board, m, n):
+    piece = board[m][n]
+    if piece.lower() == WHITE_PIECE.lower():
+        return piece == WHITE_PIECE.upper()
+    
+    return piece == BLACK_PIECE.upper()
+

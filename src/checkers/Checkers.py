@@ -64,7 +64,6 @@ class Node:
     def set_parent(self, parent):
         self.parent = parent
 
-
 class Checkers:
     def __init__(self):
         self.matrix = [[], [], [], [], [], [], [], []]
@@ -77,20 +76,20 @@ class Checkers:
         for row in self.matrix:
             for i in range(8):
                 row.append(EMPTY_SQUARE)
-        self.position_computer()
-        self.position_player()
+        self.position_black()
+        self.position_white()
 
-    def position_computer(self):
+    def position_white(self):
         for i in range(3):
             for j in range(8):
                 if (i + j) % 2 == 1:
-                    self.matrix[i][j] = ("c" + str(i) + str(j))
+                    self.matrix[i][j] = (WHITE_PIECE.lower() + str(i) + str(j))
 
-    def position_player(self):
+    def position_black(self):
         for i in range(5, 8, 1):
             for j in range(8):
                 if (i + j) % 2 == 1:
-                    self.matrix[i][j] = ("b" + str(i) + str(j))
+                    self.matrix[i][j] = (BLACK_PIECE.lower() + str(i) + str(j))
 
     def print_matrix(self):
         i = 0
@@ -119,27 +118,16 @@ class Checkers:
                 elif self.matrix[m][n][0] == WHITE_PIECE or self.matrix[m][n][0] == WHITE_PIECE.lower():
                     self.white_pieces += 1
 
-    def check_available_moves(self, player_piece):
-        available_moves = utils.find_available_moves(self.matrix, player_piece, self.mandatory_jumping)
-        if len(available_moves) == 0:
-            check_lose = self.white_pieces > self.black_pieces if player_piece == WHITE_PIECE else self.black_pieces > self.white_pieces
-
-            if check_lose:
-                print(ansi_red + f"You have no moves left, and you have fewer pieces. {player_piece} LOSE!" + ansi_reset)
-                exit()
-            else:
-                print(ansi_yellow + "You have no available moves.\nGAME ENDED!" + ansi_reset)
-                exit()
-
-    def check_winner(self, player_piece):
+    def check_winner(self):
         if self.black_pieces == 0 or self.white_pieces == 0:
             return BLACK_PIECE if self.black_pieces > 0 else WHITE_PIECE
         
-        available_moves = utils.find_available_moves(self.matrix, player_piece, self.mandatory_jumping)
+        available_moves = utils.find_available_moves(self.matrix, BLACK_PIECE, self.mandatory_jumping)
         if len(available_moves) == 0:
-            if BLACK_PIECE == player_piece:
-                return BLACK_PIECE if self.black_pieces > self.white_pieces else WHITE_PIECE
+            return BLACK_PIECE if self.black_pieces > self.white_pieces else WHITE_PIECE
 
+        available_moves = utils.find_available_moves(self.matrix, WHITE_PIECE, self.mandatory_jumping)
+        if len(available_moves) == 0:
             return WHITE_PIECE if self.white_pieces > self.black_pieces else BLACK_PIECE
 
         return None
@@ -270,7 +258,7 @@ class Checkers:
 
                 self.count_pieces()
                 
-                winner = self.check_winner(player.player)
+                winner = self.check_winner()
                 if winner is not None:
                     self.print_matrix()
                     return winner

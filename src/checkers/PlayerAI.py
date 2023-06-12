@@ -1,8 +1,10 @@
 from State import State
+from Algorithms.HAlfaBeta import HAlfaBeta
 from Algorithms.MonteCarlo import MCTS 
 from Algorithms.Random import Random
 
 RANDOM = 0
+PAB_3 = 1
 MCTS_500 = 5
 
 class Player():
@@ -16,6 +18,8 @@ class Player():
 
         if self.type == 0:
             action = self.random()
+        elif self.type == PAB_3:
+            action = self.h_alfa_beta(3)
         elif self.type == MCTS_500:
             action = self.mcts(500)
         
@@ -25,6 +29,15 @@ class Player():
         move = Random.get_move(self.board, self.player)
 
         return move
+
+    def h_alfa_beta(self, depth):
+        state = State(self.board)
+
+        h_alfa_beta = HAlfaBeta(state, self.player, depth)
+
+        action = h_alfa_beta.search()
+
+        return action
 
     def mcts(self, simulations):
         state = State(self.board)

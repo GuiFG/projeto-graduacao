@@ -29,5 +29,17 @@ class State:
             return 1
         
         return -1
-        
-        
+    
+    def evaluation(self, player):
+        player_score = self.evaluation_by_player(player)
+        op_score = self.evaluation_by_player(opponent_player(player))
+
+        return player_score - op_score
+
+
+    def evaluation_by_player(self, player):
+        type_score = get_type_score(self.board, player)
+        localization_score = get_localization_score(self.board, player)
+        layout_score, jump_score = get_layout_jump_score(self.board, player)
+
+        return type_score + localization_score + layout_score + jump_score 
