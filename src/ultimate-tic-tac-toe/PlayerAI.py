@@ -1,6 +1,7 @@
 from State import State
-from Algorithms.MonteCarlo import MonteCarlo
 from Algorithms.HAlfaBeta import HAlfaBeta
+from Algorithms.MonteCarlo import MonteCarlo
+from Algorithms.RaveMcts import RaveMcts
 import random
 
 RANDOM = 0
@@ -12,6 +13,7 @@ MCTS_500 = 5
 MCTS_1000 = 6
 MCTS_5000 = 7
 MCTS_10000 = 8 
+RAVE = 9
 
 class Player():
     def __init__(self, type, player):
@@ -41,6 +43,8 @@ class Player():
             action = self.mcts(state, 5000)
         elif self.type == MCTS_10000:
             action = self.mcts(state, 10000)
+        elif self.type == RAVE:
+            action = self.rave_mcts(state, 100)
        
         return action
 
@@ -60,5 +64,12 @@ class Player():
         mcts = MonteCarlo(state, self.player)
         mcts.run(simulations)
         action = mcts.next_move()
+
+        return action
+    
+    def rave_mcts(self, state, simulations):
+        rave_mcts = RaveMcts(state, self.player)
+        rave_mcts.run(simulations)
+        action = rave_mcts.next_move()
 
         return action
