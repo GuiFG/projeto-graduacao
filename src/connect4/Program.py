@@ -105,7 +105,7 @@ def main(config):
 	total = config['game_total']
 	seed = config['seed']
 
-	players = get_players()
+	players = get_players(99)
 	matchups = get_matchups(players)
 
 	start_tournement = datetime.now()

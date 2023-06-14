@@ -1,27 +1,31 @@
 import math
 import random
 import copy 
-from utils import opponent
+from utils import opponent_player, get_next_open_row
 
 class Node:
-    def __init__(self, state, player, parent=None, action=None):
+    def __init__(self, state, player, parent=None, action=None, move=None):
         self.state = state
         self.player = player
         self.parent = parent
         self.action = action
-        self.move = Node.serialize_move(action)
+        self.move = move if move is not None else '99'
         self.children = []
         
         self.visits = 0
         self.utility = 0
 
-    def serialize_move(action):
-        return ''.join([str(a) for a in action]) if action is not None else '0'
+    def serialize_move(row, col):
+        return str(row) + str(col)
 
     def expand(self, amaf_visits, amaf_reward):
         for action in self.state.actions():
-            next_state = self.state.result(action, opponent(self.player))
-            child = Node(next_state, opponent(self.player), self, action)
+            next_state = self.state.result(action, opponent_player(self.player))
+            
+            row = get_next_open_row(self.state.board, action)
+            move  = Node.serialize_move(row, action)
+            
+            child = Node(next_state, opponent_player(self.player), self, action, move)
             self.children.append(child)
 
             if child.move not in amaf_visits:
@@ -57,7 +61,7 @@ class Node:
 
 class RaveMcts:
     def __init__(self, state, player):
-        self.root = Node(state, opponent(player))
+        self.root = Node(state, opponent_player(player))
         self.amaf_visits = {}
         self.amaf_reward = {}
 
@@ -82,7 +86,7 @@ class RaveMcts:
 
         while not copy_state.is_terminal():
             action = random.choice(copy_state.actions())
-            copy_player = opponent(copy_player)
+            copy_player = opponent_player(copy_player)
             copy_state = copy_state.result(action, copy_player)
 
         return copy_state.utility(copy_player), copy_player

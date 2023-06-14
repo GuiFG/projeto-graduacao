@@ -120,7 +120,7 @@ def game(id, player1, player2):
 	round = 1
 	while not game_over:
 		if turn == PLAYER and not game_over:
-			metric = get_metrics_game(id)
+			metric = get_metrics_game(id, round)
 			metric['player'] = player1['name']
 			metric['round'] = round
 			total_empty_cells = count_empty_cells(board)
@@ -150,7 +150,7 @@ def game(id, player1, player2):
 		
 		## Ask for Player 2 Input
 		if turn == OPPONENT and not game_over:
-			metric = get_metrics_game(id)
+			metric = get_metrics_game(id, round)
 			metric['player'] = player2['name']
 			metric['round'] = round
 			total_empty_cells = count_empty_cells(board)
