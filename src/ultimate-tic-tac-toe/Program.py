@@ -1,6 +1,4 @@
-import os
 from datetime import datetime
-import time
 
 from colorama import Fore, Style
 from bigBoard import BigBoard
@@ -15,7 +13,6 @@ game_counter = 0
 
 
 def evaluate_state(board):
-	board.print()
 	curState = board.getState()
 	if curState[0] == 'W':
 		return curState[1]
@@ -49,9 +46,7 @@ def game(id, players):
 			
 			p = Player(player['id'], symbol)
 			game_metric = get_game_metrics(id, player['name'], round)
-			print(f"It is P{idx+1}'s turn now.")
 			prevMove, time = execute_move(board, p, symbol, prevMove)
-			print(f"Move played by p{idx+1}:", prevMove)
 
 			game_metric['time'] = time 
 			game_metrics.append(game_metric)
@@ -79,7 +74,9 @@ def run_match(match, total):
 
 	print(player1['name'] + ' X ' + player2['name'])
 	for i in range(total):
-		match_metrics = get_match_metrics(game_counter + 1, player1, player2, f'{i+1}/{total}')
+		count_matchs = f'{i+1}/{total}'
+		print(count_matchs)
+		match_metrics = get_match_metrics(game_counter + 1, player1, player2, count_matchs)
 		game_start = datetime.now()
 		winner, game_metric = game(game_counter, [player1, player2])
 		game_end = datetime.now() - game_start
@@ -97,9 +94,6 @@ def main(config):
 	seed = config['seed']
 	set_data_idx = config['set_data_idx']
 
-	print(Fore.RED + "Ultimate TicTacToe")
-	print(Style.RESET_ALL)
-
 	players = get_players(set_data_idx)
 	matchups = get_matchups(players)
 
@@ -107,9 +101,6 @@ def main(config):
 	for match in matchups:
 		random.seed(seed)
 		run_match(match, total)
-
-		time.sleep(2)
-		os.system('cls' if os.name == 'nt' else 'clear')
 	
 	time_elapsed = datetime.now() - start_tournement
 	print(time_elapsed)
