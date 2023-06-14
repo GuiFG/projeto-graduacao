@@ -58,7 +58,8 @@ def move(board, mode):
         #move = Player.mcts_minimax(board.grid, player)
         #move = Player.minimax(board.grid, player)
         #move = Player.alfa_beta(board.grid, player)
-        move = Player.hminimax(board.grid, player)
+        #move = Player.hminimax(board.grid, player)
+        move = Player.rave_mcts(board.grid, player)
     else:
         move = best_move(board.grid, DEFAULT_MAX, DEFAULT_MIN)
 

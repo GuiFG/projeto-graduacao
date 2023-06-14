@@ -5,6 +5,7 @@ from Algorithms.HAlfaBeta import HAlfaBeta
 from Algorithms.MonteCarlo import MCTS
 from Algorithms.MonteCarloMinimax import MCTSMinimax
 from Algorithms.HMinimax import HMinimax
+from Algorithms.RaveMcts import RaveMcts
 
 
 class Player():
@@ -43,7 +44,7 @@ class Player():
     def mcts(board, player):
         state = State(board)
         mcts = MCTS(state, player)
-        mcts.run(1000)
+        mcts.run(500)
         action = mcts.next_move()
 
         return action
@@ -54,5 +55,13 @@ class Player():
         mcts_minimax.run(1000)
         action = mcts_minimax.next_move()
 
-        return action 
+        return action
+
+    def rave_mcts(board, player):
+        state = State(board)
+        rave_mcts = RaveMcts(state, player)
+        rave_mcts.run(100)
+        action = rave_mcts.next_move()
+
+        return action
 
