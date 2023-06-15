@@ -7,6 +7,7 @@ from Algorithms.HMinimax import HMinimax
 from Algorithms.HAlfaBeta import HAlfaBeta
 from Algorithms.RaveMcts import RaveMcts
 
+RANDOM = 0
 PAB_3 = 1
 PAB_4 = 2
 PAB_5 = 3
@@ -27,7 +28,9 @@ class Player():
     def get_action(self):
         action = None 
 
-        if self.type == PAB_3:
+        if self.type == RANDOM:
+            action = self.random()
+        elif self.type == PAB_3:
             action = self.h_alfa_beta(3)
         elif self.type == PAB_4:
             action = self.h_alfa_beta(4)

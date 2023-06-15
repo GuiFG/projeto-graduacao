@@ -77,7 +77,6 @@ class RaveMcts:
 
             reward, player = self.simulate(node.state, node.player)
             node.backpropagate(reward, player, self.amaf_visits, self.amaf_reward)
-            print(i, end='\r')
 
     def simulate(self, state, player):
         copy_state = copy.deepcopy(state)

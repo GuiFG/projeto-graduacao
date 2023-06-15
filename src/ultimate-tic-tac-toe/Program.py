@@ -75,7 +75,7 @@ def run_match(match, total):
 	print(player1['name'] + ' X ' + player2['name'])
 	for i in range(total):
 		count_matchs = f'{i+1}/{total}'
-		print(count_matchs)
+		print(f'match {count_matchs}')
 		match_metrics = get_match_metrics(game_counter + 1, player1, player2, count_matchs)
 		game_start = datetime.now()
 		winner, game_metric = game(game_counter, [player1, player2])
@@ -98,9 +98,14 @@ def main(config):
 	matchups = get_matchups(players)
 
 	start_tournement = datetime.now()
+	count = 0
 	for match in matchups:
+		print(f'matchup {count+1}/{len(matchups)}')
 		random.seed(seed)
 		run_match(match, total)
+		print()
+
+		count += 1
 	
 	time_elapsed = datetime.now() - start_tournement
 	print(time_elapsed)
