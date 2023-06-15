@@ -53,8 +53,6 @@ def game(id, players):
 			metric['time'] = play_player(board, player['id'], player_piece)
 			metric_game.append(metric)
 
-			# print_board(board)
-
 			if winning_move(board, player_piece):
 				player_win = player_piece
 				game_over = True
@@ -104,8 +102,9 @@ def run_match(match, total):
 def main(config):
 	total = config['game_total']
 	seed = config['seed']
+	set_data_idx = config['set_data_idx']
 
-	players = get_players(99)
+	players = get_players(set_data_idx)
 	matchups = get_matchups(players)
 
 	start_tournement = datetime.now()
@@ -116,8 +115,8 @@ def main(config):
 	time_elapsed = datetime.now() - start_tournement
 	print(time_elapsed)
 	
-	save_metrics_game(metrics_game)
-	save_metrics_matchup(metrics_matchup)
+	save_metrics_game(metrics_game, set_data_idx)
+	save_metrics_matchup(metrics_matchup, set_data_idx)
 		
 if __name__ == "__main__":
 	config = get_json('config.json')
