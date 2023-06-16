@@ -72,6 +72,9 @@ class Game:
         self.mandatory_jumping = True
         self.positions = []
         self.max_repeat = 3
+        self.max_no_capture = 40
+        self.count_no_capture = 0
+
 
         for row in self.matrix:
             for i in range(8):
@@ -124,6 +127,14 @@ class Game:
             for j in range(8):
                 self.matrix_state += self.matrix[i][j]
 
+    def check_captures(self, capture):
+        self.count_no_capture += 1
+
+        if capture:
+            self.count_no_capture = 0
+        
+        return self.count_no_capture > self.max_no_capture
+
     def player_most_pieces(self):
         if self.black_pieces > self.white_pieces:
             return BLACK_PIECE
@@ -173,7 +184,7 @@ class Game:
 
         print(f'move of {player.player}: ', move)
 
-        utils.make_move(self.matrix, move, player.player)
+        return utils.make_move(self.matrix, move, player.player)
 
     @staticmethod
     def calculate_heuristics(board):
@@ -288,15 +299,19 @@ class Game:
         while True:
             random.seed(42)
             for player in players:
-                self.player_play(player)
+                capture = self.player_play(player)
+                
                 self.print_matrix()
-
                 self.count_pieces()
-
+                
                 winner = self.check_winner()
                 if winner is not None:
                     return winner
                 
+                no_capture = self.check_captures(capture)
+                if no_capture:
+                    return EMPTY_SQUARE
+
             draw = self.check_draw()
             if draw:
                 return EMPTY_SQUARE

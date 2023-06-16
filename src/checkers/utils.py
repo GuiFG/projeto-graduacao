@@ -162,27 +162,33 @@ def make_a_move(board, old_i, old_j, new_i, new_j, big_letter, queen_row):
     letter = board[old_i][old_j][0]
     i_difference = old_i - new_i
     j_difference = old_j - new_j
+
+    capture = False
+
     if i_difference == -2 and j_difference == 2:
         board[old_i + 1][old_j - 1] = EMPTY_SQUARE
-
+        capture = True
     elif i_difference == 2 and j_difference == 2:
         board[old_i - 1][old_j - 1] = EMPTY_SQUARE
-
+        capture = True
     elif i_difference == 2 and j_difference == -2:
         board[old_i - 1][old_j + 1] = EMPTY_SQUARE
-
+        capture = True
     elif i_difference == -2 and j_difference == -2:
         board[old_i + 1][old_j + 1] = EMPTY_SQUARE
+        capture = True
 
     if new_i == queen_row:
         letter = big_letter
     board[old_i][old_j] = "---"
     board[new_i][new_j] = letter + str(new_i) + str(new_j)
 
+    return capture
+
 def make_move(board, move, player=BLACK_PIECE):
     queen_row = get_queen_row(player)
 
-    make_a_move(board, move[0], move[1], move[2], move[3], player.upper(), queen_row)
+    return make_a_move(board, move[0], move[1], move[2], move[3], player.upper(), queen_row)
 
 
 def get_queen_row(player):
