@@ -208,15 +208,25 @@ def print_board(board):
         print(j, end="   ")
     print("\n")
 
+def count_pieces_by_player(matrix, player):
+    count_pieces = 0
+    for m in range(8):
+        for n in range(8):
+            if matrix[m][n][0].lower() == player.lower():
+                count_pieces += 1
+    
+    return count_pieces
+
+
 def count_pieces(matrix):
     black_pieces = 0
     white_pieces = 0
 
     for m in range(8):
         for n in range(8):
-            if matrix[m][n][0] == BLACK_PIECE or matrix[m][n][0] == BLACK_PIECE.lower():
+            if matrix[m][n][0] == BLACK_PIECE.upper() or matrix[m][n][0] == BLACK_PIECE.lower():
                 black_pieces += 1
-            elif matrix[m][n][0] == WHITE_PIECE or matrix[m][n][0] == WHITE_PIECE.lower():
+            elif matrix[m][n][0] == WHITE_PIECE.upper() or matrix[m][n][0] == WHITE_PIECE.lower():
                 white_pieces += 1
 
     return black_pieces, white_pieces
@@ -253,7 +263,7 @@ def convert_matrix_to_state(matrix):
     
     return matrix_state
 
-def check_draw(matrix, positions):
+def update_positions(matrix, positions):
     matrix_state = convert_matrix_to_state(matrix)
 
     total_positions = MAX_POSITION_REPEAT * 2
@@ -262,6 +272,7 @@ def check_draw(matrix, positions):
 
     positions.append(matrix_state)
 
+def check_draw(positions):
     counter = dict((p, positions.count(p)) for p in positions)
 
     for value in counter.values():
@@ -269,8 +280,6 @@ def check_draw(matrix, positions):
             return True
 
     return False
-
-
 
 ''' EVALUATION STATE '''
 

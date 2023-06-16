@@ -254,7 +254,8 @@ class Game:
                 if no_capture:
                     return EMPTY_SQUARE
 
-            draw = utils.check_draw(self.matrix, self.positions)
+            utils.update_positions(self.matrix, self.positions)
+            draw = utils.check_draw(self.positions)
             if draw:
                 return EMPTY_SQUARE
 
@@ -262,7 +263,7 @@ class Game:
 if __name__ == '__main__':
     checkers = Game()
 
-    player1 = Player(checkers.matrix, "B", 2)
+    player1 = Player(checkers.matrix, "B", 6)
     player2 = Player(checkers.matrix, "C", 0)
 
     winner = checkers.play([player1, player2])

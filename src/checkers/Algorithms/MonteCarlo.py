@@ -77,7 +77,7 @@ class MCTS:
             copy_player = opponent_player(copy_player)
             action = random.choice(copy_state.actions(copy_player))
             copy_state = copy_state.result(action, copy_player)
-            
+        
         return copy_state.utility(copy_player), copy_player
 
     def next_move(self):
