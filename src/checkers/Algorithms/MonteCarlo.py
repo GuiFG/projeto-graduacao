@@ -65,7 +65,6 @@ class MCTS:
 
             reward, player = self.simulate(node.state, node.player)
             node.backpropagate(reward, player)
-            print(i, end='\r')
 
         delta = datetime.now() - now 
         print(f'levou: {delta.total_seconds()}s')

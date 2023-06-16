@@ -65,7 +65,6 @@ class Game:
     def __init__(self):
         self.matrix = [[], [], [], [], [], [], [], []]
         self.matrix_state = ''
-        self.turn = True
         self.black_pieces = 12  # B
         self.white_pieces = 12  # C
         self.available_moves = []
@@ -109,73 +108,7 @@ class Game:
                 j = "     0"
             print(j, end="   ")
         print("\n")
-
-    def count_pieces(self):
-        self.black_pieces = 0
-        self.white_pieces = 0
-
-        for m in range(8):
-            for n in range(8):
-                if self.matrix[m][n][0] == BLACK_PIECE or self.matrix[m][n][0] == BLACK_PIECE.lower():
-                    self.black_pieces += 1
-                elif self.matrix[m][n][0] == WHITE_PIECE or self.matrix[m][n][0] == WHITE_PIECE.lower():
-                    self.white_pieces += 1
-
-    def convert_matrix_to_state(self):
-        self.matrix_state = ''
-        for i in range(8):
-            for j in range(8):
-                self.matrix_state += self.matrix[i][j]
-
-    def check_captures(self, capture):
-        self.count_no_capture += 1
-
-        if capture:
-            self.count_no_capture = 0
-        
-        return self.count_no_capture > self.max_no_capture
-
-    def player_most_pieces(self):
-        if self.black_pieces > self.white_pieces:
-            return BLACK_PIECE
-        elif self.white_pieces > self.black_pieces:
-            return WHITE_PIECE
-        else:
-            return EMPTY_SQUARE
-
-    def check_draw(self):
-        self.convert_matrix_to_state()
-
-        total_positions = self.max_repeat * 2
-        if len(self.positions) > total_positions:
-            self.positions.pop(0)
-
-        self.positions.append(self.matrix_state)
-
-        counter = dict((p, self.positions.count(p)) for p in self.positions)
-
-        for value in counter.values():
-           if value > self.max_repeat:
-               return True
-
-        return False
-
-    def check_winner(self):
-        if self.black_pieces == 0 or self.white_pieces == 0:
-            return self.player_most_pieces()
-
-        available_moves = utils.find_available_moves(
-            self.matrix, BLACK_PIECE, self.mandatory_jumping)
-        if len(available_moves) == 0:
-            return self.player_most_pieces()
-
-        available_moves = utils.find_available_moves(
-            self.matrix, WHITE_PIECE, self.mandatory_jumping)
-        if len(available_moves) == 0:
-            return self.player_most_pieces()
-
-        return None
-
+ 
     def player_play(self, player):
         if player.player == WHITE_PIECE:
             move = self.evaluate_states()
@@ -185,6 +118,15 @@ class Game:
         print(f'move of {player.player}: ', move)
 
         return utils.make_move(self.matrix, move, player.player)
+
+    def check_captures(self, capture):
+        self.count_no_capture += 1
+
+        if capture:
+            self.count_no_capture = 0
+        
+        return self.count_no_capture > self.max_no_capture
+
 
     @staticmethod
     def calculate_heuristics(board):
@@ -302,9 +244,9 @@ class Game:
                 capture = self.player_play(player)
                 
                 self.print_matrix()
-                self.count_pieces()
+                black_pieces, white_pieces = utils.count_pieces(self.matrix)
                 
-                winner = self.check_winner()
+                winner = utils.check_winner(self.matrix, black_pieces, white_pieces)
                 if winner is not None:
                     return winner
                 
@@ -312,7 +254,7 @@ class Game:
                 if no_capture:
                     return EMPTY_SQUARE
 
-            draw = self.check_draw()
+            draw = utils.check_draw(self.matrix, self.positions)
             if draw:
                 return EMPTY_SQUARE
 

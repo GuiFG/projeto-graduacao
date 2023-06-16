@@ -3,6 +3,9 @@ BLACK_PIECE = "B"
 WHITE_PIECE = "C"
 EMPTY_SQUARE = "---"
 
+MAX_POSITION_REPEAT = 3
+
+
 def is_terminal_node(board):
     player = BLACK_PIECE
     moves = find_available_moves(board, player)
@@ -61,7 +64,6 @@ def check_jumps(board, previous_move, via_move, move, player_piece):
     
     return True
 
-
 def find_black_available_moves(board, mandatory_jumping):
         available_moves = []
         available_jumps = []
@@ -106,7 +108,6 @@ def find_black_available_moves(board, mandatory_jumping):
                 return available_moves
             else:
                 return available_jumps
-
 
 def find_white_available_moves(board, mandatory_jumping = True):
     available_moves = []
@@ -153,11 +154,9 @@ def find_white_available_moves(board, mandatory_jumping = True):
         else:
             return available_jumps
 
-
 def find_available_moves(board, player_piece, mandatory_jumping = True):
     return find_black_available_moves(board, mandatory_jumping) if player_piece.lower() == BLACK_PIECE.lower() else find_white_available_moves(board, mandatory_jumping)
     
-
 def make_a_move(board, old_i, old_j, new_i, new_j, big_letter, queen_row):
     letter = board[old_i][old_j][0]
     i_difference = old_i - new_i
@@ -190,10 +189,8 @@ def make_move(board, move, player=BLACK_PIECE):
 
     return make_a_move(board, move[0], move[1], move[2], move[3], player.upper(), queen_row)
 
-
 def get_queen_row(player):
     return 7 if player.lower() == WHITE_PIECE.lower() else 0
-
 
 def print_board(board):
     i = 0
@@ -210,6 +207,68 @@ def print_board(board):
             j = "     0"
         print(j, end="   ")
     print("\n")
+
+def count_pieces(matrix):
+    black_pieces = 0
+    white_pieces = 0
+
+    for m in range(8):
+        for n in range(8):
+            if matrix[m][n][0] == BLACK_PIECE or matrix[m][n][0] == BLACK_PIECE.lower():
+                black_pieces += 1
+            elif matrix[m][n][0] == WHITE_PIECE or matrix[m][n][0] == WHITE_PIECE.lower():
+                white_pieces += 1
+
+    return black_pieces, white_pieces
+
+def player_most_pieces(black_pieces, white_pieces):
+        if black_pieces > white_pieces:
+            return BLACK_PIECE
+        elif white_pieces > black_pieces:
+            return WHITE_PIECE
+        else:
+            return EMPTY_SQUARE
+
+def check_winner(matrix, black_pieces, white_pieces, mandatory_jumping=True):
+        if black_pieces == 0 or white_pieces == 0:
+            return player_most_pieces(black_pieces, white_pieces)
+
+        available_moves = find_available_moves(
+            matrix, BLACK_PIECE, mandatory_jumping)
+        if len(available_moves) == 0:
+            return player_most_pieces(black_pieces, white_pieces)
+
+        available_moves = find_available_moves(
+            matrix, WHITE_PIECE, mandatory_jumping)
+        if len(available_moves) == 0:
+            return player_most_pieces(black_pieces, white_pieces)
+
+        return None
+
+def convert_matrix_to_state(matrix):
+    matrix_state = ''
+    for i in range(8):
+        for j in range(8):
+            matrix_state += matrix[i][j]
+    
+    return matrix_state
+
+def check_draw(matrix, positions):
+    matrix_state = convert_matrix_to_state(matrix)
+
+    total_positions = MAX_POSITION_REPEAT * 2
+    if len(positions) > total_positions:
+        positions.pop(0)
+
+    positions.append(matrix_state)
+
+    counter = dict((p, positions.count(p)) for p in positions)
+
+    for value in counter.values():
+        if value > MAX_POSITION_REPEAT:
+            return True
+
+    return False
 
 
 
@@ -280,7 +339,6 @@ def get_layout_jump_score(board, player):
                             jump_score += 2.5
 
     return layout_score, jump_score 
-
 
 def count_pieces_surround(board, line, col, player):
     count = 0
