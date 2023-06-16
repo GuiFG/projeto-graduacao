@@ -5,6 +5,7 @@ from Algorithms.Random import Random
 
 RANDOM = 0
 PAB_3 = 1
+PAB_4 = 2
 MCTS_500 = 5
 
 class Player():
@@ -20,6 +21,8 @@ class Player():
             action = self.random()
         elif self.type == PAB_3:
             action = self.h_alfa_beta(3)
+        elif self.type == PAB_4:
+            action = self.h_alfa_beta(4)
         elif self.type == MCTS_500:
             action = self.mcts(500)
         
