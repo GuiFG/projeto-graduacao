@@ -4,7 +4,7 @@ from utils import wins, opponent, empty_cells, count_player
 class State:
     def __init__(self, grid):
         self.grid = grid
-    
+
     def is_terminal(self):
         return wins(self.grid, 'X') or wins(self.grid, '0') or len(empty_cells(self.grid)) == 0
 
@@ -27,9 +27,12 @@ class State:
         if wins(self.grid, player):
             return 1 
         
-        return -1 if wins(self.grid, opponent(player)) else 0
+        if wins(self.grid, opponent(player)): 
+            return -1
+        
+        return 0.5 if self.is_terminal() else 0
+        
 
-       
     def evaluation(self, player):
         score = 0
         op = opponent(player)
@@ -78,5 +81,25 @@ class State:
             score -= 1
 
         return score
+    
+    def get_state_key(self, player):
+        key = ''
+        for line in self.grid:
+            for value in line:
+                if value is not None:
+                    key += value
+                else:
+                    key += '9'
+        
+        return key + player
+
+    @staticmethod
+    def get_action_key(action):
+        return ''.join([str(a) for a in action]) if action is not None else '9'
+    
+    @staticmethod
+    def get_action_from_key(key):
+        return [int(k) for k in key]
+    
     
 

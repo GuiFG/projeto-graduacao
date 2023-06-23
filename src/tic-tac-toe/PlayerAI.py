@@ -6,6 +6,8 @@ from Algorithms.MonteCarlo import MCTS
 from Algorithms.MonteCarloMinimax import MCTSMinimax
 from Algorithms.HMinimax import HMinimax
 from Algorithms.RaveMcts import RaveMcts
+from Algorithms.QLearning import QLearn
+import pickle 
 
 
 class Player():
@@ -64,4 +66,15 @@ class Player():
         action = rave_mcts.next_move()
 
         return action
+    
+    def q_learn(board, player):
+        state = State(board)
+        Q = pickle.load(open("Q_LEARN_TABLE.p", "rb"))
+
+        qlearn = QLearn(state, player, Q)
+
+        move = qlearn.get_move()
+        qlearn.learn(move)
+
+        return move
 

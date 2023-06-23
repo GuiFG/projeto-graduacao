@@ -2,6 +2,7 @@ import math
 import random
 import copy 
 from utils import opponent
+from State import State
 
 class Node:
     def __init__(self, state, player, parent=None, action=None):
@@ -9,14 +10,11 @@ class Node:
         self.player = player
         self.parent = parent
         self.action = action
-        self.move = Node.serialize_move(action)
+        self.move = State.get_action_key(action)
         self.children = []
         
         self.visits = 0
         self.utility = 0
-
-    def serialize_move(action):
-        return ''.join([str(a) for a in action]) if action is not None else '0'
 
     def expand(self, amaf_visits, amaf_reward):
         for action in self.state.actions():
