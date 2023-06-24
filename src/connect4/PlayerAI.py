@@ -6,6 +6,12 @@ from Algorithms.MonteCarlo import MonteCarlo
 from Algorithms.HMinimax import HMinimax
 from Algorithms.HAlfaBeta import HAlfaBeta
 from Algorithms.RaveMcts import RaveMcts
+from Algorithms.QLearning import QLearn
+import json
+
+
+with open('qlearn.json', 'r') as file:
+    Q = json.load(file)
 
 RANDOM = 0
 PAB_3 = 1
@@ -17,6 +23,7 @@ MCTS_1000 = 6
 MCTS_5000 = 7
 MCTS_10000 = 8
 RAVE = 9
+QLEARN = 10
 
 
 class Player():
@@ -48,6 +55,8 @@ class Player():
             action = self.mcts(10000)
         elif self.type == RAVE:
             action = self.rave_mcts(500)
+        elif self.type == QLEARN:
+            action = self.qlearn()
        
         return action
     
@@ -99,3 +108,12 @@ class Player():
         action = rave_mcts.next_move()
 
         return action
+    
+    def qlearn(self):
+        state = State(self.board)
+
+        qlearn = QLearn(state, self.player, Q)
+        move = qlearn.get_move()
+        qlearn.learn(move)
+
+        return move

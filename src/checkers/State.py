@@ -29,9 +29,9 @@ class State:
             return 0
         
         if winner.lower() == player.lower():
-            return count_pieces_by_player(self.board, player)
+            return 1
         
-        return -1 * count_pieces_by_player(self.board, opponent_player(player))   
+        return -1 * count_pieces_by_player(self.board, opponent_player(player))
     
     def evaluation(self, player):
         player_score = self.evaluation_by_player(player)

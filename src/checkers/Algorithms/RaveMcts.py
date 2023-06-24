@@ -9,7 +9,7 @@ class Node:
         self.player = player
         self.parent = parent
         self.action = action
-        self.move = move if move is not None else 'P9999'
+        self.move = move if move is not None else '9999'
         self.children = []
         
         self.visits = 0

@@ -32,7 +32,6 @@ class State:
         
         return 0.5 if self.is_terminal() else 0
         
-
     def evaluation(self, player):
         score = 0
         op = opponent(player)
@@ -95,7 +94,7 @@ class State:
 
     @staticmethod
     def get_action_key(action):
-        return ''.join([str(a) for a in action]) if action is not None else '9'
+        return ''.join([str(a) for a in action]) if action is not None else '99'
     
     @staticmethod
     def get_action_from_key(key):

@@ -4,6 +4,8 @@ import pygame
 import sys
 import math
 
+from time import sleep 
+
 from constants import *
 from utils import *
 from PlayerAI import Player
@@ -182,6 +184,7 @@ def game(id, player1, player2):
 		if not game_over:
 			game_over = not has_empty_cells(board)
 		
+		sleep(1)
 		round += 1
 
 	return player_win, board, metric_game

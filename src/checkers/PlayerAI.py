@@ -11,6 +11,7 @@ PAB_5 = 3
 PAB_6 = 4
 MCTS_500 = 5
 RAVE = 6
+QLEARN = 7
 
 class Player():
     def __init__(self, board, player, type):

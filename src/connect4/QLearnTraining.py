@@ -2,9 +2,10 @@ import copy
 import json
 from Algorithms.QLearning import QLearn
 from State import State
+import numpy as np
+from constants import ROW_COUNT, COLUMN_COUNT
 
-
-players = ['X', '0']
+players = [1, 2]
 
 def play(qlearn, state):
     turn = 0
@@ -19,7 +20,7 @@ def play(qlearn, state):
         turn = (turn + 1) % 2
 
 def train():
-    start_game = [[None, None, None], [None, None, None], [None, None, None]]
+    start_game = np.zeros((ROW_COUNT,COLUMN_COUNT))
     start_state = State(start_game)
 
     qlearn = QLearn(learn_active=True, epsilon=0.8)
@@ -27,7 +28,7 @@ def train():
     percentenge = 0.25
     count = 0
 
-    N_episodes = 10000 * 10
+    N_episodes = 10000 * 30
     for episodes in range(N_episodes):
         play(qlearn, copy.deepcopy(start_state))
         

@@ -38,17 +38,18 @@ def is_valid_location(board, col):
 	return board[ROW_COUNT-1][col] == 0
 
 def drop_piece(board, row, col, piece):
-	board[row][col] = piece
+    board[row][col] = piece
 
 def is_terminal_node(board):
 	return winning_move(board, PLAYER_PIECE) or winning_move(board, OPPONENT_PIECE) or len(get_valid_locations(board)) == 0
 
 def get_valid_locations(board):
-	valid_locations = []
-	for col in range(COLUMN_COUNT):
-		if is_valid_location(board, col):
-			valid_locations.append(col)
-	return valid_locations
+    valid_locations = []
+    for col in range(COLUMN_COUNT):
+        if is_valid_location(board, col):
+            valid_locations.append(col)
+
+    return valid_locations
             
 def opponent_player(piece):
     if piece == 1:

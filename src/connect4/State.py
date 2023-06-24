@@ -24,7 +24,13 @@ class State:
         if winning_move(self.board, player):
             return 1
         
-        return -1 if winning_move(self.board, opponent_player(player)) else 0
+        if winning_move(self.board, opponent_player(player)):
+            return -1
+        
+        if self.is_terminal():
+            return 0.5
+
+        return 0
     
     def evaluation(self, player):
         score = 0
@@ -87,3 +93,23 @@ class State:
 
         return score
 
+    def get_state_key(self, player):
+        key = ''
+        for line in self.board:
+            for value in line:
+                value = str(int(value))
+                if value is not None and value != '0':
+                    key += value
+                else:
+                    key += '9'
+        
+        return key + str(player)
+
+    def get_action_key(self, action):
+        row = get_next_open_row(self.board, action)
+
+        return str(row) + str(action)
+
+    @staticmethod
+    def get_action_from_key(key):
+        return int(key[1])
