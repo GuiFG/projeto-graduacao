@@ -1,5 +1,6 @@
 import Metrics
 import matplotlib.pyplot as plt 
+import json
 
 DIRNAME = "graphics/"
 
@@ -16,6 +17,12 @@ class Generator:
 
         plt.savefig(DIRNAME + 'efetividade.pdf', bbox_inches='tight')
 
+    @staticmethod
+    def save_result(result):
+        with open(DIRNAME + 'resultado.json', 'w') as f:
+            data = json.dumps(result)
+            f.write(data)
+
 
 def count_total_wins_player(matchups, player):
     count = 0
@@ -25,6 +32,15 @@ def count_total_wins_player(matchups, player):
     
     return count
 
+def get_matchups_of_comb(matchups, combination):
+    matchups_comb = []
+    for matchup in matchups:
+        if matchup['player1'] == combination[0] or matchup['player2'] == combination[0]:
+            if matchup['player1'] == combination[1] or matchup['player2'] == combination[1]:
+                matchups_comb.append(matchup)
+    
+    return matchups_comb
+
 def get_matchups_of_player(matchups, player):
     matchups_player = []
     for matchup in matchups:
@@ -33,7 +49,27 @@ def get_matchups_of_player(matchups, player):
     
     return matchups_player
 
-def generate_effectiveness_table(matchups, players):
+
+def generate_result_matchups(matchups, players):
+    player_combinations = Metrics.get_matchups(players, True, False)
+
+    results = []
+    for combination in player_combinations:
+        matchups_combination = get_matchups_of_comb(matchups, combination)
+        total = len(matchups_combination)
+
+        player1 = combination[0]
+        player2 = combination[1]
+        player1_wins = count_total_wins_player(matchups_combination, player1)
+        player2_wins = count_total_wins_player(matchups_combination, player2)
+        draw = total - (player1_wins + player2_wins)
+
+        results.append({player1: player1_wins, player2: player2_wins, 'draw' : draw, 'total' : total })
+    
+    Generator.save_result(results)
+
+def generate_effectiveness_table(players):
+    matchups = Metrics.get_matchups_result(0)
 
     effectiveness = {}
     for player in players:
@@ -46,13 +82,17 @@ def generate_effectiveness_table(matchups, players):
     Generator.effectiveness_table(effectiveness)
         
 def main():
-    set_idx = 0
-
+    set_idx = 1
     players = [player['name'] for player in Metrics.get_players()]
-    matchups = Metrics.get_matchups_result(set_idx)
 
     print('Gerando a tabela de efetividade das tecnicas')
-    generate_effectiveness_table(matchups, players)
+    # generate_effectiveness_table(players)
+
+    matchups = Metrics.get_matchups_result(set_idx)
+
+    print('Gerando o resultado vitorias/empate/derrota')
+    generate_result_matchups(matchups, players)
+
 
 
 main()
