@@ -22,6 +22,38 @@ class Generator:
         with open(DIRNAME + 'resultado.json', 'w') as f:
             data = json.dumps(result)
             f.write(data)
+    
+    @staticmethod
+    def boxplot_execution_time_by_player(data, player):
+        fig = plt.figure(figsize=(10, 7))
+
+        ax = fig.add_axes([0, 0, 1, 1])
+        ax.boxplot(data)
+
+        plt.title("Tempo execução nas partidas (s) " + player)
+        plt.xlabel("Técnica")
+        plt.ylabel("Tempo de execução")
+        
+        fig.savefig(DIRNAME + f"execution_time/{player}.pdf", bbox_inches='tight')
+    
+    @staticmethod
+    def boxplot_execution_time(data):
+        fig = plt.figure(figsize=(10, 7))
+
+        names = list(data.keys())
+        counts = list(data.values())
+ 
+
+        ax = fig.add_axes([0, 0, 1, 1])
+        ax.boxplot(counts)
+        idx = list(range(1, len(names)+1))
+        plt.xticks(idx, names)
+
+        plt.title("Tempo execução nas partidas (s)")
+        plt.xlabel("Técnicas")
+        plt.ylabel("Tempo de execução")
+        
+        fig.savefig(DIRNAME + "execution_time_overall.pdf", bbox_inches='tight')
 
 
 def count_total_wins_player(matchups, player):
@@ -31,6 +63,14 @@ def count_total_wins_player(matchups, player):
             count += 1
     
     return count
+
+def get_time_of_player(games, player):
+    time = []
+    for game in games:
+        if game['player'] == player:
+            time.append(game['time'])
+    
+    return time
 
 def get_matchups_of_comb(matchups, combination):
     matchups_comb = []
@@ -49,6 +89,18 @@ def get_matchups_of_player(matchups, player):
     
     return matchups_player
 
+
+def generate_execution_time(games, players):
+    players_time = {}
+    for player in players:
+        player_time = get_time_of_player(games, player)
+        
+        Generator.boxplot_execution_time_by_player(player_time, player)
+
+        players_time[player] = player_time 
+
+    Generator.boxplot_execution_time(players_time)
+      
 
 def generate_result_matchups(matchups, players):
     player_combinations = Metrics.get_matchups(players, True, False)
@@ -86,13 +138,15 @@ def main():
     players = [player['name'] for player in Metrics.get_players()]
 
     print('Gerando a tabela de efetividade das tecnicas')
-    # generate_effectiveness_table(players)
-
+    generate_effectiveness_table(players)
     matchups = Metrics.get_matchups_result(set_idx)
 
     print('Gerando o resultado vitorias/empate/derrota')
     generate_result_matchups(matchups, players)
 
+    games = Metrics.get_games_result(set_idx)
+    print('Gerando boxplot do tempo de execucao de cada tecnica')
+    generate_execution_time(games, players)
 
 
 main()
