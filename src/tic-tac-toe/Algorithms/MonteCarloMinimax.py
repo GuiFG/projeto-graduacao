@@ -1,8 +1,6 @@
 import math
-import random
 import copy 
 from utils import opponent
-import time 
 
 from Algorithms.HMinimax import HMinimax
 

@@ -184,7 +184,7 @@ def game(id, player1, player2):
 		if not game_over:
 			game_over = not has_empty_cells(board)
 		
-		sleep(1)
+		# sleep(1)
 		round += 1
 
 	return player_win, board, metric_game

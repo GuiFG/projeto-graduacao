@@ -1,6 +1,5 @@
 import copy 
 from utils import *
-import time 
 
 class State:
     def __init__(self, board):
@@ -106,6 +105,9 @@ class State:
         return key + str(player)
 
     def get_action_key(self, action):
+        if action is None: 
+            return '99'
+
         row = get_next_open_row(self.board, action)
 
         return str(row) + str(action)

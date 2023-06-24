@@ -8,10 +8,13 @@ from Algorithms.HAlfaBeta import HAlfaBeta
 from Algorithms.RaveMcts import RaveMcts
 from Algorithms.QLearning import QLearn
 import json
+import os.path
 
+filename = 'qlearn.json'
 
-with open('qlearn.json', 'r') as file:
-    Q = json.load(file)
+if os.path.isfile(filename):
+    with open('qlearn.json', 'r') as file:
+        Q = json.load(file)
 
 RANDOM = 0
 PAB_3 = 1
@@ -54,7 +57,7 @@ class Player():
         elif self.type == MCTS_10000:
             action = self.mcts(10000)
         elif self.type == RAVE:
-            action = self.rave_mcts(500)
+            action = self.rave_mcts(1000)
         elif self.type == QLEARN:
             action = self.qlearn()
        
