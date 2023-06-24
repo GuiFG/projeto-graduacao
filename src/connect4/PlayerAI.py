@@ -18,15 +18,13 @@ if os.path.isfile(filename):
 
 RANDOM = 0
 PAB_3 = 1
-PAB_4 = 2
-PAB_5 = 3
-PAB_6 = 4
-MCTS_500 = 5
-MCTS_1000 = 6
-MCTS_5000 = 7
-MCTS_10000 = 8
-RAVE = 9
-QLEARN = 10
+PAB_6 = 2
+MCTS_1000 = 3
+MCTS_10000 = 4
+RAVE_1000 = 5
+RAVE_10000 = 6
+QLEARN_1 = 7
+QLEARN_2 = 8
 
 
 class Player():
@@ -42,23 +40,17 @@ class Player():
             action = self.random()
         elif self.type == PAB_3:
             action = self.h_alfa_beta(3)
-        elif self.type == PAB_4:
-            action = self.h_alfa_beta(4)
-        elif self.type == PAB_5:
-            action = self.h_alfa_beta(5)
         elif self.type == PAB_6:
             action = self.h_alfa_beta(6)
-        elif self.type == MCTS_500:
-            action = self.mcts(500)
         elif self.type == MCTS_1000:
             action = self.mcts(1000)
-        elif self.type == MCTS_5000:
-            action = self.mcts(5000)
         elif self.type == MCTS_10000:
             action = self.mcts(10000)
-        elif self.type == RAVE:
+        elif self.type == RAVE_1000:
             action = self.rave_mcts(1000)
-        elif self.type == QLEARN:
+        elif self.type == RAVE_10000:
+            action = self.rave_mcts(10000)
+        elif self.type == QLEARN_1:
             action = self.qlearn()
        
         return action
@@ -116,6 +108,7 @@ class Player():
         state = State(self.board)
 
         qlearn = QLearn(state, self.player, Q)
+
         move = qlearn.get_move()
         qlearn.learn(move)
 

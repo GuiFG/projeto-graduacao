@@ -42,7 +42,7 @@ def game(id, players):
 	player_win = 0
 	round = 1
 	while not game_over:
-		metric = get_metrics_game(id, round)
+		metric = get_game_metrics(id, round)
 
 		for idx_player in range(len(players)):
 			player = players[idx_player]
@@ -75,7 +75,9 @@ def run_match(match, total):
 	global counter
 	print(player1['name'] + ' X ' + player2['name'])
 	for i in range(total):
-		metrics = get_metrics_match(counter + 1, player1, player2, f'{i+1}/{total}')
+		count_matchs = f'{i+1}/{total}'
+		print(f'match {count_matchs}')
+		metrics = get_match_metrics(counter + 1, player1, player2, count_matchs)
 
 		game_start = datetime.now()
 		player_win, board, metric_game = game(counter + 1, [player1, player2])
@@ -103,20 +105,26 @@ def main(config):
 	total = config['game_total']
 	seed = config['seed']
 	set_data_idx = config['set_data_idx']
+	tournament = config['tournament']
 
 	players = get_players(set_data_idx)
-	matchups = get_matchups(players)
+	matchups = get_matchups(players, tournament)
 
 	start_tournement = datetime.now()
+	count = 0
 	for match in matchups:
+		print(f'matchup {count+1}/{len(matchups)}')
 		random.seed(seed)
 		run_match(match, total)
+		print()
+
+		count += 1
 		
 	time_elapsed = datetime.now() - start_tournement
 	print(time_elapsed)
 	
-	save_metrics_game(metrics_game, set_data_idx)
-	save_metrics_matchup(metrics_matchup, set_data_idx)
+	save_game_metrics(metrics_game, set_data_idx)
+	save_matchup_metrics(metrics_matchup, set_data_idx)
 		
 if __name__ == "__main__":
 	config = get_json('config.json')
