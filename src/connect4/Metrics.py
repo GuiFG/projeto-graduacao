@@ -50,6 +50,9 @@ def save_matchup_metrics(metrics_matchup, idx):
     content = json.dumps(metrics_matchup)
     save_content(f'matchup_{idx}.json', content)
 
+def get_matchups_result(idx):
+    return get_json(f'metrics/matchup_{idx}.json')
+
 def get_players(idx=0):
     file_name = f'data/players_{idx}.json' if idx != 0 else 'data/players.json'
 

@@ -191,6 +191,7 @@ def generate_mean_time_player(metrics, players):
 
     plt.savefig(DIRNAME + "mean_time.pdf", bbox_inches='tight')
 
+
 def main(): 
     players = get_players()
     players_names = [player['name'] for player in players]
