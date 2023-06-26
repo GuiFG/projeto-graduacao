@@ -122,7 +122,7 @@ def game(id, player1, player2):
 	round = 1
 	while not game_over:
 		if turn == PLAYER and not game_over:
-			metric = get_metrics_game(id, round)
+			metric = get_game_metrics(id, round)
 			metric['player'] = player1['name']
 			metric['round'] = round
 			total_empty_cells = count_empty_cells(board)
@@ -152,7 +152,7 @@ def game(id, player1, player2):
 		
 		## Ask for Player 2 Input
 		if turn == OPPONENT and not game_over:
-			metric = get_metrics_game(id, round)
+			metric = get_game_metrics(id, round)
 			metric['player'] = player2['name']
 			metric['round'] = round
 			total_empty_cells = count_empty_cells(board)
@@ -184,7 +184,7 @@ def game(id, player1, player2):
 		if not game_over:
 			game_over = not has_empty_cells(board)
 		
-		# sleep(1)
+		sleep(1)
 		round += 1
 
 	return player_win, board, metric_game
@@ -194,7 +194,7 @@ def main(args):
 	set_player_idx = int(args[1])
 
 	players = get_players(set_player_idx)
-	matchups = get_matchups(players)
+	matchups = get_matchups(players, True)
 	
 	metrics_matchup = []
 	metrics_game = []
@@ -236,8 +236,8 @@ def main(args):
 	time_elapsed = datetime.now() - start_tournement
 	print(time_elapsed)
 	
-	save_metrics_game(metrics_game, set_player_idx)
-	save_metrics_matchup(metrics_matchup, set_player_idx)
+	save_game_metrics(metrics_game, set_player_idx)
+	save_matchup_metrics(metrics_matchup, set_player_idx)
 		
 
 if __name__ == "__main__":

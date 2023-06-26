@@ -5,8 +5,8 @@
         "name": "PAB_3"
     },
     {
-        "id" : 9,
-        "type": "MCTS",
-        "name": "RAVE"
+        "id" : 7,
+        "type": "QLEARN",
+        "name": "QLEARN_1"
     }
 ]
