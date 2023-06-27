@@ -128,7 +128,6 @@ def generate_effectiveness_table(players):
         matchups_player = get_matchups_of_player(matchups, player)
         match_total = len(matchups_player)
         
-        print(player)
         total_wins = count_total_wins_player(matchups_player, player)
 
         effectiveness[player] = (total_wins / match_total) * 100
