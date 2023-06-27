@@ -1,12 +1,12 @@
 [
     {
-        "id" : 1,
-        "type": "ALFA_BETA",
-        "name": "PAB_3"
+        "id" : 0,
+        "type": "RANDOM",
+        "name": "RANDOM"
     },
     {
-        "id" : 9,
-        "type": "MCTS",
-        "name": "RAVE"
+        "id" : 7,
+        "type": "QLEARN",
+        "name": "QLEARN_1"
     }
 ]

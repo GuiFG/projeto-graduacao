@@ -1,7 +1,12 @@
 import json
 import itertools
+import os
+import copy
 
 def get_json(file_name):
+    if not os.path.isfile(file_name):
+        return None 
+
     data = None 
     with open(file_name, 'r') as f:
         data = json.load(f) 
@@ -42,20 +47,71 @@ def save_content(file_name, content):
     with open('metrics/' + file_name, 'w') as f:
         f.write(content)
 
-def save_game_metrics(metric_game, idx):
-    content = json.dumps(metric_game)
+def update_game_metrics(game_metrics, game_metric, idx):
+    for gm in game_metric:
+        if idx >= len(game_metrics):
+            break
+
+        m = game_metrics[idx]
+
+        if m['id'] == gm['id']:
+            game_metrics[idx] = copy.deepcopy(gm)
+
+        idx += 1
+
+def metric_exist(metrics, metric):
+    idx = 0
+    for m in metrics: 
+        if m['id'] == metric['id']:
+            return True, idx
+
+        idx += 1
+
+    return False, idx
+
+
+def save_game_metrics(game_metric, idx):
+    game_metrics = get_json(f'metrics/game_{idx}.json')
+    if game_metrics is None: 
+        game_metrics = []
+    
+    exist, idx_metric = metric_exist(game_metrics, game_metric[0])
+    if exist:
+        update_game_metrics(game_metrics, game_metric, idx_metric)
+    else: 
+        game_metrics.extend(game_metric)
+
+    content = json.dumps(game_metrics)
+
     save_content(f'game_{idx}.json', content)
 
-def save_matchup_metrics(metrics_matchup, idx):
-    content = json.dumps(metrics_matchup)
+def save_matchup_metrics(matchup_metric, idx):
+    matchup_metrics = get_json(f'metrics/matchup_{idx}.json')
+    if matchup_metrics is None: 
+        matchup_metrics = []
+
+    exist, idx_metric = metric_exist(matchup_metrics, matchup_metric)
+    if exist:
+        matchup_metrics[idx_metric] = matchup_metric
+    else: 
+        matchup_metrics.append(matchup_metric)
+    
+    content = json.dumps(matchup_metrics)
+
     save_content(f'matchup_{idx}.json', content)
+
+def save_train_time(time, idx):
+    seconds = time.total_seconds()
+    train_time = f'{int(seconds//3600)}h:{int((seconds%3600)//60)}m:{int(seconds%3600)%60}s'
+    
+    with open(f'metrics/qtrain_{idx}.txt', 'w') as f:
+        f.write(train_time)
 
 def get_matchups_result(idx):
     return get_json(f'metrics/matchup_{idx}.json')
 
 def get_games_result(idx):
     return get_json(f'metrics/game_{idx}.json')
-
 
 def get_players(idx=0):
     file_name = f'data/players_{idx}.json' if idx != 0 else 'data/players.json'

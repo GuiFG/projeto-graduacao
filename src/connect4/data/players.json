@@ -28,5 +28,15 @@
         "id" : 6,
         "type": "MCTS",
         "name": "RAVE_10000"
+    },
+    {
+        "id" : 7,
+        "type": "QLEARN",
+        "name": "QLEARN_1"
+    },
+    {
+        "id" : 8,
+        "type": "QLEARN",
+        "name": "QLEARN_2"
     }
 ]

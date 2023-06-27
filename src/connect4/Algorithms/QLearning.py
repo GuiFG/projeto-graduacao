@@ -4,7 +4,7 @@ from State import State
 from utils import opponent_player
 
 class QLearn:
-    def __init__(self, state=None, player=1, Q={}, epsilon=0.2, alpha=0.1, gamma=0.9, default_Qvalue=1, learn_active=False):
+    def __init__(self, state=None, player=1, Q={}, epsilon=0.2, alpha=0.1, gamma=1, default_Qvalue=1, learn_active=False):
         self.state = state
         self.player = player
         self.Q = Q

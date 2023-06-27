@@ -1,16 +1,13 @@
 import numpy as np
 import random
 from datetime import datetime
+import sys
 
 from constants import *
 from utils import *
 
 from Metrics import *
 from PlayerAI import Player
-
-metrics_matchup = []
-metrics_game = []
-counter = 0
 
 def create_board():
 	board = np.zeros((ROW_COUNT,COLUMN_COUNT))
@@ -68,41 +65,44 @@ def game(id, players):
 
 	return player_win, board, metric_game
 
-def run_match(match, total):
+def run_match(matchup_counter, match, total, set_data_idx):
 	player1 = match[0]
 	player2 = match[1]
+	
+	match_name = player1['name'] + '_X_' + player2['name']
 
-	global counter
-	print(player1['name'] + ' X ' + player2['name'])
 	for i in range(total):
 		count_matchs = f'{i+1}/{total}'
-		print(f'match {count_matchs}')
-		metrics = get_match_metrics(counter + 1, player1, player2, count_matchs)
+		match_id = matchup_counter + match_name + "_" + str((i + 1))
+		print('matchup ' + matchup_counter + " | " + match_name + " | " + f'match {count_matchs}' + " | " + match_id)
+
+		match_metric = get_match_metrics(match_id, player1, player2, count_matchs)
 
 		game_start = datetime.now()
-		player_win, board, metric_game = game(counter + 1, [player1, player2])
+		player_win, board, game_metric = game(match_id, [player1, player2])
 		game_end = datetime.now() - game_start
-		metrics['time'] = game_end.total_seconds()
+		match_metric['time'] = game_end.total_seconds()
 
 		if player_win == PLAYER_PIECE:
 			print(player1['name'], 'wins')
-			metrics['winner'] = player1['name']
+			match_metric['winner'] = player1['name']
 		elif player_win == OPPONENT_PIECE:
 			print(player2['name'], 'wins')
-			metrics['winner'] = player2['name']
+			match_metric['winner'] = player2['name']
 		else:
 			print('draw')
 
 		total_empty_cells = count_empty_cells(board)
-		metrics['empty_cells'] = total_empty_cells
-
+		match_metric['empty_cells'] = total_empty_cells
 		print(game_end)
-		metrics_matchup.append(metrics)
-		metrics_game.extend(metric_game)
-		counter += 1
+
+		save_game_metrics(game_metric, set_data_idx)
+		save_matchup_metrics(match_metric, set_data_idx)
+
 
 def main(config):
 	total = config['game_total']
+	matchup_start = config['matchup_start']
 	seed = config['seed']
 	set_data_idx = config['set_data_idx']
 	tournament = config['tournament']
@@ -111,21 +111,29 @@ def main(config):
 	matchups = get_matchups(players, tournament)
 
 	start_tournement = datetime.now()
-	count = 0
-	for match in matchups:
-		print(f'matchup {count+1}/{len(matchups)}')
-		random.seed(seed)
-		run_match(match, total)
-		print()
+	try:
+		count = 0
+		for match in matchups:
+			matchup_counter = f'{count+1}/{len(matchups)}'
+			count += 1
+			if count < matchup_start:
+				continue
 
-		count += 1
-		
-	time_elapsed = datetime.now() - start_tournement
-	print(time_elapsed)
+			random.seed(seed)
+			run_match(matchup_counter, match, total, set_data_idx)
+			print()
+
+		time_elapsed = datetime.now() - start_tournement
+		print(time_elapsed)
+	except Exception as error:
+		print("Ocorreu um erro durante o torneio: ", error)
+		exc_type, _, exc_tb = sys.exc_info()
+		fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
+		print(exc_type, fname, exc_tb.tb_lineno)
+
+		print(datetime.now() - start_tournement)
+
 	
-	save_game_metrics(metrics_game, set_data_idx)
-	save_matchup_metrics(metrics_matchup, set_data_idx)
-		
 if __name__ == "__main__":
 	config = get_json('config.json')
 	main(config)
