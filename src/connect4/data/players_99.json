@@ -1,8 +1,8 @@
 [
     {
-        "id" : 1,
-        "type": "ALFA_BETA",
-        "name": "PAB_3"
+        "id" : 0,
+        "type": "RANDOM",
+        "name": "RANDOM"
     },
     {
         "id" : 7,

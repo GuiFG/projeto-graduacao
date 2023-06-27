@@ -100,6 +100,13 @@ def save_matchup_metrics(matchup_metric, idx):
 
     save_content(f'matchup_{idx}.json', content)
 
+def save_train_time(time, idx):
+    seconds = time.total_seconds()
+    train_time = f'{int(seconds//3600)}h:{int((seconds%3600)//60)}m:{int(seconds%3600)%60}s'
+    
+    with open(f'metrics/qtrain_{idx}.txt', 'w') as f:
+        f.write(train_time)
+
 def get_matchups_result(idx):
     return get_json(f'metrics/matchup_{idx}.json')
 

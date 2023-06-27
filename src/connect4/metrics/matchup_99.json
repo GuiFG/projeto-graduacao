@@ -1,0 +1,1802 @@
+[
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_1",
+        "time": 6.83487,
+        "winner": "QLEARN_2",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "1/50",
+        "empty_cells": 23
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_2",
+        "time": 0.003158,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "2/50",
+        "empty_cells": 19
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_3",
+        "time": 0.001098,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "3/50",
+        "empty_cells": 33
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_4",
+        "time": 0.001399,
+        "winner": "QLEARN_2",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "4/50",
+        "empty_cells": 34
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_5",
+        "time": 0.004665,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "5/50",
+        "empty_cells": 11
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_6",
+        "time": 0.00431,
+        "winner": "QLEARN_2",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "6/50",
+        "empty_cells": 15
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_7",
+        "time": 0.002607,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "7/50",
+        "empty_cells": 23
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_8",
+        "time": 0.005058,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "8/50",
+        "empty_cells": 10
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_9",
+        "time": 0.003637,
+        "winner": "QLEARN_2",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "9/50",
+        "empty_cells": 18
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_10",
+        "time": 0.004135,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "10/50",
+        "empty_cells": 13
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_11",
+        "time": 0.002698,
+        "winner": "QLEARN_2",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "11/50",
+        "empty_cells": 24
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_12",
+        "time": 0.004789,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "12/50",
+        "empty_cells": 12
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_13",
+        "time": 0.005376,
+        "winner": "QLEARN_2",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "13/50",
+        "empty_cells": 11
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_14",
+        "time": 0.005797,
+        "winner": "QLEARN_2",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "14/50",
+        "empty_cells": 9
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_15",
+        "time": 0.003273,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "15/50",
+        "empty_cells": 19
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_16",
+        "time": 0.001321,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "16/50",
+        "empty_cells": 31
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_17",
+        "time": 0.001861,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "17/50",
+        "empty_cells": 29
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_18",
+        "time": 0.006078,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "18/50",
+        "empty_cells": 9
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_19",
+        "time": 0.002286,
+        "winner": "QLEARN_2",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "19/50",
+        "empty_cells": 26
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_20",
+        "time": 0.003575,
+        "winner": "QLEARN_2",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "20/50",
+        "empty_cells": 18
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_21",
+        "time": 0.003949,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "21/50",
+        "empty_cells": 15
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_22",
+        "time": 0.004145,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "22/50",
+        "empty_cells": 15
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_23",
+        "time": 0.003968,
+        "winner": "QLEARN_2",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "23/50",
+        "empty_cells": 20
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_24",
+        "time": 0.00563,
+        "winner": "QLEARN_2",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "24/50",
+        "empty_cells": 12
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_25",
+        "time": 0.005344,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "25/50",
+        "empty_cells": 9
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_26",
+        "time": 0.002871,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "26/50",
+        "empty_cells": 21
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_27",
+        "time": 0.001909,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "27/50",
+        "empty_cells": 27
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_28",
+        "time": 0.003513,
+        "winner": "QLEARN_2",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "28/50",
+        "empty_cells": 20
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_29",
+        "time": 0.00234,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "29/50",
+        "empty_cells": 25
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_30",
+        "time": 0.003553,
+        "winner": "QLEARN_2",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "30/50",
+        "empty_cells": 20
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_31",
+        "time": 0.005722,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "31/50",
+        "empty_cells": 6
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_32",
+        "time": 0.004234,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "32/50",
+        "empty_cells": 13
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_33",
+        "time": 0.002812,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "33/50",
+        "empty_cells": 23
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_34",
+        "time": 0.003629,
+        "winner": "QLEARN_2",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "34/50",
+        "empty_cells": 18
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_35",
+        "time": 0.001526,
+        "winner": "QLEARN_2",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "35/50",
+        "empty_cells": 34
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_36",
+        "time": 0.002628,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "36/50",
+        "empty_cells": 23
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_37",
+        "time": 0.002343,
+        "winner": "QLEARN_2",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "37/50",
+        "empty_cells": 26
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_38",
+        "time": 0.003912,
+        "winner": "QLEARN_2",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "38/50",
+        "empty_cells": 16
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_39",
+        "time": 0.005768,
+        "winner": "QLEARN_2",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "39/50",
+        "empty_cells": 6
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_40",
+        "time": 0.002506,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "40/50",
+        "empty_cells": 23
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_41",
+        "time": 0.00227,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "41/50",
+        "empty_cells": 25
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_42",
+        "time": 0.001818,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "42/50",
+        "empty_cells": 31
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_43",
+        "time": 0.001354,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "43/50",
+        "empty_cells": 31
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_44",
+        "time": 0.000864,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "44/50",
+        "empty_cells": 35
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_45",
+        "time": 0.002626,
+        "winner": "QLEARN_2",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "45/50",
+        "empty_cells": 24
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_46",
+        "time": 0.001715,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "46/50",
+        "empty_cells": 29
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_47",
+        "time": 0.005282,
+        "winner": "QLEARN_2",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "47/50",
+        "empty_cells": 11
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_48",
+        "time": 0.005168,
+        "winner": "QLEARN_2",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "48/50",
+        "empty_cells": 12
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_49",
+        "time": 0.003723,
+        "winner": "QLEARN_2",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "49/50",
+        "empty_cells": 22
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_2_50",
+        "time": 0.004496,
+        "winner": "QLEARN_2",
+        "player1": "RANDOM",
+        "player2": "QLEARN_2",
+        "count": "50/50",
+        "empty_cells": 14
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_1",
+        "time": 0.005276,
+        "winner": "QLEARN_2",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "1/50",
+        "empty_cells": 9
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_2",
+        "time": 0.005186,
+        "winner": "RANDOM",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "2/50",
+        "empty_cells": 9
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_3",
+        "time": 0.004144,
+        "winner": "RANDOM",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "3/50",
+        "empty_cells": 14
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_4",
+        "time": 0.001373,
+        "winner": "QLEARN_2",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "4/50",
+        "empty_cells": 33
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_5",
+        "time": 0.002121,
+        "winner": "RANDOM",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "5/50",
+        "empty_cells": 26
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_6",
+        "time": 0.002275,
+        "winner": "QLEARN_2",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "6/50",
+        "empty_cells": 27
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_7",
+        "time": 0.002216,
+        "winner": "QLEARN_2",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "7/50",
+        "empty_cells": 27
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_8",
+        "time": 0.001891,
+        "winner": "QLEARN_2",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "8/50",
+        "empty_cells": 29
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_9",
+        "time": 0.003245,
+        "winner": "RANDOM",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "9/50",
+        "empty_cells": 18
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_10",
+        "time": 0.004188,
+        "winner": "QLEARN_2",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "10/50",
+        "empty_cells": 14
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_11",
+        "time": 0.002869,
+        "winner": "RANDOM",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "11/50",
+        "empty_cells": 24
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_12",
+        "time": 0.004388,
+        "winner": "QLEARN_2",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "12/50",
+        "empty_cells": 13
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_13",
+        "time": 0.002792,
+        "winner": "RANDOM",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "13/50",
+        "empty_cells": 24
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_14",
+        "time": 0.004433,
+        "winner": "QLEARN_2",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "14/50",
+        "empty_cells": 18
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_15",
+        "time": 0.003206,
+        "winner": "QLEARN_2",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "15/50",
+        "empty_cells": 29
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_16",
+        "time": 0.004356,
+        "winner": "QLEARN_2",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "16/50",
+        "empty_cells": 15
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_17",
+        "time": 0.005387,
+        "winner": "QLEARN_2",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "17/50",
+        "empty_cells": 17
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_18",
+        "time": 0.002347,
+        "winner": "QLEARN_2",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "18/50",
+        "empty_cells": 31
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_19",
+        "time": 0.003487,
+        "winner": "QLEARN_2",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "19/50",
+        "empty_cells": 18
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_20",
+        "time": 0.001559,
+        "winner": "QLEARN_2",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "20/50",
+        "empty_cells": 31
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_21",
+        "time": 0.002349,
+        "winner": "RANDOM",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "21/50",
+        "empty_cells": 26
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_22",
+        "time": 0.00505,
+        "winner": "QLEARN_2",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "22/50",
+        "empty_cells": 9
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_23",
+        "time": 0.004218,
+        "winner": "RANDOM",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "23/50",
+        "empty_cells": 14
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_24",
+        "time": 0.004643,
+        "winner": "RANDOM",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "24/50",
+        "empty_cells": 12
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_25",
+        "time": 0.001061,
+        "winner": "QLEARN_2",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "25/50",
+        "empty_cells": 35
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_26",
+        "time": 0.005625,
+        "winner": "QLEARN_2",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "26/50",
+        "empty_cells": 11
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_27",
+        "time": 0.002788,
+        "winner": "QLEARN_2",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "27/50",
+        "empty_cells": 23
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_28",
+        "time": 0.003456,
+        "winner": "QLEARN_2",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "28/50",
+        "empty_cells": 19
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_29",
+        "time": 0.003367,
+        "winner": "QLEARN_2",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "29/50",
+        "empty_cells": 20
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_30",
+        "time": 0.002182,
+        "winner": "QLEARN_2",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "30/50",
+        "empty_cells": 27
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_31",
+        "time": 0.002986,
+        "winner": "RANDOM",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "31/50",
+        "empty_cells": 20
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_32",
+        "time": 0.002469,
+        "winner": "QLEARN_2",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "32/50",
+        "empty_cells": 25
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_33",
+        "time": 0.003219,
+        "winner": "RANDOM",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "33/50",
+        "empty_cells": 20
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_34",
+        "time": 0.006133,
+        "winner": "QLEARN_2",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "34/50",
+        "empty_cells": 4
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_35",
+        "time": 0.001251,
+        "winner": "RANDOM",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "35/50",
+        "empty_cells": 32
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_36",
+        "time": 0.003385,
+        "winner": "RANDOM",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "36/50",
+        "empty_cells": 18
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_37",
+        "time": 0.00455,
+        "winner": "QLEARN_2",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "37/50",
+        "empty_cells": 14
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_38",
+        "time": 0.001886,
+        "winner": "QLEARN_2",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "38/50",
+        "empty_cells": 29
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_39",
+        "time": 0.002869,
+        "winner": "RANDOM",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "39/50",
+        "empty_cells": 22
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_40",
+        "time": 0.002101,
+        "winner": "RANDOM",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "40/50",
+        "empty_cells": 26
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_41",
+        "time": 0.002102,
+        "winner": "RANDOM",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "41/50",
+        "empty_cells": 28
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_42",
+        "time": 0.005364,
+        "winner": "QLEARN_2",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "42/50",
+        "empty_cells": 14
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_43",
+        "time": 0.003628,
+        "winner": "QLEARN_2",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "43/50",
+        "empty_cells": 17
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_44",
+        "time": 0.003073,
+        "winner": "RANDOM",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "44/50",
+        "empty_cells": 20
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_45",
+        "time": 0.00271,
+        "winner": "RANDOM",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "45/50",
+        "empty_cells": 28
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_46",
+        "time": 0.002423,
+        "winner": "QLEARN_2",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "46/50",
+        "empty_cells": 25
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_47",
+        "time": 0.003045,
+        "winner": "RANDOM",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "47/50",
+        "empty_cells": 20
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_48",
+        "time": 0.003745,
+        "winner": "QLEARN_2",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "48/50",
+        "empty_cells": 23
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_49",
+        "time": 0.001797,
+        "winner": "QLEARN_2",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "49/50",
+        "empty_cells": 29
+    },
+    {
+        "id": "2/2QLEARN_2_X_RANDOM_50",
+        "time": 0.003074,
+        "winner": "QLEARN_2",
+        "player1": "QLEARN_2",
+        "player2": "RANDOM",
+        "count": "50/50",
+        "empty_cells": 21
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_1",
+        "time": 0.006563,
+        "winner": "QLEARN_1",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "1/50",
+        "empty_cells": 23
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_2",
+        "time": 0.003297,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "2/50",
+        "empty_cells": 19
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_3",
+        "time": 0.001182,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "3/50",
+        "empty_cells": 33
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_4",
+        "time": 0.002825,
+        "winner": "QLEARN_1",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "4/50",
+        "empty_cells": 26
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_5",
+        "time": 0.003187,
+        "winner": "QLEARN_1",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "5/50",
+        "empty_cells": 20
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_6",
+        "time": 0.004936,
+        "winner": "QLEARN_1",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "6/50",
+        "empty_cells": 15
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_7",
+        "time": 0.002626,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "7/50",
+        "empty_cells": 23
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_8",
+        "time": 0.005017,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "8/50",
+        "empty_cells": 10
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_9",
+        "time": 0.003849,
+        "winner": "QLEARN_1",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "9/50",
+        "empty_cells": 18
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_10",
+        "time": 0.004125,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "10/50",
+        "empty_cells": 13
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_11",
+        "time": 0.002721,
+        "winner": "QLEARN_1",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "11/50",
+        "empty_cells": 24
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_12",
+        "time": 0.004537,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "12/50",
+        "empty_cells": 12
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_13",
+        "time": 0.005005,
+        "winner": "QLEARN_1",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "13/50",
+        "empty_cells": 11
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_14",
+        "time": 0.005483,
+        "winner": "QLEARN_1",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "14/50",
+        "empty_cells": 9
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_15",
+        "time": 0.003179,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "15/50",
+        "empty_cells": 19
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_16",
+        "time": 0.001416,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "16/50",
+        "empty_cells": 31
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_17",
+        "time": 0.001677,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "17/50",
+        "empty_cells": 29
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_18",
+        "time": 0.005441,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "18/50",
+        "empty_cells": 9
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_19",
+        "time": 0.002305,
+        "winner": "QLEARN_1",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "19/50",
+        "empty_cells": 26
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_20",
+        "time": 0.003593,
+        "winner": "QLEARN_1",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "20/50",
+        "empty_cells": 18
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_21",
+        "time": 0.004172,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "21/50",
+        "empty_cells": 15
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_22",
+        "time": 0.003883,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "22/50",
+        "empty_cells": 15
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_23",
+        "time": 0.003485,
+        "winner": "QLEARN_1",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "23/50",
+        "empty_cells": 20
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_24",
+        "time": 0.006264,
+        "winner": "QLEARN_1",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "24/50",
+        "empty_cells": 12
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_25",
+        "time": 0.005158,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "25/50",
+        "empty_cells": 9
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_26",
+        "time": 0.002859,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "26/50",
+        "empty_cells": 21
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_27",
+        "time": 0.001942,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "27/50",
+        "empty_cells": 27
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_28",
+        "time": 0.003397,
+        "winner": "QLEARN_1",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "28/50",
+        "empty_cells": 20
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_29",
+        "time": 0.002395,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "29/50",
+        "empty_cells": 25
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_30",
+        "time": 0.003264,
+        "winner": "QLEARN_1",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "30/50",
+        "empty_cells": 20
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_31",
+        "time": 0.005975,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "31/50",
+        "empty_cells": 6
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_32",
+        "time": 0.00399,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "32/50",
+        "empty_cells": 13
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_33",
+        "time": 0.003731,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "33/50",
+        "empty_cells": 23
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_34",
+        "time": 0.003959,
+        "winner": "QLEARN_1",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "34/50",
+        "empty_cells": 18
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_35",
+        "time": 0.001786,
+        "winner": "QLEARN_1",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "35/50",
+        "empty_cells": 30
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_36",
+        "time": 0.003467,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "36/50",
+        "empty_cells": 17
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_37",
+        "time": 0.002339,
+        "winner": "QLEARN_1",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "37/50",
+        "empty_cells": 26
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_38",
+        "time": 0.006353,
+        "winner": "QLEARN_1",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "38/50",
+        "empty_cells": 4
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_39",
+        "time": 0.002298,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "39/50",
+        "empty_cells": 25
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_40",
+        "time": 0.002534,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "40/50",
+        "empty_cells": 23
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_41",
+        "time": 0.001442,
+        "winner": "QLEARN_1",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "41/50",
+        "empty_cells": 32
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_42",
+        "time": 0.002268,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "42/50",
+        "empty_cells": 25
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_43",
+        "time": 0.003287,
+        "winner": "QLEARN_1",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "43/50",
+        "empty_cells": 20
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_44",
+        "time": 0.002531,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "44/50",
+        "empty_cells": 23
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_45",
+        "time": 0.001815,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "45/50",
+        "empty_cells": 29
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_46",
+        "time": 0.004876,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "46/50",
+        "empty_cells": 11
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_47",
+        "time": 0.002252,
+        "winner": "QLEARN_1",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "47/50",
+        "empty_cells": 26
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_48",
+        "time": 0.003518,
+        "winner": "QLEARN_1",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "48/50",
+        "empty_cells": 18
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_49",
+        "time": 0.002575,
+        "winner": "RANDOM",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "49/50",
+        "empty_cells": 23
+    },
+    {
+        "id": "1/2RANDOM_X_QLEARN_1_50",
+        "time": 0.004068,
+        "winner": "QLEARN_1",
+        "player1": "RANDOM",
+        "player2": "QLEARN_1",
+        "count": "50/50",
+        "empty_cells": 15
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_1",
+        "time": 0.005095,
+        "winner": "QLEARN_1",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "1/50",
+        "empty_cells": 9
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_2",
+        "time": 0.004983,
+        "winner": "RANDOM",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "2/50",
+        "empty_cells": 9
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_3",
+        "time": 0.00408,
+        "winner": "RANDOM",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "3/50",
+        "empty_cells": 14
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_4",
+        "time": 0.001293,
+        "winner": "QLEARN_1",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "4/50",
+        "empty_cells": 33
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_5",
+        "time": 0.002104,
+        "winner": "RANDOM",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "5/50",
+        "empty_cells": 26
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_6",
+        "time": 0.002193,
+        "winner": "QLEARN_1",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "6/50",
+        "empty_cells": 27
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_7",
+        "time": 0.002182,
+        "winner": "QLEARN_1",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "7/50",
+        "empty_cells": 27
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_8",
+        "time": 0.0019,
+        "winner": "QLEARN_1",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "8/50",
+        "empty_cells": 29
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_9",
+        "time": 0.003383,
+        "winner": "RANDOM",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "9/50",
+        "empty_cells": 18
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_10",
+        "time": 0.004351,
+        "winner": "QLEARN_1",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "10/50",
+        "empty_cells": 14
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_11",
+        "time": 0.002464,
+        "winner": "RANDOM",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "11/50",
+        "empty_cells": 24
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_12",
+        "time": 0.00439,
+        "winner": "QLEARN_1",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "12/50",
+        "empty_cells": 13
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_13",
+        "time": 0.002726,
+        "winner": "RANDOM",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "13/50",
+        "empty_cells": 24
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_14",
+        "time": 0.00374,
+        "winner": "QLEARN_1",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "14/50",
+        "empty_cells": 18
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_15",
+        "time": 0.00183,
+        "winner": "QLEARN_1",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "15/50",
+        "empty_cells": 29
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_16",
+        "time": 0.004311,
+        "winner": "QLEARN_1",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "16/50",
+        "empty_cells": 15
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_17",
+        "time": 0.00693,
+        "winner": "QLEARN_1",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "17/50",
+        "empty_cells": 17
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_18",
+        "time": 0.003123,
+        "winner": "QLEARN_1",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "18/50",
+        "empty_cells": 31
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_19",
+        "time": 0.003589,
+        "winner": "QLEARN_1",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "19/50",
+        "empty_cells": 18
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_20",
+        "time": 0.001665,
+        "winner": "QLEARN_1",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "20/50",
+        "empty_cells": 31
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_21",
+        "time": 0.002134,
+        "winner": "RANDOM",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "21/50",
+        "empty_cells": 26
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_22",
+        "time": 0.005289,
+        "winner": "QLEARN_1",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "22/50",
+        "empty_cells": 9
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_23",
+        "time": 0.004991,
+        "winner": "RANDOM",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "23/50",
+        "empty_cells": 14
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_24",
+        "time": 0.004511,
+        "winner": "RANDOM",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "24/50",
+        "empty_cells": 12
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_25",
+        "time": 0.001045,
+        "winner": "QLEARN_1",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "25/50",
+        "empty_cells": 35
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_26",
+        "time": 0.005229,
+        "winner": "QLEARN_1",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "26/50",
+        "empty_cells": 11
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_27",
+        "time": 0.002773,
+        "winner": "QLEARN_1",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "27/50",
+        "empty_cells": 23
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_28",
+        "time": 0.003767,
+        "winner": "QLEARN_1",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "28/50",
+        "empty_cells": 19
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_29",
+        "time": 0.00335,
+        "winner": "QLEARN_1",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "29/50",
+        "empty_cells": 20
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_30",
+        "time": 0.002228,
+        "winner": "QLEARN_1",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "30/50",
+        "empty_cells": 27
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_31",
+        "time": 0.00314,
+        "winner": "RANDOM",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "31/50",
+        "empty_cells": 20
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_32",
+        "time": 0.002578,
+        "winner": "QLEARN_1",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "32/50",
+        "empty_cells": 25
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_33",
+        "time": 0.003037,
+        "winner": "RANDOM",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "33/50",
+        "empty_cells": 20
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_34",
+        "time": 0.00627,
+        "winner": "QLEARN_1",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "34/50",
+        "empty_cells": 4
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_35",
+        "time": 0.001287,
+        "winner": "RANDOM",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "35/50",
+        "empty_cells": 32
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_36",
+        "time": 0.001593,
+        "winner": "RANDOM",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "36/50",
+        "empty_cells": 30
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_37",
+        "time": 0.004047,
+        "winner": "QLEARN_1",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "37/50",
+        "empty_cells": 16
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_38",
+        "time": 0.008855,
+        "winner": "QLEARN_1",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "38/50",
+        "empty_cells": 17
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_39",
+        "time": 0.001626,
+        "winner": "RANDOM",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "39/50",
+        "empty_cells": 30
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_40",
+        "time": 0.003611,
+        "winner": "QLEARN_1",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "40/50",
+        "empty_cells": 17
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_41",
+        "time": 0.002367,
+        "winner": "RANDOM",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "41/50",
+        "empty_cells": 26
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_42",
+        "time": 0.004226,
+        "winner": "QLEARN_1",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "42/50",
+        "empty_cells": 14
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_43",
+        "time": 0.004374,
+        "winner": "RANDOM",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "43/50",
+        "empty_cells": 14
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_44",
+        "time": 0.002792,
+        "winner": "QLEARN_1",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "44/50",
+        "empty_cells": 23
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_45",
+        "time": 0.001854,
+        "winner": "RANDOM",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "45/50",
+        "empty_cells": 28
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_46",
+        "time": 0.002437,
+        "winner": "QLEARN_1",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "46/50",
+        "empty_cells": 25
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_47",
+        "time": 0.003175,
+        "winner": "RANDOM",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "47/50",
+        "empty_cells": 20
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_48",
+        "time": 0.002806,
+        "winner": "QLEARN_1",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "48/50",
+        "empty_cells": 23
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_49",
+        "time": 0.00186,
+        "winner": "QLEARN_1",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "49/50",
+        "empty_cells": 29
+    },
+    {
+        "id": "2/2QLEARN_1_X_RANDOM_50",
+        "time": 0.003232,
+        "winner": "QLEARN_1",
+        "player1": "QLEARN_1",
+        "player2": "RANDOM",
+        "count": "50/50",
+        "empty_cells": 21
+    }
+]

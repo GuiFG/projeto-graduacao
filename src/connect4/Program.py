@@ -116,7 +116,6 @@ def main(config):
 		for match in matchups:
 			matchup_counter = f'{count+1}/{len(matchups)}'
 			count += 1
-
 			if count < matchup_start:
 				continue
 
@@ -124,8 +123,6 @@ def main(config):
 			run_match(matchup_counter, match, total, set_data_idx)
 			print()
 
-			
-			
 		time_elapsed = datetime.now() - start_tournement
 		print(time_elapsed)
 	except Exception as error:
