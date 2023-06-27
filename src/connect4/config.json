@@ -1,6 +1,6 @@
 {
-    "game_total" : 2,
+    "game_total" : 50,
     "seed" : 42,
     "set_data_idx" : 1,
-    "tournament": true
+    "tournament": false
 }
