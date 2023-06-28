@@ -1,15 +1,11 @@
 from datetime import datetime
+import sys
 
-from colorama import Fore, Style
 from bigBoard import BigBoard
 from copy import *
 
 from PlayerAI import *
 from Metrics import *
-
-matchup_metrics = []
-game_metrics = []
-game_counter = 0
 
 
 def evaluate_state(board):
@@ -45,9 +41,10 @@ def game(id, players):
 			symbol = symbols[idx]
 			
 			p = Player(player['id'], symbol)
-			game_metric = get_game_metrics(id, player['name'], round)
+			game_metric = get_game_metrics(id, round)
 			prevMove, time = execute_move(board, p, symbol, prevMove)
 
+			game_metric['player'] = player['name']
 			game_metric['time'] = time 
 			game_metrics.append(game_metric)
 
@@ -66,52 +63,61 @@ def game(id, players):
 	return winner, game_metrics
 		
 
-def run_match(match, total):
+def run_match(matchup_counter, match, total, set_data_idx):
 	player1 = match[0]
 	player2 = match[1]
 
-	global game_counter
-
-	print(player1['name'] + ' X ' + player2['name'])
+	match_name = player1['name'] + '_X_' + player2['name']
 	for i in range(total):
 		count_matchs = f'{i+1}/{total}'
-		print(f'match {count_matchs}')
-		match_metrics = get_match_metrics(game_counter + 1, player1, player2, count_matchs)
+		match_id = matchup_counter + match_name + "_" + str((i + 1))
+		print('matchup ' + matchup_counter + " | " + match_name + " | " + f'match {count_matchs}' + " | " + match_id)
+
+		match_metric = get_match_metrics(match_id, player1, player2, count_matchs)
+		
 		game_start = datetime.now()
-		winner, game_metric = game(game_counter, [player1, player2])
+		winner, game_metric = game(match_id, [player1, player2])
 		game_end = datetime.now() - game_start
 		print(game_end)
 
-		match_metrics['time'] = game_end.total_seconds()
-		match_metrics['winner'] = winner
+		match_metric['time'] = game_end.total_seconds()
+		match_metric['winner'] = winner
 
-		game_metrics.extend(game_metric)
-		matchup_metrics.append(match_metrics)
-		game_counter += 1
+		save_game_metrics(game_metric, set_data_idx)
+		save_matchup_metrics(match_metric, set_data_idx)
 
 def main(config):
 	total = config['game_total']
+	matchup_start = config['matchup_start']
 	seed = config['seed']
 	set_data_idx = config['set_data_idx']
+	tournament = config['tournament']
 
 	players = get_players(set_data_idx)
-	matchups = get_matchups(players)
+	matchups = get_matchups(players, tournament)
 
 	start_tournement = datetime.now()
-	count = 0
-	for match in matchups:
-		print(f'matchup {count+1}/{len(matchups)}')
-		random.seed(seed)
-		run_match(match, total)
-		print()
+	try:
+		count = 0
+		for match in matchups:
+			matchup_counter = f'{count+1}/{len(matchups)}'
+			count += 1
+			if count < matchup_start:
+				continue
 
-		count += 1
-	
-	time_elapsed = datetime.now() - start_tournement
-	print(time_elapsed)
+			random.seed(seed)
+			run_match(matchup_counter, match, total, set_data_idx)
+			print()
+		
+		time_elapsed = datetime.now() - start_tournement
+		print(time_elapsed)
+	except Exception as error:
+		print("Ocorreu um erro durante o torneio: ", error)
+		exc_type, _, exc_tb = sys.exc_info()
+		fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
+		print(exc_type, fname, exc_tb.tb_lineno)
 
-	save_game_metrics(game_metrics, set_data_idx)
-	save_matchup_metrics(matchup_metrics, set_data_idx)
+		print(datetime.now() - start_tournement)
 
 if __name__ == "__main__":
 	config = get_json('config.json')
