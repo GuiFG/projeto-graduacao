@@ -27,13 +27,9 @@ class State:
         return 0
     
     def evaluation(self, player):
-        weight = 0.6
-
-        small_board = get_current_small_board(self.board, self.prevMove)
-        score_small_board = evaluation_small_board(small_board.board, player)
-
-        score_big_board = get_score_big_board(self.board, player)
-
-        return score_big_board * weight + score_small_board * (1 - weight)
-
-    
+        score = 0 
+        for line in self.board.board:
+            for small_board in line: 
+                score += evaluation_small_board(small_board.board, player)
+        
+        return score

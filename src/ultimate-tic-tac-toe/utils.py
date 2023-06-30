@@ -19,7 +19,6 @@ def count_player(line, player):
     
     return count
 
-
 def get_current_small_board(bigBoard, prevMove):
     smallBoardInd = [prevMove[0]%3, prevMove[1]%3]
 
@@ -37,7 +36,6 @@ def get_score_big_board(bigBoard, player):
     score = evaluation_small_board(smallVer.board, player)
 
     return score 
-
 
 def evaluation_small_board(board, player):
     score = 0
@@ -76,14 +74,17 @@ def evaluation_small_board(board, player):
     
 def get_score_by_count(count, op_count):
     score = 0
-    if count == 2 and op_count == 0:
+    if count == 3:
+        score += 100
+    elif count == 2 and op_count == 0:
         score += 10
     elif count == 1 and op_count == 0:
         score += 1
+    elif op_count == 3:
+        score -= 100
     elif count == 0 and op_count == 2:
         score -= 10
     elif count == 0 and op_count == 1:
         score -= 1
-
+    
     return score
-
