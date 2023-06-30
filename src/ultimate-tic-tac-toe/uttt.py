@@ -102,7 +102,7 @@ def main(config):
 	print(Style.RESET_ALL)
 
 	players = get_players(set_data_idx)
-	matchups = get_matchups(players)
+	matchups = get_matchups(players, True)
 
 	start_tournement = datetime.now()
 	count = 0

@@ -1,16 +1,16 @@
 [
     {
-        "id": "1/4PAB_3_X_RANDOM_1",
-        "time": 1.871467,
-        "winner": "RANDOM",
+        "id": "1/2PAB_3_X_RANDOM_1",
+        "time": 2.423197,
+        "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
         "count": "1/50",
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_2",
-        "time": 2.425213,
+        "id": "1/2PAB_3_X_RANDOM_2",
+        "time": 2.403156,
         "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
@@ -18,8 +18,8 @@
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_3",
-        "time": 1.680693,
+        "id": "1/2PAB_3_X_RANDOM_3",
+        "time": 1.238427,
         "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
@@ -27,26 +27,71 @@
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_4",
-        "time": 3.884721,
-        "winner": "RANDOM",
+        "id": "1/2PAB_3_X_RANDOM_4",
+        "time": 1.720068,
+        "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
         "count": "4/50",
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_5",
-        "time": 2.402502,
-        "winner": "RANDOM",
+        "id": "1/2PAB_3_X_RANDOM_5",
+        "time": 2.561939,
+        "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
         "count": "5/50",
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_6",
-        "time": 2.300488,
+        "id": "2/2RANDOM_X_PAB_3_1",
+        "time": 2.206281,
+        "winner": "PAB_3",
+        "player1": "RANDOM",
+        "player2": "PAB_3",
+        "count": "1/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "2/2RANDOM_X_PAB_3_2",
+        "time": 1.142156,
+        "winner": "PAB_3",
+        "player1": "RANDOM",
+        "player2": "PAB_3",
+        "count": "2/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "2/2RANDOM_X_PAB_3_3",
+        "time": 1.625404,
+        "winner": "PAB_3",
+        "player1": "RANDOM",
+        "player2": "PAB_3",
+        "count": "3/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "2/2RANDOM_X_PAB_3_4",
+        "time": 1.378716,
+        "winner": "PAB_3",
+        "player1": "RANDOM",
+        "player2": "PAB_3",
+        "count": "4/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "2/2RANDOM_X_PAB_3_5",
+        "time": 1.317805,
+        "winner": "PAB_3",
+        "player1": "RANDOM",
+        "player2": "PAB_3",
+        "count": "5/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "1/2PAB_3_X_RANDOM_6",
+        "time": 2.237036,
         "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
@@ -54,8 +99,8 @@
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_7",
-        "time": 1.753283,
+        "id": "1/2PAB_3_X_RANDOM_7",
+        "time": 2.003924,
         "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
@@ -63,8 +108,8 @@
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_8",
-        "time": 1.941927,
+        "id": "1/2PAB_3_X_RANDOM_8",
+        "time": 2.262413,
         "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
@@ -72,8 +117,8 @@
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_9",
-        "time": 3.175377,
+        "id": "1/2PAB_3_X_RANDOM_9",
+        "time": 1.86509,
         "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
@@ -81,8 +126,8 @@
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_10",
-        "time": 5.262117,
+        "id": "1/2PAB_3_X_RANDOM_10",
+        "time": 2.733818,
         "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
@@ -90,8 +135,8 @@
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_11",
-        "time": 4.049511,
+        "id": "1/2PAB_3_X_RANDOM_11",
+        "time": 1.456164,
         "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
@@ -99,8 +144,8 @@
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_12",
-        "time": 3.874648,
+        "id": "1/2PAB_3_X_RANDOM_12",
+        "time": 2.215449,
         "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
@@ -108,8 +153,8 @@
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_13",
-        "time": 2.531143,
+        "id": "1/2PAB_3_X_RANDOM_13",
+        "time": 1.736196,
         "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
@@ -117,8 +162,8 @@
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_14",
-        "time": 2.169325,
+        "id": "1/2PAB_3_X_RANDOM_14",
+        "time": 3.029524,
         "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
@@ -126,8 +171,8 @@
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_15",
-        "time": 1.918738,
+        "id": "1/2PAB_3_X_RANDOM_15",
+        "time": 2.326146,
         "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
@@ -135,17 +180,17 @@
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_16",
-        "time": 1.497426,
-        "winner": "RANDOM",
+        "id": "1/2PAB_3_X_RANDOM_16",
+        "time": 2.843991,
+        "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
         "count": "16/50",
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_17",
-        "time": 1.609072,
+        "id": "1/2PAB_3_X_RANDOM_17",
+        "time": 2.360159,
         "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
@@ -153,17 +198,17 @@
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_18",
-        "time": 1.922012,
-        "winner": "RANDOM",
+        "id": "1/2PAB_3_X_RANDOM_18",
+        "time": 3.124446,
+        "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
         "count": "18/50",
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_19",
-        "time": 1.487668,
+        "id": "1/2PAB_3_X_RANDOM_19",
+        "time": 1.818382,
         "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
@@ -171,17 +216,17 @@
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_20",
-        "time": 2.067273,
-        "winner": "RANDOM",
+        "id": "1/2PAB_3_X_RANDOM_20",
+        "time": 2.179489,
+        "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
         "count": "20/50",
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_21",
-        "time": 1.784016,
+        "id": "1/2PAB_3_X_RANDOM_21",
+        "time": 1.720721,
         "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
@@ -189,35 +234,35 @@
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_22",
-        "time": 2.571592,
-        "winner": "RANDOM",
+        "id": "1/2PAB_3_X_RANDOM_22",
+        "time": 2.456044,
+        "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
         "count": "22/50",
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_23",
-        "time": 1.81208,
-        "winner": "RANDOM",
+        "id": "1/2PAB_3_X_RANDOM_23",
+        "time": 4.142583,
+        "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
         "count": "23/50",
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_24",
-        "time": 2.223415,
-        "winner": "RANDOM",
+        "id": "1/2PAB_3_X_RANDOM_24",
+        "time": 2.015249,
+        "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
         "count": "24/50",
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_25",
-        "time": 4.22148,
+        "id": "1/2PAB_3_X_RANDOM_25",
+        "time": 1.302465,
         "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
@@ -225,26 +270,26 @@
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_26",
-        "time": 2.459703,
-        "winner": "RANDOM",
+        "id": "1/2PAB_3_X_RANDOM_26",
+        "time": 2.013816,
+        "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
         "count": "26/50",
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_27",
-        "time": 3.318699,
-        "winner": "RANDOM",
+        "id": "1/2PAB_3_X_RANDOM_27",
+        "time": 2.890359,
+        "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
         "count": "27/50",
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_28",
-        "time": 2.732782,
+        "id": "1/2PAB_3_X_RANDOM_28",
+        "time": 1.31736,
         "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
@@ -252,8 +297,8 @@
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_29",
-        "time": 1.781027,
+        "id": "1/2PAB_3_X_RANDOM_29",
+        "time": 1.501016,
         "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
@@ -261,8 +306,8 @@
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_30",
-        "time": 1.54363,
+        "id": "1/2PAB_3_X_RANDOM_30",
+        "time": 1.975528,
         "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
@@ -270,8 +315,8 @@
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_31",
-        "time": 3.887988,
+        "id": "1/2PAB_3_X_RANDOM_31",
+        "time": 2.031773,
         "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
@@ -279,8 +324,8 @@
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_32",
-        "time": 3.210488,
+        "id": "1/2PAB_3_X_RANDOM_32",
+        "time": 1.654536,
         "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
@@ -288,8 +333,8 @@
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_33",
-        "time": 2.213838,
+        "id": "1/2PAB_3_X_RANDOM_33",
+        "time": 2.889261,
         "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
@@ -297,8 +342,8 @@
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_34",
-        "time": 1.981849,
+        "id": "1/2PAB_3_X_RANDOM_34",
+        "time": 2.334402,
         "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
@@ -306,26 +351,26 @@
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_35",
-        "time": 1.231835,
-        "winner": "RANDOM",
+        "id": "1/2PAB_3_X_RANDOM_35",
+        "time": 3.394032,
+        "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
         "count": "35/50",
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_36",
-        "time": 2.019142,
-        "winner": "RANDOM",
+        "id": "1/2PAB_3_X_RANDOM_36",
+        "time": 1.344329,
+        "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
         "count": "36/50",
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_37",
-        "time": 3.023769,
+        "id": "1/2PAB_3_X_RANDOM_37",
+        "time": 2.890822,
         "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
@@ -333,8 +378,8 @@
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_38",
-        "time": 2.202449,
+        "id": "1/2PAB_3_X_RANDOM_38",
+        "time": 1.45462,
         "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
@@ -342,8 +387,8 @@
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_39",
-        "time": 2.212561,
+        "id": "1/2PAB_3_X_RANDOM_39",
+        "time": 2.57637,
         "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
@@ -351,8 +396,8 @@
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_40",
-        "time": 4.187513,
+        "id": "1/2PAB_3_X_RANDOM_40",
+        "time": 1.955657,
         "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
@@ -360,8 +405,8 @@
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_41",
-        "time": 3.010015,
+        "id": "1/2PAB_3_X_RANDOM_41",
+        "time": 0.880249,
         "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
@@ -369,8 +414,8 @@
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_42",
-        "time": 1.409305,
+        "id": "1/2PAB_3_X_RANDOM_42",
+        "time": 1.913106,
         "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
@@ -378,8 +423,8 @@
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_43",
-        "time": 2.254157,
+        "id": "1/2PAB_3_X_RANDOM_43",
+        "time": 1.303043,
         "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
@@ -387,8 +432,8 @@
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_44",
-        "time": 2.881936,
+        "id": "1/2PAB_3_X_RANDOM_44",
+        "time": 2.330954,
         "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
@@ -396,17 +441,17 @@
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_45",
-        "time": 3.515462,
-        "winner": "RANDOM",
+        "id": "1/2PAB_3_X_RANDOM_45",
+        "time": 1.826755,
+        "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
         "count": "45/50",
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_46",
-        "time": 1.906522,
+        "id": "1/2PAB_3_X_RANDOM_46",
+        "time": 1.113741,
         "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
@@ -414,17 +459,17 @@
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_47",
-        "time": 1.442377,
-        "winner": "RANDOM",
+        "id": "1/2PAB_3_X_RANDOM_47",
+        "time": 2.654155,
+        "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
         "count": "47/50",
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_48",
-        "time": 2.977846,
+        "id": "1/2PAB_3_X_RANDOM_48",
+        "time": 2.288901,
         "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
@@ -432,17 +477,17 @@
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_49",
-        "time": 3.885284,
-        "winner": "RANDOM",
+        "id": "1/2PAB_3_X_RANDOM_49",
+        "time": 1.652143,
+        "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
         "count": "49/50",
         "empty_cells": 0
     },
     {
-        "id": "1/4PAB_3_X_RANDOM_50",
-        "time": 3.157944,
+        "id": "1/2PAB_3_X_RANDOM_50",
+        "time": 1.544903,
         "winner": "PAB_3",
         "player1": "PAB_3",
         "player2": "RANDOM",
@@ -450,53 +495,8 @@
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_1",
-        "time": 3.436532,
-        "winner": "PAB_3",
-        "player1": "RANDOM",
-        "player2": "PAB_3",
-        "count": "1/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "2/4RANDOM_X_PAB_3_2",
-        "time": 1.75709,
-        "winner": "PAB_3",
-        "player1": "RANDOM",
-        "player2": "PAB_3",
-        "count": "2/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "2/4RANDOM_X_PAB_3_3",
-        "time": 2.677493,
-        "winner": "PAB_3",
-        "player1": "RANDOM",
-        "player2": "PAB_3",
-        "count": "3/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "2/4RANDOM_X_PAB_3_4",
-        "time": 1.733769,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "PAB_3",
-        "count": "4/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "2/4RANDOM_X_PAB_3_5",
-        "time": 1.285567,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "PAB_3",
-        "count": "5/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "2/4RANDOM_X_PAB_3_6",
-        "time": 1.614085,
+        "id": "2/2RANDOM_X_PAB_3_6",
+        "time": 1.903147,
         "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
@@ -504,17 +504,17 @@
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_7",
-        "time": 1.412866,
-        "winner": "RANDOM",
+        "id": "2/2RANDOM_X_PAB_3_7",
+        "time": 1.42569,
+        "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
         "count": "7/50",
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_8",
-        "time": 1.613993,
+        "id": "2/2RANDOM_X_PAB_3_8",
+        "time": 0.953201,
         "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
@@ -522,8 +522,8 @@
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_9",
-        "time": 1.670123,
+        "id": "2/2RANDOM_X_PAB_3_9",
+        "time": 1.875425,
         "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
@@ -531,8 +531,8 @@
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_10",
-        "time": 2.088658,
+        "id": "2/2RANDOM_X_PAB_3_10",
+        "time": 1.063003,
         "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
@@ -540,8 +540,8 @@
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_11",
-        "time": 2.512632,
+        "id": "2/2RANDOM_X_PAB_3_11",
+        "time": 1.61296,
         "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
@@ -549,8 +549,8 @@
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_12",
-        "time": 1.907993,
+        "id": "2/2RANDOM_X_PAB_3_12",
+        "time": 1.697148,
         "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
@@ -558,8 +558,8 @@
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_13",
-        "time": 1.634037,
+        "id": "2/2RANDOM_X_PAB_3_13",
+        "time": 1.739611,
         "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
@@ -567,8 +567,8 @@
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_14",
-        "time": 1.760802,
+        "id": "2/2RANDOM_X_PAB_3_14",
+        "time": 2.077376,
         "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
@@ -576,8 +576,8 @@
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_15",
-        "time": 1.290823,
+        "id": "2/2RANDOM_X_PAB_3_15",
+        "time": 1.499309,
         "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
@@ -585,8 +585,8 @@
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_16",
-        "time": 1.638067,
+        "id": "2/2RANDOM_X_PAB_3_16",
+        "time": 1.227027,
         "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
@@ -594,35 +594,35 @@
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_17",
-        "time": 1.860863,
-        "winner": "RANDOM",
+        "id": "2/2RANDOM_X_PAB_3_17",
+        "time": 1.968727,
+        "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
         "count": "17/50",
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_18",
-        "time": 1.848104,
-        "winner": "RANDOM",
+        "id": "2/2RANDOM_X_PAB_3_18",
+        "time": 2.178119,
+        "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
         "count": "18/50",
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_19",
-        "time": 2.653978,
-        "winner": "RANDOM",
+        "id": "2/2RANDOM_X_PAB_3_19",
+        "time": 1.02757,
+        "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
         "count": "19/50",
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_20",
-        "time": 3.209393,
+        "id": "2/2RANDOM_X_PAB_3_20",
+        "time": 1.471803,
         "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
@@ -630,8 +630,8 @@
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_21",
-        "time": 1.957313,
+        "id": "2/2RANDOM_X_PAB_3_21",
+        "time": 1.332568,
         "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
@@ -639,8 +639,8 @@
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_22",
-        "time": 2.504647,
+        "id": "2/2RANDOM_X_PAB_3_22",
+        "time": 1.760792,
         "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
@@ -648,8 +648,8 @@
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_23",
-        "time": 3.896935,
+        "id": "2/2RANDOM_X_PAB_3_23",
+        "time": 0.913957,
         "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
@@ -657,8 +657,8 @@
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_24",
-        "time": 1.655434,
+        "id": "2/2RANDOM_X_PAB_3_24",
+        "time": 1.210167,
         "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
@@ -666,8 +666,8 @@
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_25",
-        "time": 1.528419,
+        "id": "2/2RANDOM_X_PAB_3_25",
+        "time": 1.360508,
         "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
@@ -675,26 +675,26 @@
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_26",
-        "time": 2.405739,
-        "winner": "RANDOM",
+        "id": "2/2RANDOM_X_PAB_3_26",
+        "time": 1.565376,
+        "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
         "count": "26/50",
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_27",
-        "time": 1.553297,
-        "winner": "RANDOM",
+        "id": "2/2RANDOM_X_PAB_3_27",
+        "time": 1.683867,
+        "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
         "count": "27/50",
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_28",
-        "time": 2.414671,
+        "id": "2/2RANDOM_X_PAB_3_28",
+        "time": 2.584553,
         "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
@@ -702,8 +702,8 @@
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_29",
-        "time": 1.335908,
+        "id": "2/2RANDOM_X_PAB_3_29",
+        "time": 1.328117,
         "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
@@ -711,8 +711,8 @@
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_30",
-        "time": 1.586282,
+        "id": "2/2RANDOM_X_PAB_3_30",
+        "time": 1.41661,
         "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
@@ -720,8 +720,8 @@
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_31",
-        "time": 1.790283,
+        "id": "2/2RANDOM_X_PAB_3_31",
+        "time": 1.297062,
         "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
@@ -729,8 +729,8 @@
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_32",
-        "time": 1.714121,
+        "id": "2/2RANDOM_X_PAB_3_32",
+        "time": 2.27799,
         "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
@@ -738,17 +738,17 @@
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_33",
-        "time": 1.298079,
-        "winner": "RANDOM",
+        "id": "2/2RANDOM_X_PAB_3_33",
+        "time": 1.708255,
+        "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
         "count": "33/50",
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_34",
-        "time": 1.65995,
+        "id": "2/2RANDOM_X_PAB_3_34",
+        "time": 1.862443,
         "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
@@ -756,8 +756,8 @@
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_35",
-        "time": 1.504244,
+        "id": "2/2RANDOM_X_PAB_3_35",
+        "time": 1.029767,
         "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
@@ -765,8 +765,8 @@
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_36",
-        "time": 1.870536,
+        "id": "2/2RANDOM_X_PAB_3_36",
+        "time": 1.398011,
         "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
@@ -774,8 +774,8 @@
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_37",
-        "time": 1.821592,
+        "id": "2/2RANDOM_X_PAB_3_37",
+        "time": 2.080651,
         "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
@@ -783,53 +783,53 @@
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_38",
-        "time": 1.381692,
-        "winner": "RANDOM",
+        "id": "2/2RANDOM_X_PAB_3_38",
+        "time": 1.039506,
+        "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
         "count": "38/50",
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_39",
-        "time": 1.326104,
-        "winner": "RANDOM",
+        "id": "2/2RANDOM_X_PAB_3_39",
+        "time": 1.627142,
+        "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
         "count": "39/50",
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_40",
-        "time": 1.362079,
-        "winner": "RANDOM",
+        "id": "2/2RANDOM_X_PAB_3_40",
+        "time": 1.480874,
+        "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
         "count": "40/50",
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_41",
-        "time": 2.83026,
-        "winner": "RANDOM",
+        "id": "2/2RANDOM_X_PAB_3_41",
+        "time": 1.184435,
+        "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
         "count": "41/50",
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_42",
-        "time": 2.735747,
-        "winner": "PAB_3",
+        "id": "2/2RANDOM_X_PAB_3_42",
+        "time": 1.446368,
+        "winner": "RANDOM",
         "player1": "RANDOM",
         "player2": "PAB_3",
         "count": "42/50",
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_43",
-        "time": 2.232761,
+        "id": "2/2RANDOM_X_PAB_3_43",
+        "time": 2.162352,
         "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
@@ -837,26 +837,26 @@
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_44",
-        "time": 1.772171,
-        "winner": "RANDOM",
+        "id": "2/2RANDOM_X_PAB_3_44",
+        "time": 2.027748,
+        "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
         "count": "44/50",
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_45",
-        "time": 2.911521,
-        "winner": "RANDOM",
+        "id": "2/2RANDOM_X_PAB_3_45",
+        "time": 1.19585,
+        "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
         "count": "45/50",
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_46",
-        "time": 2.80891,
+        "id": "2/2RANDOM_X_PAB_3_46",
+        "time": 1.445258,
         "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
@@ -864,8 +864,8 @@
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_47",
-        "time": 1.055742,
+        "id": "2/2RANDOM_X_PAB_3_47",
+        "time": 1.110987,
         "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
@@ -873,8 +873,8 @@
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_48",
-        "time": 2.043276,
+        "id": "2/2RANDOM_X_PAB_3_48",
+        "time": 2.115967,
         "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
@@ -882,920 +882,20 @@
         "empty_cells": 0
     },
     {
-        "id": "2/4RANDOM_X_PAB_3_49",
-        "time": 3.198409,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "PAB_3",
-        "count": "49/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "2/4RANDOM_X_PAB_3_50",
-        "time": 2.189164,
+        "id": "2/2RANDOM_X_PAB_3_49",
+        "time": 1.981787,
         "winner": "PAB_3",
         "player1": "RANDOM",
         "player2": "PAB_3",
-        "count": "50/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_1",
-        "time": 0.009317,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "1/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_2",
-        "time": 0.011228,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "2/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_3",
-        "time": 0.010652,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "3/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_4",
-        "time": 0.012834,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "4/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_5",
-        "time": 0.010952,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "5/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_6",
-        "time": 0.010384,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "6/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_7",
-        "time": 0.00918,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "7/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_8",
-        "time": 0.009747,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "8/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_9",
-        "time": 0.010073,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "9/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_10",
-        "time": 0.009416,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "10/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_11",
-        "time": 0.009789,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "11/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_12",
-        "time": 0.011037,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "12/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_13",
-        "time": 0.011157,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "13/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_14",
-        "time": 0.013201,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "14/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_15",
-        "time": 0.010565,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "15/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_16",
-        "time": 0.011268,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "16/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_17",
-        "time": 0.010396,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "17/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_18",
-        "time": 0.009564,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "18/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_19",
-        "time": 0.011856,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "19/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_20",
-        "time": 0.010084,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "20/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_21",
-        "time": 0.011114,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "21/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_22",
-        "time": 0.010623,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "22/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_23",
-        "time": 0.011449,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "23/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_24",
-        "time": 0.011186,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "24/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_25",
-        "time": 0.010644,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "25/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_26",
-        "time": 0.009197,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "26/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_27",
-        "time": 0.009972,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "27/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_28",
-        "time": 0.00923,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "28/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_29",
-        "time": 0.011016,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "29/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_30",
-        "time": 0.011283,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "30/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_31",
-        "time": 0.008214,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "31/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_32",
-        "time": 0.010339,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "32/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_33",
-        "time": 0.010433,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "33/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_34",
-        "time": 0.009457,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "34/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_35",
-        "time": 0.008536,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "35/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_36",
-        "time": 0.008452,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "36/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_37",
-        "time": 0.010107,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "37/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_38",
-        "time": 0.011077,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "38/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_39",
-        "time": 0.00861,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "39/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_40",
-        "time": 0.010712,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "40/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_41",
-        "time": 0.010742,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "41/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_42",
-        "time": 0.008176,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "42/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_43",
-        "time": 0.007668,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "43/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_44",
-        "time": 0.011187,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "44/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_45",
-        "time": 0.011501,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "45/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_46",
-        "time": 0.011404,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "46/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_47",
-        "time": 0.007824,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "47/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_48",
-        "time": 0.008448,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "48/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "3/4RANDOM_X_RANDOM_49",
-        "time": 0.012348,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
         "count": "49/50",
         "empty_cells": 0
     },
     {
-        "id": "3/4RANDOM_X_RANDOM_50",
-        "time": 0.00917,
-        "winner": "RANDOM",
+        "id": "2/2RANDOM_X_PAB_3_50",
+        "time": 1.328161,
+        "winner": "PAB_3",
         "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "50/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_1",
-        "time": 0.009073,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "1/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_2",
-        "time": 0.010858,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "2/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_3",
-        "time": 0.010378,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "3/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_4",
-        "time": 0.011829,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "4/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_5",
-        "time": 0.010328,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "5/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_6",
-        "time": 0.010313,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "6/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_7",
-        "time": 0.009094,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "7/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_8",
-        "time": 0.009539,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "8/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_9",
-        "time": 0.009743,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "9/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_10",
-        "time": 0.009199,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "10/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_11",
-        "time": 0.009727,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "11/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_12",
-        "time": 0.010651,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "12/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_13",
-        "time": 0.010972,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "13/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_14",
-        "time": 0.012637,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "14/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_15",
-        "time": 0.010062,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "15/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_16",
-        "time": 0.011214,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "16/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_17",
-        "time": 0.010365,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "17/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_18",
-        "time": 0.00949,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "18/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_19",
-        "time": 0.011633,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "19/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_20",
-        "time": 0.010084,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "20/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_21",
-        "time": 0.010606,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "21/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_22",
-        "time": 0.010167,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "22/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_23",
-        "time": 0.01155,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "23/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_24",
-        "time": 0.010402,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "24/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_25",
-        "time": 0.010546,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "25/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_26",
-        "time": 0.00922,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "26/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_27",
-        "time": 0.00966,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "27/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_28",
-        "time": 0.009356,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "28/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_29",
-        "time": 0.010413,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "29/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_30",
-        "time": 0.010541,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "30/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_31",
-        "time": 0.008272,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "31/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_32",
-        "time": 0.010416,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "32/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_33",
-        "time": 0.010402,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "33/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_34",
-        "time": 0.009394,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "34/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_35",
-        "time": 0.008068,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "35/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_36",
-        "time": 0.008416,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "36/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_37",
-        "time": 0.010088,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "37/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_38",
-        "time": 0.011176,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "38/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_39",
-        "time": 0.008755,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "39/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_40",
-        "time": 0.010889,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "40/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_41",
-        "time": 0.010776,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "41/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_42",
-        "time": 0.008115,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "42/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_43",
-        "time": 0.007697,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "43/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_44",
-        "time": 0.011421,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "44/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_45",
-        "time": 0.011488,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "45/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_46",
-        "time": 0.011529,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "46/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_47",
-        "time": 0.007984,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "47/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_48",
-        "time": 0.008489,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "48/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_49",
-        "time": 0.012355,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
-        "count": "49/50",
-        "empty_cells": 0
-    },
-    {
-        "id": "4/4RANDOM_X_RANDOM_50",
-        "time": 0.009206,
-        "winner": "RANDOM",
-        "player1": "RANDOM",
-        "player2": "RANDOM",
+        "player2": "PAB_3",
         "count": "50/50",
         "empty_cells": 0
     }
