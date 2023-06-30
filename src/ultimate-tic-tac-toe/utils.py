@@ -88,3 +88,7 @@ def get_score_by_count(count, op_count):
         score -= 1
     
     return score
+
+def flatten_board(board):
+    flattened = [cell for row in board for cell in row]
+    return ''.join(flattened) 
