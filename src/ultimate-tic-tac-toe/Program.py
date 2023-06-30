@@ -89,6 +89,7 @@ def run_match(matchup_counter, match, total, set_data_idx):
 def main(config):
 	total = config['game_total']
 	matchup_start = config['matchup_start']
+	matchup_end = config['matchup_end']
 	seed = config['seed']
 	set_data_idx = config['set_data_idx']
 	tournament = config['tournament']
@@ -104,6 +105,9 @@ def main(config):
 			count += 1
 			if count < matchup_start:
 				continue
+			
+			if count > matchup_end:
+				break
 
 			random.seed(seed)
 			run_match(matchup_counter, match, total, set_data_idx)

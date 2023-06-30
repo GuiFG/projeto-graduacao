@@ -71,7 +71,6 @@ class Node:
         if self.parent:
             self.parent.backpropagate(reward, player, amaf_visits, amaf_reward)
 
-
 class RaveMcts:
     def __init__(self, state, player):
         self.root = Node(state, opponent_player(player))

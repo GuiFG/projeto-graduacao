@@ -6,14 +6,13 @@ import random
 
 RANDOM = 0
 PAB_3 = 1
-PAB_4 = 2
-PAB_5 = 3
-PAB_6 = 4
-MCTS_500 = 5
-MCTS_1000 = 6
-MCTS_5000 = 7
-MCTS_10000 = 8 
-RAVE = 9
+PAB_6 = 2
+MCTS_1000 = 3
+MCTS_10000 = 4
+RAVE_1000 = 5
+RAVE_10000 = 6
+QLEARN_1 = 7
+QLEARN_2 = 8
 
 class Player():
     def __init__(self, type, player):
@@ -29,22 +28,16 @@ class Player():
             return self.random(board, prevMove)
         elif self.type == PAB_3:
             action = self.h_alfa_beta(state, 3)
-        elif self.type == PAB_4:
-            action = self.h_alfa_beta(state, 4)
-        elif self.type == PAB_5:
-            action = self.h_alfa_beta(state, 5)
         elif self.type == PAB_6:
             action = self.h_alfa_beta(state, 6)
-        elif self.type == MCTS_500:
-            action = self.mcts(state, 500)
         elif self.type == MCTS_1000:
             action = self.mcts(state, 1000)
-        elif self.type == MCTS_5000:
-            action = self.mcts(state, 5000)
         elif self.type == MCTS_10000:
             action = self.mcts(state, 10000)
-        elif self.type == RAVE:
-            action = self.rave_mcts(state, 100)
+        elif self.type == RAVE_1000:
+            action = self.rave_mcts(state, 1000)
+        elif self.type == RAVE_10000:
+            action = self.rave_mcts(state, 10000)
        
         return action
 
