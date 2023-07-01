@@ -5,8 +5,7 @@ EMPTY_SQUARE = "---"
 
 MAX_POSITION_REPEAT = 3
 
-
-def is_terminal_node(board):
+def is_terminal_node(board, positions):
     player = BLACK_PIECE
     moves = find_available_moves(board, player)
 
@@ -14,7 +13,10 @@ def is_terminal_node(board):
         return True 
     
     opponent_moves = find_available_moves(board, opponent_player(player))
-    return len(opponent_moves) == 0
+    if len(opponent_moves) == 0:
+        return True 
+    
+    return check_draw(positions)
 
 def opponent_player(player):
     return WHITE_PIECE if player == BLACK_PIECE else BLACK_PIECE
@@ -285,18 +287,13 @@ def check_draw(positions):
 
 def get_type_score(board, player):
     score = 0
-    op_player = opponent_player(player)
     for i in range(8):
         for j in range(8):
             piece = board[i][j][0]
             if piece == player.lower():
                 score += 5
             elif piece == player.upper():
-                score += 17.5
-            elif piece == op_player.lower():
-                score -= 5
-            elif piece == op_player.upper():
-                score -= 17.5
+                score += 20
     
     return score
 
@@ -311,7 +308,7 @@ def get_localization_score(board, player):
         for j in range(8):
             piece = board[i][j][0]
             if piece.lower() == player.lower():
-                localization_score += 2
+                localization_score += 3
     
     # pieces on the side 
     cols = [0, 7]
@@ -326,7 +323,7 @@ def get_localization_score(board, player):
     for j in range(8):
         piece = board[bottom_line_idx][j][0]
         if piece.lower() == player.lower():
-            localization_score += 0.5
+            localization_score += 1
     
     return localization_score
 
@@ -338,14 +335,15 @@ def get_layout_jump_score(board, player):
             piece = board[i][j][0]
             if piece.lower() == player.lower():
                 count = count_pieces_surround(board, i, j, player)
-                layout_score += (count * 0.3)
+                layout_score += count
+
                 available_jumps = get_available_jumps(board, i, j, player)
                 if len(available_jumps) > 0:
                     for jump in available_jumps:
                         if jump[-1]:
-                            jump_score += 8.75
+                            jump_score += 7
                         else:
-                            jump_score += 2.5
+                            jump_score += 3
 
     return layout_score, jump_score 
 
@@ -416,3 +414,6 @@ def is_queen(board, m, n):
     
     return piece == BLACK_PIECE.upper()
 
+def flatten_board(board):
+    flattened = [cell for row in board for cell in row]
+    return ''.join(flattened) 

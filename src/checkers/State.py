@@ -1,5 +1,6 @@
 import copy 
 from utils import *
+import hashlib
 
 class State:
     def __init__(self, board, positions=[]):
@@ -7,7 +8,7 @@ class State:
         self.positions = positions
     
     def is_terminal(self):
-        return is_terminal_node(self.board)
+        return is_terminal_node(self.board, self.positions)
         
     def actions(self, player):
         return find_available_moves(self.board, player)
@@ -19,7 +20,7 @@ class State:
 
         update_positions(self.board, self.positions)
 
-        return State(board, self.positions)
+        return State(board, copy.deepcopy(self.positions))
     
     def utility(self, player):
         black_pieces, white_pieces = count_pieces(self.board)
@@ -45,3 +46,19 @@ class State:
         layout_score, jump_score = get_layout_jump_score(self.board, player)
 
         return type_score + localization_score + layout_score + jump_score 
+
+
+    def get_state_key(self, player):
+        board = flatten_board(self.board) + player
+
+        return hashlib.sha256(board.encode()).hexdigest()
+
+    def get_action_key(self, action):
+        if action is None: 
+            return '9999'
+        
+        return ''.join([str(a) for a in action])
+
+    @staticmethod
+    def get_action_from_key(key):
+        return [int(k) for k in key]

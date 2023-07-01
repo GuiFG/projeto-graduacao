@@ -137,6 +137,7 @@ class Game:
                         result += 5
                     if board[i][j][0] == "C":
                         result += 10
+                        
                     if i == 0 or j == 0 or i == 7 or j == 7:
                         result += 7
                     if i + 1 > 7 or j - 1 < 0 or i - 1 < 0 or j + 1 > 7:

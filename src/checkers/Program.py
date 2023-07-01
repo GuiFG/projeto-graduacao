@@ -55,7 +55,7 @@ def game(id, players):
             game_metrics.append(game_metric)
 
             # checkers.print_matrix()
-            
+
             result = evaluate_state(checkers, capture)
             if result: 
                 winner_idx = idx + 1
@@ -97,7 +97,6 @@ def run_match(matchup_counter, match, total, set_data_idx):
 
 		Metrics.save_game_metrics(game_metric, set_data_idx)
 		Metrics.save_matchup_metrics(match_metric, set_data_idx)
-
 
 
 def main(config):
