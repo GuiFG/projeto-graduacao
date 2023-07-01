@@ -1,6 +1,5 @@
 import copy
 from utils import *
-import hashlib
 
 class State:
     def __init__(self, board, prevMove):
@@ -25,7 +24,7 @@ class State:
         if curState[0] == 'W':
             return 1 if curState[1] == player else -1
         
-        return 0
+        return 0.5
     
     def evaluation(self, player):
         score = 0 
@@ -42,17 +41,14 @@ class State:
                 board += flatten_board(small_board.board)
         board += str(player)
 
-        return hashlib.sha256(board.encode()).hexdigest()
+        return board
         
     def get_action_key(self, action):
         if action is None: 
             return '99'
         
-        return str(action[0]) + str(action[1])
+        return ''.join([str(a) for a in action])
 
     @staticmethod
     def get_action_from_key(key):
-        row = key[0]
-        col = key[1]
-
-        return [int(row), int(col)]
+        return [int(k) for k in key]

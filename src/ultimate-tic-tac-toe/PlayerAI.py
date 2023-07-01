@@ -2,7 +2,10 @@ from State import State
 from Algorithms.HAlfaBeta import HAlfaBeta
 from Algorithms.MonteCarlo import MonteCarlo
 from Algorithms.RaveMcts import RaveMcts
+from Algorithms.QLearning import QLearn
 import random
+import json
+import os.path
 
 RANDOM = 0
 PAB_3 = 1
@@ -13,6 +16,9 @@ RAVE_1000 = 5
 RAVE_10000 = 6
 QLEARN_1 = 7
 QLEARN_2 = 8
+
+Q_TABLE_1 = {}
+Q_TABLE_2 = {}
 
 class Player():
     def __init__(self, type, player):
@@ -38,6 +44,10 @@ class Player():
             action = self.rave_mcts(state, 1000)
         elif self.type == RAVE_10000:
             action = self.rave_mcts(state, 10000)
+        elif self.type == QLEARN_1:
+            action = self.qlearn(100000)
+        elif self.type == QLEARN_2:
+            action = self.qlearn(300000)
        
         return action
 
@@ -66,3 +76,37 @@ class Player():
         action = rave_mcts.next_move()
 
         return action
+    
+    def qlearn(self, episodes):
+        state = State(self.board)
+        
+        qtable = Player.get_qtable(episodes)
+        qlearn = QLearn(state, self.player, qtable)
+
+        move = qlearn.get_move()
+        qlearn.learn(move)
+
+        return move
+
+    def get_qtable(episodes):
+        qtable = {}
+        
+        global Q_TABLE_1, Q_TABLE_2
+        if episodes == 100000:
+            if len(Q_TABLE_1) == 0:
+                Q_TABLE_1 = Player.get_qtable_json(episodes)
+            
+            qtable = Q_TABLE_1
+        elif episodes == 300000:
+            if len(Q_TABLE_2) == 0:
+                Q_TABLE_2 = Player.get_qtable_json(episodes)
+            
+            qtable = Q_TABLE_2
+        
+        return qtable
+    
+    def get_qtable_json(episodes):
+        filename = f'qlearn_{episodes}.json'
+        if os.path.isfile(filename):
+            with open(f'qlearn_{episodes}.json', 'r') as file:
+                return json.load(file)
