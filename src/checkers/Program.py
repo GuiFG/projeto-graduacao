@@ -9,26 +9,19 @@ import Metrics
 import utils
 from utils import BLACK_PIECE, WHITE_PIECE, EMPTY_SQUARE
 
-def evaluate_state(checkers, capture):
+def evaluate_state(checkers):
     black_pieces, white_pieces = utils.count_pieces(checkers.matrix)
     winner = utils.check_winner(checkers.matrix, black_pieces, white_pieces)
-    if winner is not None:
-        return winner
-    
-    no_capture = checkers.check_captures(capture)
-    if no_capture:
-        return EMPTY_SQUARE
-
-    return None
+    return winner
 
 def execute_move(board, player):
     start_action = datetime.now() 
     move = player.get_action()
     end_action = datetime.now() - start_action
 
-    capture = utils.make_move(board, move, player.player)
+    utils.make_move(board, move, player.player)
 
-    return capture, end_action.total_seconds()
+    return end_action.total_seconds()
 
 def game(id, players):
     checkers = Game()
@@ -48,7 +41,7 @@ def game(id, players):
             p = Player(checkers.matrix, symbol, player['id'])
             game_metric = Metrics.get_game_metrics(id, round)
             
-            capture, time = execute_move(checkers.matrix, p)
+            time = execute_move(checkers.matrix, p)
             
             game_metric['player'] = player['name']
             game_metric['time'] = time
@@ -56,7 +49,7 @@ def game(id, players):
 
             # checkers.print_matrix()
 
-            result = evaluate_state(checkers, capture)
+            result = evaluate_state(checkers)
             if result: 
                 winner_idx = idx + 1
                 game_over = True 
