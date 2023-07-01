@@ -16,9 +16,6 @@ class Node:
         self.move = state.get_action_key(action) 
         self.depth = depth
 
-    def serialize_move(self, action):
-        return ''.join([str(a) for a in action])
-
     def expand(self, amaf_visits, amaf_reward):
         op_player = opponent_player(self.player)
         for action in self.state.actions(op_player):

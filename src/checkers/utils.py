@@ -8,9 +8,9 @@ MAX_POSITION_REPEAT = 3
 def is_terminal_node(board, positions):
     player = BLACK_PIECE
     moves = find_available_moves(board, player)
-
+    
     if len(moves) == 0:
-        return True 
+        return True
     
     opponent_moves = find_available_moves(board, opponent_player(player))
     if len(opponent_moves) == 0:
@@ -417,3 +417,42 @@ def is_queen(board, m, n):
 def flatten_board(board):
     flattened = [cell for row in board for cell in row]
     return ''.join(flattened) 
+
+def get_start_game():
+    matrix = [[], [], [], [], [], [], [], []]
+    for row in matrix:
+        for i in range(8):
+            row.append(EMPTY_SQUARE)
+    
+    position_black(matrix)
+    position_white(matrix)
+    
+    return matrix
+
+def print_board(matrix):
+    i = 0
+    print()
+    for row in matrix:
+        print(i, end="  |")
+        i += 1
+        for elem in row:
+            print(elem, end=" ")
+        print()
+    print()
+    for j in range(8):
+        if j == 0:
+            j = "     0"
+        print(j, end="   ")
+    print("\n")
+
+def position_white(matrix):
+    for i in range(3):
+        for j in range(8):
+            if (i + j) % 2 == 1:
+                matrix[i][j] = (WHITE_PIECE.lower() + str(i) + str(j))
+
+def position_black(matrix):
+    for i in range(5, 8, 1):
+        for j in range(8):
+            if (i + j) % 2 == 1:
+                matrix[i][j] = (BLACK_PIECE.lower() + str(i) + str(j))

@@ -7,7 +7,7 @@ from PlayerAI import Player
 from Game import Game
 import Metrics
 import utils
-from utils import BLACK_PIECE, WHITE_PIECE, EMPTY_SQUARE
+from utils import BLACK_PIECE, WHITE_PIECE
 
 def evaluate_state(checkers):
     black_pieces, white_pieces = utils.count_pieces(checkers.matrix)

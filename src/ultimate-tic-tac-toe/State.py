@@ -1,5 +1,6 @@
 import copy
 from utils import *
+import hashlib
 
 class State:
     def __init__(self, board, prevMove):
@@ -39,9 +40,9 @@ class State:
         for row in self.board.board:
             for small_board in row: 
                 board += flatten_board(small_board.board)
-        board += str(player)
+        board += (self.get_action_key(self.prevMove) + str(player))
 
-        return board
+        return hashlib.sha256(board.encode()).hexdigest()
         
     def get_action_key(self, action):
         if action is None: 
