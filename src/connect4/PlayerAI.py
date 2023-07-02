@@ -47,7 +47,7 @@ class Player():
         elif self.type == RAVE_10000:
             action = self.rave_mcts(10000)
         elif self.type == QLEARN_1:
-            action = self.qlearn(1000001)
+            action = self.qlearn(100000)
         elif self.type == QLEARN_2:
             action = self.qlearn(300000)
        
