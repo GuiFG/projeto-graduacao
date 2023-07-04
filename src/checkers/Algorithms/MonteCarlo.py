@@ -54,7 +54,6 @@ class MCTS:
         self.root = Node(state, opponent_player(player))
 
     def run(self, simulations):
-        now = datetime.now()
         for i in range(simulations):
             node = self.root
             while len(node.children) > 0:
@@ -66,8 +65,6 @@ class MCTS:
             reward, player = self.simulate(node.state, node.player)
             node.backpropagate(reward, player)
 
-        delta = datetime.now() - now 
-        print(f'levou: {delta.total_seconds()}s')
 
     def simulate(self, state, player):
         copy_state = copy.deepcopy(state)

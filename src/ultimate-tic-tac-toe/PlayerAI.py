@@ -11,9 +11,9 @@ RANDOM = 0
 PAB_3 = 1
 PAB_6 = 2
 MCTS_1000 = 3
-MCTS_10000 = 4
+MCTS_5000 = 4
 RAVE_1000 = 5
-RAVE_10000 = 6
+RAVE_5000 = 6
 QLEARN_1 = 7
 QLEARN_2 = 8
 
@@ -38,14 +38,14 @@ class Player():
             action = self.h_alfa_beta(state, 6)
         elif self.type == MCTS_1000:
             action = self.mcts(state, 1000)
-        elif self.type == MCTS_10000:
-            action = self.mcts(state, 10000)
+        elif self.type == MCTS_5000:
+            action = self.mcts(state, 5000)
         elif self.type == RAVE_1000:
             action = self.rave_mcts(state, 1000)
-        elif self.type == RAVE_10000:
-            action = self.rave_mcts(state, 10000)
+        elif self.type == RAVE_5000:
+            action = self.rave_mcts(state, 5000)
         elif self.type == QLEARN_1:
-            action = self.qlearn(100000)
+            action = self.qlearn(state, 100000)
         elif self.type == QLEARN_2:
             action = self.qlearn(300000)
        
@@ -77,8 +77,7 @@ class Player():
 
         return action
     
-    def qlearn(self, episodes):
-        state = State(self.board)
+    def qlearn(self, state, episodes):
         
         qtable = Player.get_qtable(episodes)
         qlearn = QLearn(state, self.player, qtable)

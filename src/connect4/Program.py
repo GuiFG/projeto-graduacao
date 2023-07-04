@@ -103,6 +103,7 @@ def run_match(matchup_counter, match, total, set_data_idx):
 def main(config):
 	total = config['game_total']
 	matchup_start = config['matchup_start']
+	matchup_end = config['matchup_end']
 	seed = config['seed']
 	set_data_idx = config['set_data_idx']
 	tournament = config['tournament']
@@ -118,9 +119,13 @@ def main(config):
 			count += 1
 			if count < matchup_start:
 				continue
-
+			
+			if count > matchup_end:
+				break
+			
+			match_total = 1 if match[0]['type'] == 'ALFA_BETA' and match[1]['type'] == 'ALFA_BETA' else total
 			random.seed(seed)
-			run_match(matchup_counter, match, total, set_data_idx)
+			run_match(matchup_counter, match, match_total, set_data_idx)
 			print()
 
 		time_elapsed = datetime.now() - start_tournement

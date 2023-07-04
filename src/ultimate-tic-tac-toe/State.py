@@ -32,7 +32,6 @@ class State:
         for row in self.board.board:
             for small_board in row: 
                 score += evaluation_small_board(small_board.board, player)
-        
         return score
 
     def get_state_key(self, player):

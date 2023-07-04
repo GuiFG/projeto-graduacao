@@ -17,7 +17,7 @@
     {
         "id" : 4,
         "type": "MCTS",
-        "name": "MCTS_10000"
+        "name": "MCTS_5000"
     },
     {
         "id" : 5,
@@ -27,6 +27,6 @@
     {
         "id" : 6,
         "type": "MCTS",
-        "name": "RAVE_10000"
+        "name": "RAVE_5000"
     }
 ]
