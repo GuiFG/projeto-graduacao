@@ -22,8 +22,6 @@ def execute_move(board, player, symbol, prevMove):
 	end_action = datetime.now() - start_action
 	
 	board.playMove(move, symbol)
-
-	print(end_action.total_seconds())
 	
 	return move, end_action.total_seconds()
 

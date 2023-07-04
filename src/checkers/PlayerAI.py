@@ -39,11 +39,11 @@ class Player():
         elif self.type == MCTS_1000:
             action = self.mcts(1000)
         elif self.type == MCTS_10000:
-            action = self.mcts(10000)
+            action = self.mcts(5000)
         elif self.type == RAVE_1000:
             action = self.rave_mcts(1000)
         elif self.type == RAVE_10000:
-            action = self.rave_mcts(10000)
+            action = self.rave_mcts(5000)
         elif self.type == QLEARN_1:
             action = self.qlearn(100000)
         elif self.type == QLEARN_2:
