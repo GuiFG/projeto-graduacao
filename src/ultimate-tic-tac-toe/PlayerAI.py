@@ -43,9 +43,9 @@ class Player():
         elif self.type == RAVE_1000:
             action = self.rave_mcts(state, 1000)
         elif self.type == RAVE_10000:
-            action = self.rave_mcts(state, 10000)
+            action = self.rave_mcts(state, 5000)
         elif self.type == QLEARN_1:
-            action = self.qlearn(100000)
+            action = self.qlearn(state, 100000)
         elif self.type == QLEARN_2:
             action = self.qlearn(300000)
        
@@ -77,8 +77,7 @@ class Player():
 
         return action
     
-    def qlearn(self, episodes):
-        state = State(self.board)
+    def qlearn(self, state, episodes):
         
         qtable = Player.get_qtable(episodes)
         qlearn = QLearn(state, self.player, qtable)

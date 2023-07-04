@@ -4,6 +4,8 @@ import copy
 
 from utils import opponent_player
 
+from datetime import datetime
+
 
 class Node:
     def __init__(self, state, player, parent=None, action=None):
@@ -66,11 +68,14 @@ class MonteCarlo:
         copy_state = copy.deepcopy(state)
         copy_player = copy.deepcopy(player)
 
+        count = 0 
         while not copy_state.is_terminal():
             action = random.choice(copy_state.actions())
             copy_player = opponent_player(copy_player)
             copy_state = copy_state.result(action, copy_player)
-            
+
+            count += 1
+     
         return copy_state.utility(copy_player), copy_player
 
     def next_move(self):

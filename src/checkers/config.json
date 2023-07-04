@@ -1,7 +1,7 @@
 {
     "game_total" : 50,
     "matchup_start" : 0,
-    "matchup_end": 15,
+    "matchup_end": 30,
     "seed" : 42,
     "set_data_idx" : 99,
     "tournament": false
