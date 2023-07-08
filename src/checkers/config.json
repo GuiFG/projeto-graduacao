@@ -3,6 +3,6 @@
     "matchup_start" : 0,
     "matchup_end": 30,
     "seed" : 42,
-    "set_data_idx" : 99,
-    "tournament": false
+    "set_data_idx" : 10,
+    "tournament": true
 }

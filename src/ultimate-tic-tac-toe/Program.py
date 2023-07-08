@@ -7,8 +7,6 @@ from copy import *
 from PlayerAI import *
 from Metrics import *
 
-from time import sleep
-
 def evaluate_state(board):
 	curState = board.getState()
 	if curState[0] == 'W':
