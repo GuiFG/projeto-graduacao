@@ -33,17 +33,16 @@ class Player():
             action = self.random()
         elif self.type == PAB_3:
             action = self.h_alfa_beta(3)
-            action = self.h_alfa_beta(5)
         elif self.type == PAB_6:
             action = self.h_alfa_beta(6)
         elif self.type == MCTS_1000:
             action = self.mcts(1000)
         elif self.type == MCTS_10000:
-            action = self.mcts(5000)
+            action = self.mcts(10000)
         elif self.type == RAVE_1000:
             action = self.rave_mcts(1000)
         elif self.type == RAVE_10000:
-            action = self.rave_mcts(5000)
+            action = self.rave_mcts(10000)
         elif self.type == QLEARN_1:
             action = self.qlearn(100000)
         elif self.type == QLEARN_2:
