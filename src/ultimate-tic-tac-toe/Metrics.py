@@ -2,6 +2,8 @@ import json
 import itertools
 import os
 import copy
+from os import listdir
+from os.path import isfile, join
 
 def get_json(file_name):
     if not os.path.isfile(file_name):
@@ -107,11 +109,55 @@ def save_train_time(time, idx):
     with open(f'metrics/qtrain_{idx}.txt', 'w') as f:
         f.write(train_time)
 
-def get_matchups_result(idx):
-    return get_json(f'metrics/matchup_{idx}.json')
+def get_matchups_result(tournment=True):
+    return get_result_json('matchup', tournment)
+    
+def get_games_result(tournment=True):
+    return get_result_json('game', tournment)
 
-def get_games_result(idx):
-    return get_json(f'metrics/game_{idx}.json')
+def get_result_json(type, tournment):
+    folder = 'metrics'
+    if not tournment:
+        return get_json(folder + f'/{type}_random.json')
+
+    check = lambda f: isfile(join(folder, f)) and type in f and 'random' not in f
+
+    onlyfiles = [f for f in listdir(folder) if check(f)]
+    
+    matchups = []
+    for file in onlyfiles:
+        json = get_json(folder + '/' + file)
+        
+        matchups.extend(json)
+    
+    return matchups
+
+def generate_matchups_ids(tournment=True, game_total=50):
+    players = get_players()
+    matchups = get_matchups(players, tournment)
+
+    matchups_id = []
+    for i in range(len(matchups)):
+        matchup = matchups[i]
+        for j in range(game_total):
+            matchup_id = f'{i+1}/{len(matchups)}{matchup[0]["name"]}_X_{matchup[1]["name"]}_{j+1}'
+            
+            matchups_id.append(matchup_id)
+
+            if matchup[0]['type'] == 'ALFA_BETA' and matchup[1]['type'] == 'ALFA_BETA':
+                break
+    
+    return matchups_id
+
+def get_results_contains_id(results, ids):
+    final_result = []
+
+    for result in results: 
+        if result['id'] in ids:
+            final_result.append(result)
+       
+        
+    return final_result
 
 def get_players(idx=0):
     file_name = f'data/players_{idx}.json' if idx != 0 else 'data/players.json'

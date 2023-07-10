@@ -61,7 +61,6 @@ def game(id, players):
 
 	return winner, game_metrics
 		
-
 def run_match(matchup_counter, match, total, set_data_idx):
 	player1 = match[0]
 	player2 = match[1]
