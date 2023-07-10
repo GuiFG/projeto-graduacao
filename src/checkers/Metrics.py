@@ -118,14 +118,15 @@ def get_games_result(tournment=True):
 def get_result_json(type, tournment):
     folder = 'metrics'
     if not tournment:
-        return get_json(folder + f'/{type}_0.json')
+        return get_json(folder + f'/{type}_random.json')
 
-    check = lambda f: isfile(join(folder, f)) and type in f and '0' not in f
+    check = lambda f: isfile(join(folder, f)) and type in f and 'random' not in f
 
     onlyfiles = [f for f in listdir(folder) if check(f)]
     
     matchups = []
     for file in onlyfiles:
+        print(file)
         json = get_json(folder + '/' + file)
         
         matchups.extend(json)
@@ -147,7 +148,6 @@ def generate_matchups_ids(tournment=True, game_total=50):
             if matchup[0]['type'] == 'ALFA_BETA' and matchup[1]['type'] == 'ALFA_BETA':
                 break
     
-    
     return matchups_id
 
 def get_results_contains_id(results, ids):
@@ -156,7 +156,8 @@ def get_results_contains_id(results, ids):
     for result in results: 
         if result['id'] in ids:
             final_result.append(result)
-    
+       
+        
     return final_result
 
 def get_players(idx=0):
