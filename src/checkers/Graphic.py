@@ -134,14 +134,13 @@ def generate_effectiveness_table(players):
 
     Generator.effectiveness_table(effectiveness)
 
-
 def generate_results(tournment=True):
     players = [player['name'] for player in Metrics.get_players()]
 
     matchups_ids = Metrics.generate_matchups_ids(tournment)
     matchups = Metrics.get_matchups_result(tournment)
     matchups = Metrics.get_results_contains_id(matchups, matchups_ids)
-
+    
     print('Gerando a tabela de efetividade das tecnicas')
     generate_effectiveness_table(players)
     
