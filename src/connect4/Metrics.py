@@ -126,7 +126,6 @@ def get_result_json(type, tournment):
     
     matchups = []
     for file in onlyfiles:
-        print(file)
         json = get_json(folder + '/' + file)
         
         matchups.extend(json)
