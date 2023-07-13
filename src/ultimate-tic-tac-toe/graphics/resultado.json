@@ -1,1 +1,92 @@
-[{"PAB_3": 0, "PAB_6": 2, "draw": 0, "total": 2}, {"PAB_3": 10, "MCTS_1000": 40, "draw": 0, "total": 50}, {"PAB_3": 4, "MCTS_5000": 46, "draw": 0, "total": 50}, {"PAB_3": 5, "RAVE_1000": 45, "draw": 0, "total": 50}, {"PAB_3": 5, "RAVE_5000": 45, "draw": 0, "total": 50}, {"PAB_6": 17, "MCTS_1000": 33, "draw": 0, "total": 50}, {"PAB_6": 3, "MCTS_5000": 47, "draw": 0, "total": 50}, {"PAB_6": 22, "RAVE_1000": 28, "draw": 0, "total": 50}, {"PAB_6": 7, "RAVE_5000": 43, "draw": 0, "total": 50}, {"MCTS_1000": 3, "MCTS_5000": 47, "draw": 0, "total": 50}, {"MCTS_1000": 22, "RAVE_1000": 28, "draw": 0, "total": 50}, {"MCTS_1000": 8, "RAVE_5000": 42, "draw": 0, "total": 50}, {"MCTS_5000": 43, "RAVE_1000": 7, "draw": 0, "total": 50}, {"MCTS_5000": 27, "RAVE_5000": 23, "draw": 0, "total": 50}, {"RAVE_1000": 5, "RAVE_5000": 45, "draw": 0, "total": 50}]
+[
+    {
+        "PAB_3": 0,
+        "PAB_6": 2,
+        "draw": 0,
+        "total": 2
+    },
+    {
+        "PAB_3": 10,
+        "MCTS_1000": 40,
+        "draw": 0,
+        "total": 50
+    },
+    {
+        "PAB_3": 4,
+        "MCTS_5000": 46,
+        "draw": 0,
+        "total": 50
+    },
+    {
+        "PAB_3": 5,
+        "RAVE_1000": 45,
+        "draw": 0,
+        "total": 50
+    },
+    {
+        "PAB_3": 5,
+        "RAVE_5000": 45,
+        "draw": 0,
+        "total": 50
+    },
+    {
+        "PAB_6": 17,
+        "MCTS_1000": 33,
+        "draw": 0,
+        "total": 50
+    },
+    {
+        "PAB_6": 3,
+        "MCTS_5000": 47,
+        "draw": 0,
+        "total": 50
+    },
+    {
+        "PAB_6": 22,
+        "RAVE_1000": 28,
+        "draw": 0,
+        "total": 50
+    },
+    {
+        "PAB_6": 7,
+        "RAVE_5000": 43,
+        "draw": 0,
+        "total": 50
+    },
+    {
+        "MCTS_1000": 3,
+        "MCTS_5000": 47,
+        "draw": 0,
+        "total": 50
+    },
+    {
+        "MCTS_1000": 22,
+        "RAVE_1000": 28,
+        "draw": 0,
+        "total": 50
+    },
+    {
+        "MCTS_1000": 8,
+        "RAVE_5000": 42,
+        "draw": 0,
+        "total": 50
+    },
+    {
+        "MCTS_5000": 43,
+        "RAVE_1000": 7,
+        "draw": 0,
+        "total": 50
+    },
+    {
+        "MCTS_5000": 27,
+        "RAVE_5000": 23,
+        "draw": 0,
+        "total": 50
+    },
+    {
+        "RAVE_1000": 5,
+        "RAVE_5000": 45,
+        "draw": 0,
+        "total": 50
+    }
+]
