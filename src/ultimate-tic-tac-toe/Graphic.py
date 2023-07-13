@@ -54,6 +54,14 @@ class Generator:
         plt.ylabel("Tempo de execução")
         
         fig.savefig(DIRNAME + "execution_time_overall.pdf", bbox_inches='tight')
+    
+    @staticmethod
+    def save_time_elapsed(time_tournment, time_random):
+        with open('graphics/time_tournment.txt', 'w') as f:
+            f.write(time_tournment)
+
+        with open('graphics/time_random.txt', 'w') as f:
+            f.write(time_random)
 
 
 def count_total_wins_player(matchups, player):
@@ -121,7 +129,7 @@ def generate_result_matchups(matchups, players):
     Generator.save_result(results)
 
 def generate_effectiveness_table(players):
-    matchups = Metrics.get_matchups_result(0)
+    matchups = Metrics.get_matchups_result(False)
     
     effectiveness = {}
     for player in players:
@@ -133,21 +141,44 @@ def generate_effectiveness_table(players):
         effectiveness[player] = (total_wins / match_total) * 100
 
     Generator.effectiveness_table(effectiveness)
-        
-def main():
-    set_idx = 1
+
+def generate_time_elapsed(matchups):
+    matchups_random = Metrics.get_matchups_result(False)
+
+    calculate_time = lambda matchups: sum([matchup['time'] for matchup in matchups])
+
+    time_tournment = calculate_time(matchups)
+    time_random = calculate_time(matchups_random)
+
+    time_tournment = Metrics.get_time_from_seconds(time_tournment)
+    time_random = Metrics.get_time_from_seconds(time_random)
+
+    Generator.save_time_elapsed(time_tournment, time_random)
+
+
+def generate_results(tournment=True):
     players = [player['name'] for player in Metrics.get_players()]
 
+    matchups_ids = Metrics.generate_matchups_ids(tournment)
+    matchups = Metrics.get_matchups_result(tournment)
+    matchups = Metrics.get_results_contains_id(matchups, matchups_ids)
+
+    print('Gerar o tempo total do torneio e do teste de efetividade')
+    generate_time_elapsed(matchups)
+    
     print('Gerando a tabela de efetividade das tecnicas')
     generate_effectiveness_table(players)
-    matchups = Metrics.get_matchups_result(set_idx)
-
+    
     print('Gerando o resultado vitorias/empate/derrota')
     generate_result_matchups(matchups, players)
+    
+    games = Metrics.get_games_result(tournment)
+    games = Metrics.get_results_contains_id(games, matchups_ids)
 
-    games = Metrics.get_games_result(set_idx)
     print('Gerando boxplot do tempo de execucao de cada tecnica')
     generate_execution_time(games, players)
 
-
+def main():
+    generate_results()
+    
 main()

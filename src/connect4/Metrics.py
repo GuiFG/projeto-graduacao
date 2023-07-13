@@ -102,9 +102,22 @@ def save_matchup_metrics(matchup_metric, idx):
 
     save_content(f'matchup_{idx}.json', content)
 
+def divmod(value, divisor):
+    quocient = value // divisor
+    remainder = value % divisor
+
+    return int(quocient), int(remainder)
+
+def get_time_from_seconds(seconds_time):
+    minutes, seconds = divmod(seconds_time, 60)
+    hours, minutes = divmod(minutes, 60)
+    days, hours = divmod(hours, 24)
+
+    return f'{days}d:{hours}h:{minutes}m:{seconds}s\n{seconds_time}'
+
 def save_train_time(time, idx):
     seconds = time.total_seconds()
-    train_time = f'{int(seconds//3600)}h:{int((seconds%3600)//60)}m:{int(seconds%3600)%60}s'
+    train_time = get_time_from_seconds(seconds)
     
     with open(f'metrics/qtrain_{idx}.txt', 'w') as f:
         f.write(train_time)
@@ -118,9 +131,9 @@ def get_games_result(tournment=True):
 def get_result_json(type, tournment):
     folder = 'metrics'
     if not tournment:
-        return get_json(folder + f'/{type}_0.json')
+        return get_json(folder + f'/{type}_random.json')
 
-    check = lambda f: isfile(join(folder, f)) and type in f and '0' not in f
+    check = lambda f: isfile(join(folder, f)) and type in f and 'random' not in f
 
     onlyfiles = [f for f in listdir(folder) if check(f)]
     
@@ -147,16 +160,24 @@ def generate_matchups_ids(tournment=True, game_total=50):
             if matchup[0]['type'] == 'ALFA_BETA' and matchup[1]['type'] == 'ALFA_BETA':
                 break
     
-    
     return matchups_id
+
+def exists_id(list, id):
+    for item in list: 
+        if item['id'] == id: 
+            return True 
+    
+    return False
 
 def get_results_contains_id(results, ids):
     final_result = []
 
-    for result in results: 
-        if result['id'] in ids:
-            final_result.append(result)
-    
+    for result in results:
+        id_result = result['id'] 
+        if id_result in ids:
+            if not exists_id(final_result, id_result):
+                final_result.append(result)
+                
     return final_result
 
 def get_players(idx=0):

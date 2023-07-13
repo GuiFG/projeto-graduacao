@@ -1,0 +1,7031 @@
+[
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_1",
+        "time": 42.226785,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "1/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_2",
+        "time": 23.711094,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "2/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_3",
+        "time": 25.632888,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "3/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_4",
+        "time": 24.78397,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "4/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_5",
+        "time": 52.727083,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "5/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_6",
+        "time": 32.551207,
+        "winner": "PAB_6",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "6/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_7",
+        "time": 24.827216,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "7/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_8",
+        "time": 25.022654,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "8/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_9",
+        "time": 39.76464,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "9/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_10",
+        "time": 25.139959,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "10/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_11",
+        "time": 24.367757,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "11/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_12",
+        "time": 23.394456,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "12/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_13",
+        "time": 31.562544,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "13/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_14",
+        "time": 46.734142,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "14/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_15",
+        "time": 53.723245,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "15/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_16",
+        "time": 30.874671,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "16/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_17",
+        "time": 59.3306,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "17/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_18",
+        "time": 25.478053,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "18/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_19",
+        "time": 53.669764,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "19/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_20",
+        "time": 23.771525,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "20/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_21",
+        "time": 43.157401,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "21/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_22",
+        "time": 33.53175,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "22/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_23",
+        "time": 36.739179,
+        "winner": "PAB_6",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "23/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_24",
+        "time": 22.933842,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "24/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_25",
+        "time": 55.139133,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "25/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_26",
+        "time": 24.690239,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "26/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_27",
+        "time": 77.674709,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "27/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_28",
+        "time": 31.333283,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "28/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_29",
+        "time": 28.048275,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "29/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_30",
+        "time": 31.836965,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "30/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_31",
+        "time": 26.276544,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "31/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_32",
+        "time": 30.516962,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "32/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_33",
+        "time": 63.006201,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "33/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_34",
+        "time": 31.244135,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "34/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_35",
+        "time": 41.722404,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "35/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_36",
+        "time": 32.746586,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "36/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_37",
+        "time": 49.757479,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "37/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_38",
+        "time": 26.468142,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "38/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_39",
+        "time": 36.898101,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "39/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_40",
+        "time": 37.268326,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "40/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_41",
+        "time": 64.001904,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "41/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_42",
+        "time": 62.138589,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "42/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_43",
+        "time": 24.747945,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "43/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_44",
+        "time": 41.017643,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "44/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_45",
+        "time": 56.994459,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "45/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_46",
+        "time": 26.210837,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "46/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_47",
+        "time": 36.068813,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "47/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_48",
+        "time": 24.320313,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "48/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_49",
+        "time": 61.515468,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "49/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "16/30RAVE_1000_X_PAB_6_50",
+        "time": 26.385331,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "PAB_6",
+        "count": "50/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_1",
+        "time": 164.117346,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "1/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_2",
+        "time": 220.71318,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "2/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_3",
+        "time": 168.706198,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "3/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_4",
+        "time": 224.785908,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "4/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_5",
+        "time": 219.939843,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "5/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_6",
+        "time": 218.534618,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "6/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_7",
+        "time": 167.026364,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "7/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_8",
+        "time": 221.162648,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "8/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_9",
+        "time": 221.803763,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "9/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_10",
+        "time": 219.725405,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "10/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_11",
+        "time": 222.337812,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "11/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_12",
+        "time": 220.210456,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "12/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_13",
+        "time": 222.929206,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "13/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_14",
+        "time": 220.022834,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "14/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_15",
+        "time": 234.130754,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "15/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_16",
+        "time": 167.293571,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "16/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_17",
+        "time": 165.853409,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "17/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_18",
+        "time": 219.092463,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "18/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_19",
+        "time": 219.70099,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "19/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_20",
+        "time": 221.645196,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "20/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_21",
+        "time": 223.792374,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "21/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_22",
+        "time": 220.474796,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "22/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_23",
+        "time": 167.756334,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "23/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_24",
+        "time": 222.405095,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "24/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_25",
+        "time": 222.944832,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "25/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_26",
+        "time": 220.462605,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "26/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_27",
+        "time": 220.472312,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "27/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_28",
+        "time": 170.000763,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "28/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_29",
+        "time": 241.302019,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "29/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_30",
+        "time": 241.385318,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "30/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_31",
+        "time": 220.000103,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "31/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_32",
+        "time": 170.179882,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "32/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_33",
+        "time": 170.365885,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "33/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_34",
+        "time": 217.886308,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "34/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_35",
+        "time": 170.359846,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "35/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_36",
+        "time": 165.88001,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "36/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_37",
+        "time": 221.609829,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "37/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_38",
+        "time": 218.75483,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "38/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_39",
+        "time": 222.855419,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "39/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_40",
+        "time": 218.287852,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "40/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_41",
+        "time": 164.405165,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "41/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_42",
+        "time": 220.531415,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "42/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_43",
+        "time": 222.776272,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "43/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_44",
+        "time": 220.654865,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "44/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_45",
+        "time": 165.215702,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "45/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_46",
+        "time": 219.354373,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "46/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_47",
+        "time": 221.815773,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "47/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_48",
+        "time": 218.091294,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "48/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_49",
+        "time": 223.867961,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "49/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "17/30PAB_6_X_RAVE_10000_50",
+        "time": 685.649376,
+        "winner": "RAVE_10000",
+        "player1": "PAB_6",
+        "player2": "RAVE_10000",
+        "count": "50/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_1",
+        "time": 227.100909,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "1/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_2",
+        "time": 226.646266,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "2/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_3",
+        "time": 229.565443,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "3/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_4",
+        "time": 224.095312,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "4/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_5",
+        "time": 225.218853,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "5/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_6",
+        "time": 227.500778,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "6/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_7",
+        "time": 225.908537,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "7/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_8",
+        "time": 225.27792,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "8/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_9",
+        "time": 227.273174,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "9/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_10",
+        "time": 225.679265,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "10/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_11",
+        "time": 226.334606,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "11/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_12",
+        "time": 225.693779,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "12/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_13",
+        "time": 226.407839,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "13/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_14",
+        "time": 266.134303,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "14/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_15",
+        "time": 225.799617,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "15/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_16",
+        "time": 225.72258,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "16/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_17",
+        "time": 226.971238,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "17/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_18",
+        "time": 224.417644,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "18/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_19",
+        "time": 229.032737,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "19/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_20",
+        "time": 225.136165,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "20/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_21",
+        "time": 225.910272,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "21/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_22",
+        "time": 225.986488,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "22/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_23",
+        "time": 224.488301,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "23/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_24",
+        "time": 226.79051,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "24/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_25",
+        "time": 226.313379,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "25/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_26",
+        "time": 224.050368,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "26/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_27",
+        "time": 226.360596,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "27/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_28",
+        "time": 226.354768,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "28/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_29",
+        "time": 227.063586,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "29/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_30",
+        "time": 225.244023,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "30/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_31",
+        "time": 237.153079,
+        "winner": "PAB_6",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "31/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_32",
+        "time": 225.757528,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "32/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_33",
+        "time": 224.307338,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "33/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_34",
+        "time": 231.488419,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "34/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_35",
+        "time": 225.838927,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "35/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_36",
+        "time": 225.722964,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "36/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_37",
+        "time": 223.236088,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "37/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_38",
+        "time": 227.02436,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "38/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_39",
+        "time": 226.988571,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "39/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_40",
+        "time": 227.612031,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "40/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_41",
+        "time": 228.447654,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "41/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_42",
+        "time": 223.453616,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "42/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_43",
+        "time": 225.749777,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "43/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_44",
+        "time": 228.660576,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "44/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_45",
+        "time": 225.64181,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "45/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_46",
+        "time": 226.925797,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "46/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_47",
+        "time": 226.936057,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "47/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_48",
+        "time": 227.380991,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "48/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_49",
+        "time": 226.353923,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "49/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "18/30RAVE_10000_X_PAB_6_50",
+        "time": 222.739003,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "PAB_6",
+        "count": "50/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_1",
+        "time": 400.944641,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "1/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_2",
+        "time": 249.533613,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "2/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_3",
+        "time": 697.993422,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "3/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_4",
+        "time": 741.666537,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "4/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_5",
+        "time": 281.282677,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "5/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_6",
+        "time": 181.513012,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "6/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_7",
+        "time": 241.331,
+        "winner": "MCTS_1000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "7/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_8",
+        "time": 844.111717,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "8/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_9",
+        "time": 264.669171,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "9/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_10",
+        "time": 313.168864,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "10/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_11",
+        "time": 275.42915,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "11/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_12",
+        "time": 640.0088,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "12/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_13",
+        "time": 427.132427,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "13/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_14",
+        "time": 186.907985,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "14/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_15",
+        "time": 586.988127,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "15/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_16",
+        "time": 202.475007,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "16/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_17",
+        "time": 440.260204,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "17/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_18",
+        "time": 809.581223,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "18/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_19",
+        "time": 685.01841,
+        "winner": "MCTS_1000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "19/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_20",
+        "time": 176.361025,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "20/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_21",
+        "time": 174.2202,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "21/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_22",
+        "time": 350.897013,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "22/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_23",
+        "time": 569.213196,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "23/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_24",
+        "time": 544.050829,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "24/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_25",
+        "time": 671.529244,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "25/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_26",
+        "time": 293.562109,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "26/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_27",
+        "time": 284.314984,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "27/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_28",
+        "time": 266.647534,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "28/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_29",
+        "time": 281.623248,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "29/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_30",
+        "time": 300.312463,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "30/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_31",
+        "time": 496.73902,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "31/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_32",
+        "time": 616.211819,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "32/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_33",
+        "time": 238.529396,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "33/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_34",
+        "time": 170.947453,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "34/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_35",
+        "time": 244.636717,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "35/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_36",
+        "time": 247.579158,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "36/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_37",
+        "time": 489.147834,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "37/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_38",
+        "time": 546.486642,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "38/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_39",
+        "time": 541.915793,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "39/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_40",
+        "time": 222.240442,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "40/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_41",
+        "time": 824.125263,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "41/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_42",
+        "time": 346.239239,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "42/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_43",
+        "time": 620.62153,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "43/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_44",
+        "time": 258.195831,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "44/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_45",
+        "time": 487.525938,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "45/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_46",
+        "time": 522.942856,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "46/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_47",
+        "time": 649.165545,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "47/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_48",
+        "time": 279.774425,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "48/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_49",
+        "time": 295.704921,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "49/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "19/30MCTS_1000_X_MCTS_10000_50",
+        "time": 249.829261,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_1000",
+        "player2": "MCTS_10000",
+        "count": "50/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_1",
+        "time": 316.541458,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "1/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_2",
+        "time": 261.972029,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "2/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_3",
+        "time": 273.923785,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "3/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_4",
+        "time": 347.858735,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "4/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_5",
+        "time": 543.246169,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "5/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_6",
+        "time": 261.281455,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "6/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_7",
+        "time": 292.52444,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "7/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_8",
+        "time": 331.965486,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "8/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_9",
+        "time": 381.446087,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "9/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_10",
+        "time": 305.175647,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "10/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_11",
+        "time": 588.066745,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "11/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_12",
+        "time": 270.354761,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "12/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_13",
+        "time": 546.588197,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "13/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_14",
+        "time": 571.795425,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "14/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_15",
+        "time": 264.626637,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "15/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_16",
+        "time": 665.928996,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "16/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_17",
+        "time": 244.223755,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "17/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_18",
+        "time": 618.212614,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "18/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_19",
+        "time": 532.20743,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "19/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_20",
+        "time": 191.648658,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "20/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_21",
+        "time": 254.844303,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "21/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_22",
+        "time": 635.048819,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "22/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_23",
+        "time": 248.335777,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "23/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_24",
+        "time": 677.647513,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "24/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_25",
+        "time": 574.312658,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "25/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_26",
+        "time": 480.450798,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "26/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_27",
+        "time": 240.95314,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "27/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_28",
+        "time": 390.878424,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "28/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_29",
+        "time": 360.30502,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "29/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_30",
+        "time": 368.536664,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "30/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_31",
+        "time": 294.939743,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "31/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_32",
+        "time": 743.549097,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "32/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_33",
+        "time": 259.47117,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "33/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_34",
+        "time": 286.498142,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "34/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_35",
+        "time": 485.61385,
+        "winner": "MCTS_1000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "35/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_36",
+        "time": 200.446055,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "36/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_37",
+        "time": 613.450139,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "37/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_38",
+        "time": 658.358648,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "38/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_39",
+        "time": 465.314982,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "39/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_40",
+        "time": 311.932301,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "40/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_41",
+        "time": 478.039288,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "41/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_42",
+        "time": 355.288535,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "42/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_43",
+        "time": 232.204613,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "43/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_44",
+        "time": 403.174502,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "44/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_45",
+        "time": 208.251842,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "45/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_46",
+        "time": 537.676544,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "46/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_47",
+        "time": 337.769997,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "47/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_48",
+        "time": 250.446247,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "48/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_49",
+        "time": 618.782973,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "49/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "20/30MCTS_10000_X_MCTS_1000_50",
+        "time": 292.696015,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "MCTS_1000",
+        "count": "50/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_1",
+        "time": 124.010283,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "1/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_2",
+        "time": 108.477483,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "2/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_3",
+        "time": 209.38292,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "3/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_4",
+        "time": 103.721895,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "4/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_5",
+        "time": 113.256343,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "5/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_6",
+        "time": 193.013936,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "6/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_7",
+        "time": 95.489432,
+        "winner": "RAVE_1000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "7/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_8",
+        "time": 126.618354,
+        "winner": "RAVE_1000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "8/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_9",
+        "time": 104.513638,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "9/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_10",
+        "time": 150.810511,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "10/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_11",
+        "time": 140.157443,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "11/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_12",
+        "time": 127.704876,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "12/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_13",
+        "time": 95.679499,
+        "winner": "RAVE_1000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "13/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_14",
+        "time": 81.151323,
+        "winner": "MCTS_1000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "14/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_15",
+        "time": 107.112601,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "15/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_16",
+        "time": 120.612339,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "16/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_17",
+        "time": 169.490162,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "17/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_18",
+        "time": 65.515884,
+        "winner": "RAVE_1000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "18/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_19",
+        "time": 92.393118,
+        "winner": "MCTS_1000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "19/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_20",
+        "time": 124.044411,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "20/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_21",
+        "time": 125.263998,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "21/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_22",
+        "time": 154.777848,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "22/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_23",
+        "time": 54.302848,
+        "winner": "RAVE_1000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "23/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_24",
+        "time": 55.874933,
+        "winner": "MCTS_1000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "24/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_25",
+        "time": 108.515329,
+        "winner": "RAVE_1000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "25/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_26",
+        "time": 158.25558,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "26/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_27",
+        "time": 121.53019,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "27/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_28",
+        "time": 155.101918,
+        "winner": "MCTS_1000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "28/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_29",
+        "time": 136.535776,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "29/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_30",
+        "time": 134.423011,
+        "winner": "MCTS_1000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "30/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_31",
+        "time": 138.165934,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "31/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_32",
+        "time": 87.865639,
+        "winner": "MCTS_1000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "32/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_33",
+        "time": 103.415186,
+        "winner": "RAVE_1000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "33/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_34",
+        "time": 80.543479,
+        "winner": "MCTS_1000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "34/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_35",
+        "time": 143.100228,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "35/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_36",
+        "time": 120.889313,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "36/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_37",
+        "time": 93.068674,
+        "winner": "MCTS_1000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "37/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_38",
+        "time": 92.403469,
+        "winner": "MCTS_1000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "38/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_39",
+        "time": 133.342123,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "39/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_40",
+        "time": 44.915278,
+        "winner": "RAVE_1000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "40/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_41",
+        "time": 96.905809,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "41/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_42",
+        "time": 65.051475,
+        "winner": "RAVE_1000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "42/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_43",
+        "time": 151.244018,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "43/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_44",
+        "time": 128.960944,
+        "winner": "MCTS_1000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "44/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_45",
+        "time": 129.240305,
+        "winner": "MCTS_1000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "45/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_46",
+        "time": 79.287964,
+        "winner": "RAVE_1000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "46/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_47",
+        "time": 101.555691,
+        "winner": "RAVE_1000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "47/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_48",
+        "time": 48.375065,
+        "winner": "RAVE_1000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "48/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_49",
+        "time": 60.968204,
+        "winner": "RAVE_1000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "49/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "21/30MCTS_1000_X_RAVE_1000_50",
+        "time": 130.912674,
+        "winner": "RAVE_1000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_1000",
+        "count": "50/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_1",
+        "time": 55.941458,
+        "winner": "MCTS_1000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "1/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_2",
+        "time": 142.513125,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "2/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_3",
+        "time": 115.978152,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "3/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_4",
+        "time": 53.627557,
+        "winner": "MCTS_1000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "4/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_5",
+        "time": 117.803106,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "5/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_6",
+        "time": 65.754779,
+        "winner": "MCTS_1000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "6/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_7",
+        "time": 149.643258,
+        "winner": "MCTS_1000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "7/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_8",
+        "time": 156.62793,
+        "winner": "MCTS_1000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "8/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_9",
+        "time": 145.627058,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "9/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_10",
+        "time": 101.554161,
+        "winner": "MCTS_1000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "10/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_11",
+        "time": 158.81431,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "11/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_12",
+        "time": 119.019912,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "12/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_13",
+        "time": 94.597349,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "13/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_14",
+        "time": 103.215165,
+        "winner": "MCTS_1000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "14/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_15",
+        "time": 90.502961,
+        "winner": "MCTS_1000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "15/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_16",
+        "time": 90.417344,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "16/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_17",
+        "time": 141.715223,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "17/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_18",
+        "time": 46.138292,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "18/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_19",
+        "time": 75.079053,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "19/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_20",
+        "time": 80.741962,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "20/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_21",
+        "time": 56.640476,
+        "winner": "MCTS_1000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "21/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_22",
+        "time": 156.490358,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "22/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_23",
+        "time": 102.65845,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "23/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_24",
+        "time": 117.900937,
+        "winner": "MCTS_1000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "24/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_25",
+        "time": 118.06735,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "25/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_26",
+        "time": 98.241475,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "26/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_27",
+        "time": 98.756476,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "27/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_28",
+        "time": 52.102326,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "28/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_29",
+        "time": 100.355864,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "29/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_30",
+        "time": 114.043855,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "30/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_31",
+        "time": 120.974943,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "31/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_32",
+        "time": 68.857305,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "32/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_33",
+        "time": 52.069678,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "33/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_34",
+        "time": 151.485777,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "34/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_35",
+        "time": 105.830567,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "35/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_36",
+        "time": 151.742011,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "36/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_37",
+        "time": 57.349149,
+        "winner": "MCTS_1000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "37/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_38",
+        "time": 163.344792,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "38/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_39",
+        "time": 117.43506,
+        "winner": "MCTS_1000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "39/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_40",
+        "time": 189.785271,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "40/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_41",
+        "time": 178.787954,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "41/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_42",
+        "time": 57.934205,
+        "winner": "MCTS_1000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "42/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_43",
+        "time": 134.524759,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "43/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_44",
+        "time": 145.570198,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "44/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_45",
+        "time": 111.526535,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "45/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_46",
+        "time": 137.093312,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "46/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_47",
+        "time": 99.821334,
+        "winner": "MCTS_1000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "47/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_48",
+        "time": 130.385818,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "48/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_49",
+        "time": 127.808813,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "49/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "22/30RAVE_1000_X_MCTS_1000_50",
+        "time": 57.503326,
+        "winner": "MCTS_1000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_1000",
+        "count": "50/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_1",
+        "time": 259.978943,
+        "winner": "MCTS_1000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "1/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_2",
+        "time": 569.823918,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "2/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_3",
+        "time": 696.301724,
+        "winner": "MCTS_1000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "3/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_4",
+        "time": 589.348337,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "4/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_5",
+        "time": 211.442175,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "5/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_6",
+        "time": 617.079561,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "6/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_7",
+        "time": 926.391003,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "7/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_8",
+        "time": 468.253474,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "8/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_9",
+        "time": 265.61662,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "9/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_10",
+        "time": 260.566316,
+        "winner": "MCTS_1000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "10/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_11",
+        "time": 855.385598,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "11/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_12",
+        "time": 186.312255,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "12/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_13",
+        "time": 680.865749,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "13/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_14",
+        "time": 278.813556,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "14/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_15",
+        "time": 877.549005,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "15/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_16",
+        "time": 274.281829,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "16/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_17",
+        "time": 316.124603,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "17/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_18",
+        "time": 548.641598,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "18/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_19",
+        "time": 489.638382,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "19/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_20",
+        "time": 288.595295,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "20/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_21",
+        "time": 253.518252,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "21/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_22",
+        "time": 719.915047,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "22/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_23",
+        "time": 903.403752,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "23/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_24",
+        "time": 245.50306,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "24/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_25",
+        "time": 640.400469,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "25/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_26",
+        "time": 283.586018,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "26/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_27",
+        "time": 452.43252,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "27/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_28",
+        "time": 291.09609,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "28/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_29",
+        "time": 225.39966,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "29/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_30",
+        "time": 343.521456,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "30/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_31",
+        "time": 420.968172,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "31/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_32",
+        "time": 531.180452,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "32/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_33",
+        "time": 326.646972,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "33/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_34",
+        "time": 542.217807,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "34/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_35",
+        "time": 517.365843,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "35/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_36",
+        "time": 519.247746,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "36/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_37",
+        "time": 272.120699,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "37/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_38",
+        "time": 429.671789,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "38/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_39",
+        "time": 722.930151,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "39/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_40",
+        "time": 240.076051,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "40/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_41",
+        "time": 906.747943,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "41/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_42",
+        "time": 574.652114,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "42/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_43",
+        "time": 643.240701,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "43/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_44",
+        "time": 622.91998,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "44/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_45",
+        "time": 213.187152,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "45/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_46",
+        "time": 515.02743,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "46/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_47",
+        "time": 548.35033,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "47/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_48",
+        "time": 483.344076,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "48/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_49",
+        "time": 676.730044,
+        "winner": "draw",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "49/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "23/30MCTS_1000_X_RAVE_10000_50",
+        "time": 212.844,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_1000",
+        "player2": "RAVE_10000",
+        "count": "50/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_1",
+        "time": 301.885054,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "1/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_2",
+        "time": 650.77688,
+        "winner": "draw",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "2/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_3",
+        "time": 375.849396,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "3/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_4",
+        "time": 1209.091807,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "4/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_5",
+        "time": 695.341187,
+        "winner": "draw",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "5/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_6",
+        "time": 629.301443,
+        "winner": "draw",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "6/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_7",
+        "time": 692.500308,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "7/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_8",
+        "time": 355.210304,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "8/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_9",
+        "time": 819.115642,
+        "winner": "MCTS_1000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "9/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_10",
+        "time": 560.558625,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "10/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_11",
+        "time": 490.267437,
+        "winner": "draw",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "11/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_12",
+        "time": 363.81793,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "12/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_13",
+        "time": 339.728949,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "13/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_14",
+        "time": 257.566897,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "14/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_15",
+        "time": 367.849568,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "15/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_16",
+        "time": 486.679018,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "16/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_17",
+        "time": 316.841748,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "17/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_18",
+        "time": 545.063965,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "18/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_19",
+        "time": 315.977122,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "19/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_20",
+        "time": 489.596285,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "20/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_21",
+        "time": 211.12453,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "21/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_22",
+        "time": 264.3955,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "22/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_23",
+        "time": 256.338524,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "23/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_24",
+        "time": 213.26679,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "24/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_25",
+        "time": 254.853889,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "25/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_26",
+        "time": 253.810463,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "26/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_27",
+        "time": 818.156325,
+        "winner": "draw",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "27/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_28",
+        "time": 387.611562,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "28/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_29",
+        "time": 480.234189,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "29/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_30",
+        "time": 796.55825,
+        "winner": "draw",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "30/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_31",
+        "time": 557.239631,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "31/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_32",
+        "time": 558.10852,
+        "winner": "draw",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "32/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_33",
+        "time": 229.5098,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "33/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_34",
+        "time": 622.475663,
+        "winner": "draw",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "34/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_35",
+        "time": 493.058259,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "35/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_36",
+        "time": 596.533337,
+        "winner": "MCTS_1000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "36/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_37",
+        "time": 572.42969,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "37/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_38",
+        "time": 428.167586,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "38/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_39",
+        "time": 538.479725,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "39/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_40",
+        "time": 898.959464,
+        "winner": "draw",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "40/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_41",
+        "time": 503.476143,
+        "winner": "draw",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "41/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_42",
+        "time": 755.300163,
+        "winner": "draw",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "42/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_43",
+        "time": 240.641028,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "43/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_44",
+        "time": 728.7081,
+        "winner": "draw",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "44/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_45",
+        "time": 343.372393,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "45/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_46",
+        "time": 671.979727,
+        "winner": "draw",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "46/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_47",
+        "time": 325.86189,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "47/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_48",
+        "time": 442.136336,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "48/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_49",
+        "time": 211.188261,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "49/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "24/30RAVE_10000_X_MCTS_1000_50",
+        "time": 425.24225,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_1000",
+        "count": "50/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_1",
+        "time": 699.511886,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "1/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_2",
+        "time": 690.736645,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "2/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_3",
+        "time": 327.851606,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "3/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_4",
+        "time": 199.310647,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "4/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_5",
+        "time": 329.756086,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "5/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_6",
+        "time": 479.967005,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "6/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_7",
+        "time": 316.158564,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "7/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_8",
+        "time": 561.974568,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "8/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_9",
+        "time": 392.773815,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "9/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_10",
+        "time": 369.26067,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "10/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_11",
+        "time": 252.915441,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "11/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_12",
+        "time": 262.457094,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "12/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_13",
+        "time": 237.308312,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "13/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_14",
+        "time": 478.669664,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "14/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_15",
+        "time": 404.331006,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "15/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_16",
+        "time": 773.572175,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "16/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_17",
+        "time": 673.954263,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "17/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_18",
+        "time": 304.485848,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "18/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_19",
+        "time": 271.329809,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "19/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_20",
+        "time": 552.766345,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "20/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_21",
+        "time": 691.079888,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "21/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_22",
+        "time": 652.326921,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "22/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_23",
+        "time": 237.763327,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "23/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_24",
+        "time": 230.23645,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "24/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_25",
+        "time": 491.655184,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "25/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_26",
+        "time": 589.514975,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "26/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_27",
+        "time": 361.053712,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "27/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_28",
+        "time": 360.400777,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "28/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_29",
+        "time": 339.268724,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "29/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_30",
+        "time": 301.821091,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "30/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_31",
+        "time": 626.271642,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "31/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_32",
+        "time": 282.377804,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "32/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_33",
+        "time": 663.121188,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "33/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_34",
+        "time": 445.322533,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "34/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_35",
+        "time": 332.087515,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "35/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_36",
+        "time": 510.57834,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "36/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_37",
+        "time": 654.872502,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "37/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_38",
+        "time": 330.336674,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "38/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_39",
+        "time": 607.298207,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "39/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_40",
+        "time": 278.996971,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "40/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_41",
+        "time": 269.150645,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "41/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_42",
+        "time": 902.713995,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "42/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_43",
+        "time": 636.421099,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "43/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_44",
+        "time": 295.825624,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "44/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_45",
+        "time": 480.027902,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "45/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_46",
+        "time": 226.318288,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "46/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_47",
+        "time": 566.07211,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "47/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_48",
+        "time": 809.518836,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "48/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_49",
+        "time": 288.732596,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "49/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "25/30MCTS_10000_X_RAVE_1000_50",
+        "time": 262.823467,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_1000",
+        "count": "50/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_1",
+        "time": 641.558102,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "1/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_2",
+        "time": 258.476568,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "2/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_3",
+        "time": 673.2679,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "3/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_4",
+        "time": 175.127633,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "4/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_5",
+        "time": 496.119546,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "5/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_6",
+        "time": 293.40963,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "6/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_7",
+        "time": 565.226487,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "7/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_8",
+        "time": 301.847393,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "8/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_9",
+        "time": 175.061102,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "9/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_10",
+        "time": 660.070168,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "10/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_11",
+        "time": 249.399708,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "11/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_12",
+        "time": 155.112556,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "12/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_13",
+        "time": 352.290995,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "13/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_14",
+        "time": 263.89081,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "14/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_15",
+        "time": 485.936938,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "15/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_16",
+        "time": 278.735143,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "16/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_17",
+        "time": 461.86698,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "17/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_18",
+        "time": 483.208225,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "18/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_19",
+        "time": 235.282599,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "19/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_20",
+        "time": 265.639515,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "20/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_21",
+        "time": 522.957195,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "21/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_22",
+        "time": 841.868348,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "22/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_23",
+        "time": 973.422494,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "23/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_24",
+        "time": 289.223937,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "24/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_25",
+        "time": 605.82616,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "25/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_26",
+        "time": 657.56281,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "26/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_27",
+        "time": 433.184558,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "27/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_28",
+        "time": 297.360813,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "28/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_29",
+        "time": 693.08993,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "29/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_30",
+        "time": 595.614922,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "30/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_31",
+        "time": 258.651334,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "31/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_32",
+        "time": 218.395308,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "32/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_33",
+        "time": 512.02026,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "33/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_34",
+        "time": 484.729763,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "34/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_35",
+        "time": 178.649629,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "35/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_36",
+        "time": 171.567211,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "36/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_37",
+        "time": 218.707156,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "37/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_38",
+        "time": 425.58933,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "38/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_39",
+        "time": 301.190898,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "39/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_40",
+        "time": 300.415229,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "40/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_41",
+        "time": 323.150586,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "41/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_42",
+        "time": 250.704906,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "42/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_43",
+        "time": 294.936047,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "43/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_44",
+        "time": 486.830723,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "44/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_45",
+        "time": 639.479468,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "45/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_46",
+        "time": 172.702905,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "46/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_47",
+        "time": 375.341449,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "47/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_48",
+        "time": 725.805202,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "48/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_49",
+        "time": 512.194989,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "49/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "26/30RAVE_1000_X_MCTS_10000_50",
+        "time": 556.600294,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_1000",
+        "player2": "MCTS_10000",
+        "count": "50/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_1",
+        "time": 1407.825502,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "1/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_2",
+        "time": 1166.246144,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "2/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_3",
+        "time": 1125.707886,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "3/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_4",
+        "time": 1408.849534,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "4/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_5",
+        "time": 886.612169,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "5/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_6",
+        "time": 1083.678861,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "6/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_7",
+        "time": 1386.389022,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "7/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_8",
+        "time": 1152.988699,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "8/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_9",
+        "time": 1262.309294,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "9/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_10",
+        "time": 938.899812,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "10/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_11",
+        "time": 1653.577333,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "11/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_12",
+        "time": 334.791464,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "12/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_13",
+        "time": 938.241499,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "13/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_14",
+        "time": 1026.399645,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "14/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_15",
+        "time": 339.618434,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "15/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_16",
+        "time": 1184.254016,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "16/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_17",
+        "time": 1208.457346,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "17/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_18",
+        "time": 756.097745,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "18/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_19",
+        "time": 335.629813,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "19/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_20",
+        "time": 691.584289,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "20/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_21",
+        "time": 1123.283686,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "21/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_22",
+        "time": 963.434355,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "22/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_23",
+        "time": 842.619607,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "23/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_24",
+        "time": 1274.312114,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "24/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_25",
+        "time": 1428.337386,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "25/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_26",
+        "time": 1206.516264,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "26/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_27",
+        "time": 1403.711458,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "27/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_28",
+        "time": 852.814024,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "28/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_29",
+        "time": 1146.595518,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "29/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_30",
+        "time": 1418.297839,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "30/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_31",
+        "time": 340.677251,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "31/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_1",
+        "time": 1416.55952,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "1/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_2",
+        "time": 1168.265902,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "2/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_3",
+        "time": 1130.049985,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "3/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_4",
+        "time": 1411.196095,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "4/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_5",
+        "time": 881.685119,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "5/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_6",
+        "time": 1082.145844,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "6/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_7",
+        "time": 1396.485219,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "7/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_8",
+        "time": 1155.95912,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "8/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_9",
+        "time": 1264.715524,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "9/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_10",
+        "time": 945.391812,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "10/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_11",
+        "time": 1652.836769,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "11/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_12",
+        "time": 334.689673,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "12/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_13",
+        "time": 941.789405,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "13/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_14",
+        "time": 1026.5735,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "14/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_15",
+        "time": 339.116911,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "15/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_16",
+        "time": 1181.718129,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "16/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_17",
+        "time": 1208.278569,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "17/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_18",
+        "time": 749.144508,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "18/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_19",
+        "time": 335.847246,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "19/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_20",
+        "time": 693.295939,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "20/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_21",
+        "time": 1124.273041,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "21/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_22",
+        "time": 964.461091,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "22/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_23",
+        "time": 838.468466,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "23/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_24",
+        "time": 1258.639087,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "24/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_25",
+        "time": 1429.245496,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "25/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_26",
+        "time": 1219.968925,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "26/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_27",
+        "time": 1403.165141,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "27/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_28",
+        "time": 857.704354,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "28/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_29",
+        "time": 1144.76547,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "29/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_30",
+        "time": 1417.030748,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "30/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_31",
+        "time": 339.31275,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "31/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_32",
+        "time": 715.840771,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "32/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_33",
+        "time": 1089.329271,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "33/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_34",
+        "time": 1221.758028,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "34/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_35",
+        "time": 1086.808557,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "35/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_36",
+        "time": 773.751596,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "36/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_37",
+        "time": 784.809955,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "37/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_38",
+        "time": 897.403755,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "38/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_39",
+        "time": 1041.507281,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "39/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_40",
+        "time": 782.106954,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "40/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_41",
+        "time": 917.869142,
+        "winner": "RAVE_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "41/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_42",
+        "time": 1191.065294,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "42/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_43",
+        "time": 1225.900888,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "43/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_44",
+        "time": 1033.727377,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "44/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_45",
+        "time": 552.248309,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "45/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_46",
+        "time": 1036.392761,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "46/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_47",
+        "time": 500.137754,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "47/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_48",
+        "time": 1431.568675,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "48/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_49",
+        "time": 555.768259,
+        "winner": "MCTS_10000",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "49/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "27/30MCTS_10000_X_RAVE_10000_50",
+        "time": 1268.848034,
+        "winner": "draw",
+        "player1": "MCTS_10000",
+        "player2": "RAVE_10000",
+        "count": "50/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_1",
+        "time": 1078.029796,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "1/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_2",
+        "time": 1263.925496,
+        "winner": "draw",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "2/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_3",
+        "time": 1224.981782,
+        "winner": "draw",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "3/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_4",
+        "time": 921.662237,
+        "winner": "draw",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "4/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_5",
+        "time": 1257.346556,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "5/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_6",
+        "time": 566.700631,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "6/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_7",
+        "time": 809.104347,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "7/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_8",
+        "time": 815.341521,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "8/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_9",
+        "time": 978.655681,
+        "winner": "draw",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "9/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_10",
+        "time": 1521.044773,
+        "winner": "draw",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "10/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_11",
+        "time": 412.204388,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "11/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_12",
+        "time": 1258.321468,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "12/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_13",
+        "time": 765.358436,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "13/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_14",
+        "time": 854.641999,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "14/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_15",
+        "time": 1246.345464,
+        "winner": "draw",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "15/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_16",
+        "time": 918.415037,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "16/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_17",
+        "time": 1509.985473,
+        "winner": "draw",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "17/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_18",
+        "time": 1200.714849,
+        "winner": "draw",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "18/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_19",
+        "time": 1057.880609,
+        "winner": "draw",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "19/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_20",
+        "time": 1473.309842,
+        "winner": "draw",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "20/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_21",
+        "time": 899.333473,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "21/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_22",
+        "time": 765.436295,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "22/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_23",
+        "time": 336.67335,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "23/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_24",
+        "time": 1372.583135,
+        "winner": "draw",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "24/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_25",
+        "time": 1009.396102,
+        "winner": "draw",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "25/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_26",
+        "time": 338.44841,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "26/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_27",
+        "time": 543.940958,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "27/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_28",
+        "time": 584.177795,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "28/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_29",
+        "time": 1301.297847,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "29/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_30",
+        "time": 1159.196668,
+        "winner": "draw",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "30/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_31",
+        "time": 939.058212,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "31/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_32",
+        "time": 1143.893354,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "32/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_33",
+        "time": 895.988092,
+        "winner": "draw",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "33/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_34",
+        "time": 1331.389532,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "34/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_35",
+        "time": 1479.532386,
+        "winner": "draw",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "35/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_36",
+        "time": 1100.800332,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "36/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_37",
+        "time": 726.665453,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "37/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_38",
+        "time": 1625.534091,
+        "winner": "draw",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "38/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_39",
+        "time": 463.15579,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "39/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_40",
+        "time": 1128.317625,
+        "winner": "draw",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "40/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_41",
+        "time": 550.244918,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "41/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_42",
+        "time": 564.591919,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "42/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_43",
+        "time": 854.572007,
+        "winner": "draw",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "43/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_44",
+        "time": 997.639983,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "44/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_45",
+        "time": 882.911391,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "45/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_46",
+        "time": 491.4389,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "46/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_47",
+        "time": 519.013163,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "47/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_48",
+        "time": 346.445477,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "48/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_49",
+        "time": 1205.729828,
+        "winner": "draw",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "49/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "28/30RAVE_10000_X_MCTS_10000_50",
+        "time": 866.363384,
+        "winner": "MCTS_10000",
+        "player1": "RAVE_10000",
+        "player2": "MCTS_10000",
+        "count": "50/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_1",
+        "time": 407.068925,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "1/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_2",
+        "time": 281.088281,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "2/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_3",
+        "time": 330.861532,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "3/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_4",
+        "time": 369.374665,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "4/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_5",
+        "time": 611.138043,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "5/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_6",
+        "time": 500.216165,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "6/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_7",
+        "time": 418.240615,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "7/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_8",
+        "time": 433.733509,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "8/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_9",
+        "time": 314.373984,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "9/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_10",
+        "time": 307.231406,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "10/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_11",
+        "time": 696.357617,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "11/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_12",
+        "time": 294.570326,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "12/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_13",
+        "time": 328.783269,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "13/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_14",
+        "time": 738.948221,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "14/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_15",
+        "time": 577.416243,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "15/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_16",
+        "time": 761.40974,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "16/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_17",
+        "time": 581.156855,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "17/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_18",
+        "time": 340.240085,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "18/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_19",
+        "time": 750.566097,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "19/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_20",
+        "time": 587.343452,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "20/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_21",
+        "time": 515.394265,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "21/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_22",
+        "time": 602.257383,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "22/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_23",
+        "time": 399.737318,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "23/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_24",
+        "time": 491.835764,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "24/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_25",
+        "time": 318.303694,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "25/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_26",
+        "time": 570.192019,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "26/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_27",
+        "time": 635.750815,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "27/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_28",
+        "time": 338.156406,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "28/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_29",
+        "time": 663.561246,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "29/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_30",
+        "time": 342.237012,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "30/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_31",
+        "time": 248.113475,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "31/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_32",
+        "time": 662.1014,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "32/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_33",
+        "time": 319.553865,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "33/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_34",
+        "time": 288.67971,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "34/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_35",
+        "time": 217.470224,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "35/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_36",
+        "time": 687.674529,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "36/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_37",
+        "time": 233.96657,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "37/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_38",
+        "time": 289.979223,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "38/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_39",
+        "time": 642.983121,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "39/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_40",
+        "time": 397.217029,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "40/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_41",
+        "time": 605.557628,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "41/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_42",
+        "time": 488.193504,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "42/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_43",
+        "time": 562.026264,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "43/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_44",
+        "time": 772.460527,
+        "winner": "draw",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "44/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_45",
+        "time": 322.665274,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "45/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_46",
+        "time": 297.649093,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "46/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_47",
+        "time": 282.452494,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "47/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_48",
+        "time": 482.049112,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "48/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_49",
+        "time": 195.037205,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "49/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "29/30RAVE_1000_X_RAVE_10000_50",
+        "time": 442.407614,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_1000",
+        "player2": "RAVE_10000",
+        "count": "50/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_1",
+        "time": 287.688287,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "1/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_2",
+        "time": 286.584935,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "2/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_3",
+        "time": 360.032285,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "3/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_4",
+        "time": 356.136323,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "4/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_5",
+        "time": 674.585991,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "5/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_6",
+        "time": 368.014154,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "6/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_7",
+        "time": 360.805101,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "7/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_8",
+        "time": 398.011562,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "8/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_9",
+        "time": 347.161422,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "9/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_10",
+        "time": 297.762796,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "10/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_11",
+        "time": 363.910648,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "11/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_12",
+        "time": 733.082715,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "12/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_13",
+        "time": 492.97806,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "13/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_14",
+        "time": 305.049907,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "14/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_15",
+        "time": 608.47682,
+        "winner": "RAVE_1000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "15/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_16",
+        "time": 394.868639,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "16/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_17",
+        "time": 625.832731,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "17/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_18",
+        "time": 573.578434,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "18/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_19",
+        "time": 538.311692,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "19/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_20",
+        "time": 931.336738,
+        "winner": "draw",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "20/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_21",
+        "time": 558.608007,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "21/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_22",
+        "time": 207.669845,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "22/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_23",
+        "time": 324.164599,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "23/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_24",
+        "time": 348.296458,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "24/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_25",
+        "time": 419.232312,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "25/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_26",
+        "time": 892.96495,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "26/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_27",
+        "time": 453.173306,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "27/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_28",
+        "time": 804.518851,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "28/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_29",
+        "time": 339.09576,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "29/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_30",
+        "time": 510.611774,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "30/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_31",
+        "time": 332.258475,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "31/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_32",
+        "time": 344.314827,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "32/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_33",
+        "time": 321.272661,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "33/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_34",
+        "time": 254.323628,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "34/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_35",
+        "time": 303.139272,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "35/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_36",
+        "time": 405.241902,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "36/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_37",
+        "time": 412.894216,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "37/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_38",
+        "time": 354.274838,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "38/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_39",
+        "time": 469.946081,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "39/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_40",
+        "time": 364.414405,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "40/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_41",
+        "time": 576.129407,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "41/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_42",
+        "time": 634.490139,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "42/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_43",
+        "time": 352.094012,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "43/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_44",
+        "time": 204.177505,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "44/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_45",
+        "time": 598.495879,
+        "winner": "draw",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "45/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_46",
+        "time": 584.490518,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "46/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_47",
+        "time": 796.384735,
+        "winner": "draw",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "47/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_48",
+        "time": 487.014091,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "48/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_49",
+        "time": 489.119322,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "49/50",
+        "empty_cells": 0
+    },
+    {
+        "id": "30/30RAVE_10000_X_RAVE_1000_50",
+        "time": 694.94872,
+        "winner": "RAVE_10000",
+        "player1": "RAVE_10000",
+        "player2": "RAVE_1000",
+        "count": "50/50",
+        "empty_cells": 0
+    }
+]
