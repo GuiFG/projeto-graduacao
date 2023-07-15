@@ -26,7 +26,7 @@ class Player():
         self.player = player
 
     def get_action(self, board, prevMove):
-        action = None 
+        action = None
 
         state = State(board, prevMove)
 
@@ -45,9 +45,9 @@ class Player():
         elif self.type == RAVE_5000:
             action = self.rave_mcts(state, 5000)
         elif self.type == QLEARN_1:
-            action = self.qlearn(state, 100000)
+            action = self.qlearn(state, 50000)
         elif self.type == QLEARN_2:
-            action = self.qlearn(300000)
+            action = self.qlearn(state, 100000)
        
         return action
 

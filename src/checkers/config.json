@@ -3,7 +3,7 @@
     "matchup_start" : 0,
     "matchup_end": 15,
     "seed" : 42,
-    "set_data_idx" : 0,
+    "set_data_idx" : 2,
     "tournament": false
 }
 
