@@ -19,7 +19,7 @@ Em cada pasta dos jogos utilizados no projeto contém uma pasta *Algorithms*, em
 
 O script *Program.py* executa o torneio com base no arquivo *config.json*. 
 
-<img src="assets/config.png" alt="config.json" width="40%">
+<img src="assets/config.png" alt="config.json" width="30%">
 
 - *game_total*: total de jogos que serão realizados. Por padrão, é aplicado o jogo trocando os jogadores de lado. Assim, esse valor é duplicado na prática. 
 
