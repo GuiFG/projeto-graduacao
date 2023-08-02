@@ -39,4 +39,4 @@ def train(episodes):
         json.dump(qlearn.Q, file)
 
 
-train(300000)
+train(50000)
