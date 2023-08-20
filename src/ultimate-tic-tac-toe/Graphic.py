@@ -2,12 +2,11 @@ import Metrics
 import matplotlib.pyplot as plt 
 import json
 import numpy as np
-
 DIRNAME = "graphics/"
 
 class Generator:
     @staticmethod
-    def effectiveness_table(results):
+    def effectiveness_table(results, text_effectivenes):
         names = list(results.keys())
         counts = list(results.values())
         plt.bar(names, counts)
@@ -17,6 +16,10 @@ class Generator:
         plt.title('Efetividade por técnica')
 
         plt.savefig(DIRNAME + 'efetividade.pdf', bbox_inches='tight')
+
+        with open('graphics/effectivenes.txt', 'w') as f:
+            f.write(text_effectivenes)
+
 
     @staticmethod
     def save_result(result):
@@ -179,17 +182,25 @@ def generate_result_matchups(matchups, players):
 
 def generate_effectiveness_table(players):
     matchups = Metrics.get_matchups_result(False)
+    qlearn_players = [p['name'] for p in Metrics.get_players(2)]
+    qlearn_matchups = Metrics.get_json('metrics/qlearn_matchup.json')
     
+    all_players = deepcopy(players)
+    all_players.extend(qlearn_players)
+    matchups.extend(qlearn_matchups)
+
     effectiveness = {}
-    for player in players:
+    text_result = ''
+    for player in all_players:
         matchups_player = get_matchups_of_player(matchups, player)
         match_total = len(matchups_player)
         
         total_wins = count_total_wins_player(matchups_player, player)
 
         effectiveness[player] = (total_wins / match_total) * 100
+        text_result += f'{player}:{effectiveness[player]}\n'
 
-    Generator.effectiveness_table(effectiveness)
+    Generator.effectiveness_table(effectiveness, text_result)
 
 def generate_time_elapsed(matchups):
     matchups_random = Metrics.get_matchups_result(False)
