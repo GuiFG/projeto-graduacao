@@ -175,7 +175,7 @@ def generate_result_matchups(matchups, players):
     
     generate_heat_map(player_combinations, players, results)
 
-    # Generator.save_result(results)
+    Generator.save_result(results)
 
 def generate_effectiveness_table(players):
     matchups = Metrics.get_matchups_result(False)
@@ -204,7 +204,6 @@ def generate_time_elapsed(matchups):
 
     Generator.save_time_elapsed(time_tournment, time_random)
 
-
 def generate_results(tournment=True):
     players = [player['name'] for player in Metrics.get_players()]
 
@@ -213,15 +212,14 @@ def generate_results(tournment=True):
     matchups = Metrics.get_results_contains_id(matchups, matchups_ids)
 
     print('Gerar o tempo total do torneio e do teste de efetividade')
-    # generate_time_elapsed(matchups)
+    generate_time_elapsed(matchups)
     
     print('Gerando a tabela de efetividade das tecnicas')
-    # generate_effectiveness_table(players)
+    generate_effectiveness_table(players)
     
     print('Gerando o resultado vitorias/empate/derrota')
     generate_result_matchups(matchups, players)
     
-    return 
     games = Metrics.get_games_result(tournment)
     games = Metrics.get_results_contains_id(games, matchups_ids)
 
