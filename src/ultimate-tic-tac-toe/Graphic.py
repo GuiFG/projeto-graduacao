@@ -2,6 +2,8 @@ import Metrics
 import matplotlib.pyplot as plt 
 import json
 import numpy as np
+from copy import deepcopy
+
 DIRNAME = "graphics/"
 
 class Generator:
