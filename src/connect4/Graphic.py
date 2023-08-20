@@ -1,6 +1,7 @@
 import Metrics
 import matplotlib.pyplot as plt 
 import json
+import numpy as np
 
 DIRNAME = "graphics/"
 
@@ -62,6 +63,23 @@ class Generator:
 
         with open('graphics/time_random.txt', 'w') as f:
             f.write(time_random)
+    
+    @staticmethod
+    def save_heat_map(data, players):
+        fig = plt.figure(figsize=(8, 6))
+        plt.imshow(data, cmap='coolwarm', interpolation='nearest')
+        plt.colorbar(label='Número de Vitórias')
+
+        for i in range(len(players)):
+            for j in range(len(players)):
+                plt.text(j, i, str(data[i][j]), ha='center', va='center', color='black')
+
+        plt.xticks(np.arange(len(players)), players, rotation=45)
+        plt.yticks(np.arange(len(players)), players)
+        plt.title('Mapa de Calor - Confrontos entre as técnicas')
+        plt.tight_layout()
+
+        fig.savefig(DIRNAME + "heat_map.pdf", bbox_inches='tight')
 
 
 def count_total_wins_player(matchups, player):
@@ -108,7 +126,36 @@ def generate_execution_time(games, players):
         players_time[player] = player_time 
 
     Generator.boxplot_execution_time(players_time)
-      
+
+def get_matchup_result(results, matchup):
+    for result in results:
+        player1 = matchup[0]
+        player2 = matchup[1]
+        if player1 in result and player2 in result: 
+            return result
+
+def generate_heat_map(matchups, players, results):
+    size_matrix = len(players)
+    matrix = []
+    for i in range(size_matrix):
+        lst = []
+        for j in range(size_matrix):
+            lst.append(0)
+        matrix.append(lst)
+    
+    for matchup in matchups:
+        player1 = matchup[0]
+        player2 = matchup[1]
+
+        idx1 = players.index(player1)
+        idx2 = players.index(player2)
+
+        result = get_matchup_result(results, matchup)
+        
+        matrix[idx1][idx2] = result[player1]
+        matrix[idx2][idx1] = result[player2]
+
+    Generator.save_heat_map(matrix, players)
 
 def generate_result_matchups(matchups, players):
     player_combinations = Metrics.get_matchups(players, True, False)
@@ -126,7 +173,9 @@ def generate_result_matchups(matchups, players):
 
         results.append({player1: player1_wins, player2: player2_wins, 'draw' : draw, 'total' : total })
     
-    Generator.save_result(results)
+    generate_heat_map(player_combinations, players, results)
+
+    # Generator.save_result(results)
 
 def generate_effectiveness_table(players):
     matchups = Metrics.get_matchups_result(False)
@@ -164,14 +213,15 @@ def generate_results(tournment=True):
     matchups = Metrics.get_results_contains_id(matchups, matchups_ids)
 
     print('Gerar o tempo total do torneio e do teste de efetividade')
-    generate_time_elapsed(matchups)
+    # generate_time_elapsed(matchups)
     
     print('Gerando a tabela de efetividade das tecnicas')
-    generate_effectiveness_table(players)
+    # generate_effectiveness_table(players)
     
     print('Gerando o resultado vitorias/empate/derrota')
     generate_result_matchups(matchups, players)
     
+    return 
     games = Metrics.get_games_result(tournment)
     games = Metrics.get_results_contains_id(games, matchups_ids)
 
